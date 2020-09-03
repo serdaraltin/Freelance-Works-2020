@@ -1,0 +1,2 @@
+proje > proje yolundaki .txt dosyalarındaki veriler örnektir.
+Sıfırdan yapılandırmak için .txt dosyalarını siliniz ardından ürün > proje > hakedis sırasıyla ekleme yapınız. 

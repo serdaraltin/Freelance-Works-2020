@@ -1,0 +1,10 @@
+----------------------------------------------------------------
+Wed May 27 21:45:45 TRT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.2.2 - (1181258): instance a816c00e-0172-5774-652c-00000dc0f7a0 
+on database directory /home/serdar/Sadeceon/borisjack/01_source-code/05_project/Sozluk/veritabani  with class loader sun.misc.Launcher$AppClassLoader@1b6d3586 
+Loaded from file:/home/serdar/Sadeceon/borisjack/01_source-code/05_project/Sozluk/lib/derby.jar
+java.vendor=Private Build
+java.runtime.version=1.8.0_252-8u252-b09-1~19.10-b09
+user.dir=/home/serdar/Sadeceon/borisjack/01_source-code/05_project/Sozluk
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

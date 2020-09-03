@@ -1,0 +1,5 @@
+Polinomlarda çarpım ve türev konularında yeterli yetkinliğe sahip olmadığımdan
+dolayı bu bölümleri koda dökemedim. Bu doğrultuda fiyatta 50 TL'lik indirim olacaktır.
+
+Soru cevapları daha anlaşılır olması adına bağlantılar verilerek yönlendirme yapılmıştır.
+Sorulara ait cevapları "04_sources" klasörü içerisinde bulabilirsiniz. (Normal olarak sadece kodlama hizmet dahilindedir)

@@ -1,0 +1,6 @@
+﻿  Source.cpp
+x:\sadeceon\wizenghar\01_source-code\05_project\2\proje\proje\source.cpp(262): warning C4101: 'UrunFiyati': unreferenced local variable
+x:\sadeceon\wizenghar\01_source-code\05_project\2\proje\proje\source.cpp(393): warning C4101: 'ProjeNo': unreferenced local variable
+x:\sadeceon\wizenghar\01_source-code\05_project\2\proje\proje\source.cpp(428): warning C4101: 'ProjeNo': unreferenced local variable
+  proje.vcxproj -> X:\Sadeceon\Wizenghar\01_source-code\05_project\2\proje\Debug\proje.exe
+  proje.vcxproj -> X:\Sadeceon\Wizenghar\01_source-code\05_project\2\proje\Debug\proje.pdb (Partial PDB)

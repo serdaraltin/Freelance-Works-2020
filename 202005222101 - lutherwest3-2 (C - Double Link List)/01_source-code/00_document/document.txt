@@ -1,0 +1,3 @@
+Çift yönlü ve tek yönlü baglı listelerde ekleme arama silme işlemleri ile igili örnek uygulama
+
+Uygulamanın hata denetimi, çalışması, menüler ile erişimi, işlemleri doğru gerçekleştirmesi, çalışma performansı, kod düzenine göre değerlendirilecektir.

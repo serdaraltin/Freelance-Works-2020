@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1523570164 source:c:\users\ergul\desktop\folders\codes\c\practice\main.c
+	<stdio.h>
+	<malloc.h>
+	<string.h>
+	<strings.h>
+

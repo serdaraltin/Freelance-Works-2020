@@ -1,0 +1,41 @@
+Compile             : $make
+Compile and Install : $make install
+Cleaning            : $make clean
+
+Arguments >
+
+    0 -> executable file
+    1 -> initial range
+    2 -> jump range
+    3 -> num jumps
+    4 -> initial power
+    5 -> power reduction
+    6 -> input file
+
+
+Example Run >
+
+    ./[executable file] [initial range] [jump range] [num jumps] [initial power] [power reduction] [input file]
+
+
+Example Input File Values >
+
+    0 0 100 100 Lokman_Hekim
+    2 0 100 500 Kara_Murat
+    3 0 400 450 Koca_Yusuf
+    4 0 45 400 Nasrettin_Hoca
+    4 1 300 600 Cengiz_Han
+
+Example Run and Output > 
+
+    Command ->
+        ./main 5 1 2 500 0.25 small.txt
+
+    Output ->
+        Kara_Murat 400
+        Koca_Yusuf 50
+        Nasrettin_Hoca 355
+        Koca_Yusuf 50
+        Nasrettin_Hoca 355
+        Cengiz_Han 300
+        Toplam_İyileşme: 655

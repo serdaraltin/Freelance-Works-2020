@@ -1,0 +1,4 @@
+Ödevin içeriği fonksiyon ve diziler.
+Program kod satırı en az 150 olacak ve her satırın açıklaması yapılacak.
+Minimum 15 fonksiyon olacak dizi ise tek veya çok boyutlu olabilir.
+Heap makinesi yapmak ise yasak.

@@ -1,0 +1,9 @@
+C:\Users\Serdar\Desktop\Trade\Sadeceon\lutherwest3\kaynak-kod\Dosya_Tasima\Dosya_Tasima\bin\Debug\Dosya_Tasima.exe.config
+C:\Users\Serdar\Desktop\Trade\Sadeceon\lutherwest3\kaynak-kod\Dosya_Tasima\Dosya_Tasima\bin\Debug\Dosya_Tasima.exe
+C:\Users\Serdar\Desktop\Trade\Sadeceon\lutherwest3\kaynak-kod\Dosya_Tasima\Dosya_Tasima\bin\Debug\Dosya_Tasima.pdb
+C:\Users\Serdar\Desktop\Trade\Sadeceon\lutherwest3\kaynak-kod\Dosya_Tasima\Dosya_Tasima\obj\Debug\Dosya_Tasima.csprojResolveAssemblyReference.cache
+C:\Users\Serdar\Desktop\Trade\Sadeceon\lutherwest3\kaynak-kod\Dosya_Tasima\Dosya_Tasima\obj\Debug\Dosya_Tasima.Properties.Resources.resources
+C:\Users\Serdar\Desktop\Trade\Sadeceon\lutherwest3\kaynak-kod\Dosya_Tasima\Dosya_Tasima\obj\Debug\Dosya_Tasima.csproj.GenerateResource.Cache
+C:\Users\Serdar\Desktop\Trade\Sadeceon\lutherwest3\kaynak-kod\Dosya_Tasima\Dosya_Tasima\obj\Debug\Dosya_Tasima.exe
+C:\Users\Serdar\Desktop\Trade\Sadeceon\lutherwest3\kaynak-kod\Dosya_Tasima\Dosya_Tasima\obj\Debug\Dosya_Tasima.pdb
+C:\Users\Serdar\Desktop\Trade\Sadeceon\lutherwest3\kaynak-kod\Dosya_Tasima\Dosya_Tasima\obj\Debug\Dosya_Tasima.Form_Main.resources

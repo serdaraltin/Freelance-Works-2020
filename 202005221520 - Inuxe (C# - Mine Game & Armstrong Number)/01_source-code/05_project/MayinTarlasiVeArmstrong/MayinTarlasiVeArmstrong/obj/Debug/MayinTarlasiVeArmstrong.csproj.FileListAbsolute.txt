@@ -1,0 +1,9 @@
+X:\Sadeceon\Inuxe\01_source-code\05_project\MayinTarlasiVeArmstrong\MayinTarlasiVeArmstrong\bin\Debug\MayinTarlasiVeArmstrong.exe
+X:\Sadeceon\Inuxe\01_source-code\05_project\MayinTarlasiVeArmstrong\MayinTarlasiVeArmstrong\bin\Debug\MayinTarlasiVeArmstrong.pdb
+X:\Sadeceon\Inuxe\01_source-code\05_project\MayinTarlasiVeArmstrong\MayinTarlasiVeArmstrong\obj\Debug\MayinTarlasiVeArmstrong.csprojResolveAssemblyReference.cache
+X:\Sadeceon\Inuxe\01_source-code\05_project\MayinTarlasiVeArmstrong\MayinTarlasiVeArmstrong\obj\Debug\MayinTarlasiVeArmstrong.Properties.Resources.resources
+X:\Sadeceon\Inuxe\01_source-code\05_project\MayinTarlasiVeArmstrong\MayinTarlasiVeArmstrong\obj\Debug\MayinTarlasiVeArmstrong.csproj.GenerateResource.Cache
+X:\Sadeceon\Inuxe\01_source-code\05_project\MayinTarlasiVeArmstrong\MayinTarlasiVeArmstrong\obj\Debug\MayinTarlasiVeArmstrong.exe
+X:\Sadeceon\Inuxe\01_source-code\05_project\MayinTarlasiVeArmstrong\MayinTarlasiVeArmstrong\obj\Debug\MayinTarlasiVeArmstrong.pdb
+X:\Sadeceon\Inuxe\01_source-code\05_project\MayinTarlasiVeArmstrong\MayinTarlasiVeArmstrong\obj\Debug\MayinTarlasiVeArmstrong.Form_Onizleme.resources
+X:\Sadeceon\Inuxe\01_source-code\05_project\MayinTarlasiVeArmstrong\MayinTarlasiVeArmstrong\obj\Debug\MayinTarlasiVeArmstrong.Form_Ana.resources

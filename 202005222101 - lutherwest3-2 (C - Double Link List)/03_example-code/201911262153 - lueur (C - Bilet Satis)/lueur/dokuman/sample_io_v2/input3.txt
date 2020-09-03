@@ -1,0 +1,34 @@
+addseat tk1212 business 2
+addseat tk5457 business 3
+addseat tk1212 economy 3
+addseat tk1212 standard 4
+enqueue tk1212 business psg_bus_1 
+enqueue tk1212 economy psg_eco_1 
+enqueue tk1212 business psg_bus_2 
+enqueue tk1212 economy psg_eco_2 
+addseat tk5457 economy 4 
+enqueue tk1212 standard psg_std_1 veteran
+enqueue tk5457 standard psg_std_2 
+enqueue tk5457 economy psg_eco_3 diplomat
+enqueue tk5457 economy psg_eco_4 
+enqueue tk5457 business psg_bus_3 diplomat
+enqueue tk1212 business psg_bus_4 
+addseat tk5457 standard 4
+enqueue tk1212 economy psg_eco_6 veteran
+enqueue tk5457 economy psg_eco_7 veteran
+enqueue tk1212 business psg_bus_5 
+enqueue tk5457 economy psg_eco_8 professor
+enqueue tk5457 economy psg_eco_9 
+enqueue tk5457 economy psg_eco_10 
+enqueue tk5457 economy psg_eco_11
+enqueue tk5457 economy psg_eco_12
+sell tk1212
+close tk5457 
+sell tk5457
+report tk1212 
+report tk5457 
+close tk1212 
+info psg_std_2
+info psg_eco_2
+info psg_eco_3
+info psg_eco_12 

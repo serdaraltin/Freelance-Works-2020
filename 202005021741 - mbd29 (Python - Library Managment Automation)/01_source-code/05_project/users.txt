@@ -1,0 +1,3 @@
+admin:admin:123
+student:Veli:3344
+student:Ahmet:5555

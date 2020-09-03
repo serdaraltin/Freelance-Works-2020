@@ -1,0 +1,27 @@
+Bu projede, 
+
+C dili kullanarak online satış yapan bir siteye ait müşteri ve stok takip programı yapmanız istenmektedir. 
+
+Programınız da her bir müşteriye ait müşteri no, ad, soyad, telefon, adres ve bakiye miktarı bilgileri olacaktır. 
+
+Ayrıca envanterde bulunan her bir ürün için ürün kodu, ürün ismi, fiyatı ve stok miktarı bilgileri kayıt altına da bulunacaktır.
+
+Müşteri ve ürün bilgileri için struct kullanılacaktır. Burada müşteri veya ürün sayıları için önceden verilmiş herhangi bir üst limit yoktur.
+
+Klavyeden girilen girdiler rastgele erişimle .dat uzantılı dosyaya kayıt olacaktır.
+
+
+Programınız aşağıdaki eylemleri gerçekleştirmelidir.
+
+-Yeni bir müşteri kaydı; 
+-Tüm müşterileri listeleme (Bilgileri ile birlikte); 
+-Bir müşteriyi ismine veya isminin içinde geçen bir harf veya heceye göre arama (Birden fazla sonuç olması durumunda tüm sonuçları getir. Sonuçta müşterilerin tüm bilgilerini göster);
+-Bir müşteriyi, müşteri no’ya göre arama; 
+-Müşteri kayıttı güncelleme (Telefon, adres); 
+-Müşteriye bakiye ekleme; 
+-Yeni ürün girişi; 
+-Bir ürünü ürün kodu veya ürün ismine göre arama; 
+-Ürünün bilgilerini güncelleme (Stok miktarı, fiyatı); 
+-Bir müşteri için bir veya birden fazla ürün siparişi (Aldığı ürünlerin toplam fiyatı müşteri bakiyesinden düşmeli şayet bakiye yetmiyorsa bakiye yetersiz mesajı vermeli,Satış gerçekleştiyse satılan ürünler stoktan düşülmeli);
+-Çıkış 
+-Bir müşteriye satış yapıldığın fatura benzeri bir bilgi çıktısı verme (Text DosyasındaSıralı Erişimli) (Fatura belgesinin ismi “ad_soyad.txt” şeklinde olmalıdır).

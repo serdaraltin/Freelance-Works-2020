@@ -1,0 +1,5 @@
+0 0 100 100 Lokman_Hekim
+2 0 100 500 Kara_Murat
+3 0 400 450 Koca_Yusuf
+4 0 45 400 Nasrettin_Hoca
+4 1 300 600 Cengiz_Han

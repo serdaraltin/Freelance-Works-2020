@@ -1,0 +1,8 @@
+X:\Sadeceon\dbtastan\01_source-code\05_project\B181210010\B181210010\obj\Debug\B181210010.csprojResolveAssemblyReference.cache
+X:\Sadeceon\dbtastan\01_source-code\05_project\B181210010\B181210010\obj\Debug\B181210010.Properties.Resources.resources
+X:\Sadeceon\dbtastan\01_source-code\05_project\B181210010\B181210010\obj\Debug\B181210010.csproj.GenerateResource.Cache
+X:\Sadeceon\dbtastan\01_source-code\05_project\B181210010\B181210010\bin\Debug\B181210010.exe
+X:\Sadeceon\dbtastan\01_source-code\05_project\B181210010\B181210010\bin\Debug\B181210010.pdb
+X:\Sadeceon\dbtastan\01_source-code\05_project\B181210010\B181210010\obj\Debug\B181210010.exe
+X:\Sadeceon\dbtastan\01_source-code\05_project\B181210010\B181210010\obj\Debug\B181210010.pdb
+X:\Sadeceon\dbtastan\01_source-code\05_project\B181210010\B181210010\obj\Debug\B181210010.Form_Ana.resources

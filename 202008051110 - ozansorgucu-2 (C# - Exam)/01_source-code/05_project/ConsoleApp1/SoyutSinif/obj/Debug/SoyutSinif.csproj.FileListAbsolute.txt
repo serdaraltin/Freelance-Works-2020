@@ -1,0 +1,5 @@
+C:\Users\User\Desktop\ConsoleApp1\SoyutSinif\bin\Debug\SoyutSinif.exe
+C:\Users\User\Desktop\ConsoleApp1\SoyutSinif\bin\Debug\SoyutSinif.pdb
+C:\Users\User\Desktop\ConsoleApp1\SoyutSinif\obj\Debug\SoyutSinif.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\ConsoleApp1\SoyutSinif\obj\Debug\SoyutSinif.exe
+C:\Users\User\Desktop\ConsoleApp1\SoyutSinif\obj\Debug\SoyutSinif.pdb

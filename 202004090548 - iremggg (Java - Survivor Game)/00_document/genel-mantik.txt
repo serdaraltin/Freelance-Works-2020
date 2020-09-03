@@ -1,0 +1,6 @@
+-kutuda olan itemlerden seçiliyor 
+-zorluk derecesine göre çanta kapasitesi belirleniyor
+-çantaya 1 item konulunca kutudan o item eksiliyor
+-çantadaki itemlere göre yaşam ömrü hesaplanıyor
+-yeniden zorluk seçiliyor ve çanta kapasitesi ona göre belirleniyor
+-kutuda item kalmayana kadar oyun devam ediyor

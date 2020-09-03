@@ -1,0 +1,24 @@
+addseat lh7758 business 2
+addseat pg3667 economy 3
+addseat pg3667 standard 4
+enqueue pg3667 business ahmet 
+enqueue pg3667 economy psg_eco_1 
+enqueue pg3667 business psg_bus_2 
+enqueue pg3667 economy murtaza 
+addseat lh7758 business 2
+addseat pg3667 economy 3
+addseat pg3667 standard 4
+enqueue pg3667 standard psg_std_1 
+enqueue pg3667 economy ayse 
+enqueue pg3667 economy psg_eco_4 
+enqueue pg3667 business psg_bus_3 diplomat
+enqueue pg3667 business halil 
+enqueue pg3667 economy psg_eco_6 veteran
+enqueue pg3667 economy psg_eco_7 veteran
+sell pg3667
+report pg3667 
+close pg3667 
+info psg_bus_4
+info psg_eco_2
+info psg_eco_3
+info psg_eco_6 

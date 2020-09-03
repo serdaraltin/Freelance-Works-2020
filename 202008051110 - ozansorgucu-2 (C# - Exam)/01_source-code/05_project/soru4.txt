@@ -1,0 +1,73 @@
+/*
+ * 4. Arayüz nedir? Örnek bir program yazarak kendi ifadelerinizle açıklayınız?
+ * 
+ * Arayüz(Interface): Sınıflara rehberlik etmek üzere oluşturulan nesneye dayalı programlamanın(OOP)
+ * en önemli özelliklerinden biridir.
+ * Bir sınıfın hangi özellikleri ve methodları içermesi gerektiğini bildirir.
+ * 
+ */
+
+
+using System;
+
+namespace Arayuz
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Yonetici sınıfından "yonetici" adında bir nesne türetilmesi, nesne türetildiği sırada nesnenin "Ad" değişkenine değer ataması yapılıyor.
+            Yonetici yonetici = new Yonetici();
+            //ilgili bilgilerin "yonetici" nesnesinin ilgili alanlarına doldurulması.
+            yonetici.adSoyad = "Ahmet Bal";
+            yonetici.adres = "İstanbul Esenyurt...";
+            yonetici.departman = "Muhasebe";
+            //"yonetici" nesnesinin "bilgi" methodunun çağrılması.
+            yonetici.bilgi();
+
+            //Isci sınıfından "isci" adında bir nesne türetilmesi, nesne türetildiği sırada nesnenin "Ad" değişkenine değer ataması yapılıyor.
+            Isci isci = new Isci();
+            //ilgili bilgilerin "isci" nesnesinin ilgili alanlarına doldurulması.
+            isci.adSoyad = "Kerim Aksan";
+            isci.adres = "İstanbul Bağcılar...";
+            isci.departman = "Temizlik";
+            //"isci" nesnesinin "bilgi" methodunun çağrılması.
+            isci.bilgi();
+
+            Console.ReadKey();
+        }
+    }
+
+    //IKisi arayüzü : I harfi Interface(Arayüz) den gelmektedir
+    interface IKisi
+    {
+        string adSoyad { get; set; }
+        string adres { get; set; }
+        string departman { get; set; }
+        void bilgi();
+    }
+    //Yonetici sınıfı, Arayüz olarak IKisi kullanılmıştır
+    class Yonetici : IKisi
+    {
+        public string adSoyad { get; set; }
+        public string adres { get; set; }
+        public string departman { get; set; }
+        //bilgi methodunun içeriğinin eklenmesi.
+        public void bilgi()
+        {
+            Console.WriteLine(" {0} isimli çalışan {1} departmanında yöneticidir.", adSoyad, departman);
+        }
+    }
+    //Isci sınıfı, Arayüz olarak IKisi kullanılmıştır
+    class Isci : IKisi
+    {
+        public string adSoyad { get; set; }
+        public string adres { get; set; }
+        public string departman { get; set; }
+        //bilgi methodunun içeriğinin eklenmesi.
+        public void bilgi()
+        {
+            Console.WriteLine(" {0} isimli çalışan {1} departmanında işçidir.", adSoyad, departman);
+        }
+    }
+}

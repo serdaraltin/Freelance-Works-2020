@@ -1,0 +1,4 @@
+1. ekleme - tamam
+2. silme - tamam
+3. minumum bulma - tamam
+4. arama - kismen

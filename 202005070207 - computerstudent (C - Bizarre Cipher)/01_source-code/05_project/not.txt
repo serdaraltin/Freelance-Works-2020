@@ -1,0 +1,4 @@
+benzer bir ödev daha geldiği ve tek kişi olarak kodladığımdan
+benzerlik oluşacaktır, değişken isimleri fonksiyon yerleri vb.
+yapılarda maximum değişiklik yaptım fakat kendinizde kodda değişiklikler yapınız.
+kopya kontrolüne karşı garanti hizmete dahil değil fakat yinede bu şekilde yardımcı olmaya çalıştım. 

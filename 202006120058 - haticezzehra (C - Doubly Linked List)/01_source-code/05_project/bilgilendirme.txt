@@ -1,0 +1,2 @@
+O(n) olacak şekilde bir algoritma tasarlanamadığı için 1. kısımdaki çift yönlü bağlı liste,
+ücretsiz olarak dahil edilmiştir(sıralama işlemi yoktur).

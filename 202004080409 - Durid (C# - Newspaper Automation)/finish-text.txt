@@ -1,0 +1,6 @@
+Güvenlik gerekçesiyle dosya şifrelenmiştir.
+Sipariş onaylandığında parola bilgisi aktarılacaktır.
+
+Teşekkürler.
+
+Not : Kanıt görselleri "evidence" klasöründe yer almaktadır.

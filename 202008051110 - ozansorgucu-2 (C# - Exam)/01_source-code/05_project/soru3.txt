@@ -1,0 +1,57 @@
+/*
+ * 3. Çok biçimlilik nedir? Örnek bir program yazarak kendi ifadelerinizle açıklayınız?
+ * 
+ * Çok Biçimlilik(Polymorphizm): Bir sınıf başka bir sınıftan türetildiğindan tüm özelliklerini miras alır.
+ * Türetilmiş olan sınıf içerisinde türetilen sınıftan gelen bazı özelliklerin değiştirilmesi çok biçimliliktir.
+ * Miras aldığı bir methodun içeriğinin değiştirilmesi çok biçimlilik örneğidir.
+ * 
+ */
+
+using System;
+
+namespace CokBicimlilik
+{
+    //Programın ana sınıfı
+    class Program
+    {
+        //Main methodu
+        static void Main(string[] args)
+        {
+            //Uye sınıfından "uye" adında bir nesne türetilmesi, nesne türetildiği sırada nesnenin "Ad" değişkenine değer ataması yapılıyor.
+            Uye uye = new Uye { Ad = "Umut" };
+            //uye nesnesinin "CikisYap" methodunun çağrılması.
+            uye.CikisYap();
+
+            //Admin sınıfından "admin" adında bir nesne türetilmesi, nesne türetildiği sırada nesnenin "Ad" değişkenine değer ataması yapılıyor.
+            Admin admin = new Admin { Ad = "Çağdaş" };
+            //admin nesnesinin "CikisYap" methodunun çağrılması.
+            admin.CikisYap();
+
+            //Ekranın kapanmaması için klavyeden bir tuşa basılması beklenmedi.
+            Console.ReadKey();
+        }
+    }
+}
+
+//Uye sınıfı
+class Uye
+{
+    public string Ad { get; set; }
+
+    public virtual void CikisYap()
+    {
+        Console.WriteLine(this.Ad + ": Çıkış yaptım.");
+    }
+}
+
+//Admin sınıfı, Uye sınıfından türetilmiştir.
+class Admin : Uye
+{
+    //Uye sınıfından miras alınınan "CikisYap" methodu içeriği değiştirilmesi.
+    public override void CikisYap()
+    {
+        base.CikisYap();
+        //this.Ad : bu class için belirlenmiş olunan "Ad" değişkeni değerini belirtir.
+        Console.WriteLine(this.Ad + ": Çerezleri temizledim.");
+    }
+}

@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\VeritabaniOdev\VeritabaniOdev\obj\Debug\VeritabaniOdev.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\VeritabaniOdev\VeritabaniOdev\obj\Debug\VeritabaniOdev.Properties.Resources.resources
+C:\Users\User\Desktop\VeritabaniOdev\VeritabaniOdev\obj\Debug\VeritabaniOdev.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\VeritabaniOdev\VeritabaniOdev\obj\Debug\VeritabaniOdev.Form_UrunKaydi.resources
+C:\Users\User\Desktop\VeritabaniOdev\VeritabaniOdev\bin\Debug\VeritabaniOdev.exe
+C:\Users\User\Desktop\VeritabaniOdev\VeritabaniOdev\bin\Debug\VeritabaniOdev.pdb
+C:\Users\User\Desktop\VeritabaniOdev\VeritabaniOdev\obj\Debug\VeritabaniOdev.exe
+C:\Users\User\Desktop\VeritabaniOdev\VeritabaniOdev\obj\Debug\VeritabaniOdev.pdb
+C:\Users\User\Desktop\VeritabaniOdev\VeritabaniOdev\obj\Debug\VeritabaniOdev.Form_CalisanKaydi.resources
+C:\Users\User\Desktop\VeritabaniOdev\VeritabaniOdev\obj\Debug\VeritabaniOdev.Form_MakineKaydi.resources
+C:\Users\User\Desktop\VeritabaniOdev\VeritabaniOdev\obj\Debug\VeritabaniOdev.Form_UretimKaydi.resources

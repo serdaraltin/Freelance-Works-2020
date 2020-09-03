@@ -1,0 +1,5 @@
+DİKKAT: Bağlantılı lste Her zaman öğrenclern doğum tarhlerne göre sıralanacaktır. 
+• Bir bölüm kodu girin ve öğrenciler o bölüme gösterin.  
+• Bu listeden sınıf değer > 4 olan düğümler kaldırın, ancak bunları ikinci listeye ekleyin. 
+	Öyleyse Onları serbest bırakmayın, sadece bir bağlantılı listeye ekleyin. 
+• ikinci bağlantılı listeyi görüntüleyin

@@ -1,0 +1,5 @@
+https://yazilimdnyasi.wordpress.com/2017/04/04/makefile-kullanimi/
+https://stackoverflow.com/questions/793858/how-to-mkdir-only-if-a-dir-does-not-already-exist
+https://stackoverflow.com/questions/4846007/check-if-directory-exists-and-delete-in-one-command-unix/37923922
+http://www.belgeler.org/howto/makefile-nasil-kullanimi.html
+https://www.makeareadme.com/ 

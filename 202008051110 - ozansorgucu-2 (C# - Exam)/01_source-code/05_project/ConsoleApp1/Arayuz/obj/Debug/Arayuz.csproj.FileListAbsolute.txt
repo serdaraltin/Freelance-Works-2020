@@ -1,0 +1,4 @@
+C:\Users\User\Desktop\ConsoleApp1\Arayuz\bin\Debug\Arayuz.exe
+C:\Users\User\Desktop\ConsoleApp1\Arayuz\bin\Debug\Arayuz.pdb
+C:\Users\User\Desktop\ConsoleApp1\Arayuz\obj\Debug\Arayuz.exe
+C:\Users\User\Desktop\ConsoleApp1\Arayuz\obj\Debug\Arayuz.pdb

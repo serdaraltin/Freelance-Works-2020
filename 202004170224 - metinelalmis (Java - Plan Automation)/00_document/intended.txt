@@ -1,0 +1,19 @@
+Yapılacak işlerin listesinin tutulduğu bir Java programı yazınız. Programı aşağıdaki yönergeye göre hazırlayınız.
+• Veriler SQLite veritabanında tutulacak,
+o “yapilacaklar.db” isimli bir veri tabanı oluşturunuz,
+o Veri tabanı içinde yap isimli bir tablo oluşturunuz (id, ad)
+• Program Konsol üzerinde çalışacak ve kullanıcının tercihlerine göre veri tabanı üzerinde CRUD işlemleri yapılacak. Kullanıcı konsolda aşağıdaki ekran görüntüsü ile karşılaşacak, kullanıcı çıkmak için 5 girmediği sürece aynı mesaj kullanıcıya tekrar tekrar gösterilecek.
+o 1 seçeneği seçilirse, kullanıcıya konsoldan yapılacak ismini alıp veri tabanına kayıt edilecek (25p)
+o 2 seçeneği girilirse, kullanıcıdan güncellemek istediği yapılacak ismi ve onun yeni ismini girmesini isteyip, veri tabanında değişiklik yapılacak (25p)
+o 3 seçeneği girilirse, kullanıcıdan silmek istediği yapılacak ismini girmesini isteyip, girilen yapılacak ismini veri tabanından silecek (25p)
+o 4 seçeneği girilirse, veri tabanındaki tüm yapılacakların ismi konsolda listelenecek.
+
+Yapılacaklar Listesi
+
+1. Ekle
+2. Güncelle
+3. Sil
+4. Listele
+5. Çıkış
+
+Java Kodlarınızın Ekran Görüntüsünü aşağıya yapıştırınız.

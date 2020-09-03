@@ -1,0 +1,5 @@
+https://www.geeksforgeeks.org/introduction-of-b-tree-2/
+https://www.geeksforgeeks.org/2-3-trees-search-and-insert/
+https://www.geeksforgeeks.org/insert-operation-in-b-tree/
+https://www.geeksforgeeks.org/delete-operation-in-b-tree/
+https://en.wikipedia.org/wiki/2%E2%80%933_tree

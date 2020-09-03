@@ -1,0 +1,26 @@
+Soru 1:  
+http://aylincsknn.blogspot.com/2013/04/javada-soyut-sinifabstract-class.html
+https://medium.com/@hasandogn/abstract-soyut-sınıflar-nedir-85a921536b94
+https://medium.com/gokhanyavas/java-oop-soyutlama-abstraction-4-ddddf8f820dd
+
+Soru 2:
+https://www.mobilhanem.com/java-encapsulation/
+https://kod5.org/javada-erisim-kontrolleri-encapsulation/
+https://yazilimhanem.com/java-encapsulation-kapsulleme/
+
+Soru 3:
+https://yazilimcity.net/java-inheritance-nedir-java-kalitim-nedir-ne-demek-ne-ise-yarar/
+http://mail.baskent.edu.tr/~tkaracay/etudio/ders/prg/java/ch15/inheritance.htm
+https://kayademirli.com/javada-obje-referanslari/
+https://hasscript.com/814/inheritance-kalıtım-nedir-ne-işe-yarar
+
+Soru 4:
+https://tr.wikibooks.org/wiki/Java/Anahtar_kelimeler
+https://www.lifeacode.com/java-dersleri/java-anahtar-kelime-keyword.html
+https://tr.qwe.wiki/wiki/List_of_Java_keywords
+http://bizneyapiyoruzki.com/2018/01/yazilim/javada-kullanilan-anahtar-kelimelerin-hepsi/
+
+Soru 5: Evet Kullanıldı > Araçların alt sınıflarında (örn : Sivic,Sity,Scooter,Racer)
+https://kayademirli.com/javada-polymorphism-cok-bicimlilik-polymorphism-nedir/
+https://www.mobilhanem.com/java-polymorphism/
+http://cemkefeli.com/post/2009/09/16/JAVA-Polimorfizm(Cok-bicimlilik)-nedir.aspx

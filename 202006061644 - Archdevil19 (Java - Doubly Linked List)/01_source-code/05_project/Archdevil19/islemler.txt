@@ -1,0 +1,5 @@
+ekle car 03AAB300 2008 Fiat 2
+ekle truck 35BBC001 2018 Renault 25
+sil 07BBB100
+ekle car 16AAY101 2020 Opel 4
+sil 32AAB151

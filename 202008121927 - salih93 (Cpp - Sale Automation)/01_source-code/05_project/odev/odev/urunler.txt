@@ -1,0 +1,4 @@
+1 priket adet 4 kale
+3 cimento kg 50 adan
+2 alci kg 2 sam
+5 denemeurun kg 19 amarka

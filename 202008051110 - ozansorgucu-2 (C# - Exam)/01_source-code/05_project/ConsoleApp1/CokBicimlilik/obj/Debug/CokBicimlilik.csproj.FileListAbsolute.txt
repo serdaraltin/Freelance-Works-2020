@@ -1,0 +1,4 @@
+C:\Users\User\Desktop\ConsoleApp1\CokBicimlilik\bin\Debug\CokBicimlilik.exe
+C:\Users\User\Desktop\ConsoleApp1\CokBicimlilik\bin\Debug\CokBicimlilik.pdb
+C:\Users\User\Desktop\ConsoleApp1\CokBicimlilik\obj\Debug\CokBicimlilik.exe
+C:\Users\User\Desktop\ConsoleApp1\CokBicimlilik\obj\Debug\CokBicimlilik.pdb

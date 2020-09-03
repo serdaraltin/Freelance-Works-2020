@@ -1,0 +1,74 @@
+/*
+ * 2. Soyut Sınıflar nedir? Örnek bir program yazarak kendi ifadelerinizle açıklayınız?
+ * 
+ * Soyut Sınıf(Abstract Class) : Ortak özelliklere sahip sınıflara taban oluşturmak için kullanılır.
+ * Birçok yönden ortak özellikleri bulunan sınıfların, ortak olan özelliklerinin tek bir alanda tanınmasını sağlar.
+ * Kodun daha sağlıklı ve anlaşılır olmasını sağlar.
+ * 
+ */
+
+using System;
+
+
+namespace SoyutSinif
+{
+    //Programın ana sınıfı
+    class Program
+    {
+        //Main methodu
+        static void Main(string[] args)
+        {
+            //kanepe sınıfından "kanepe1" adında bir nesne türetilmesi
+            kanepe kanepe1 = new kanepe();
+            //ilgili bilgilerin "kanepe1" nesnesinin ilgili alanlarına doldurulması.
+            kanepe1.renk = "Siyah";
+            kanepe1.kumas = "Deri";
+
+            //masa sınıfından "calisma_masasi" adında bir nesne türetilmesi
+            masa calisma_masasi = new masa();
+            //ilgili bilgilerin "calisma_masasi" nesnesinin ilgili alanlarına doldurulması.
+            calisma_masasi.renk = "Sarı";
+            calisma_masasi.materyal = "Ahşap";
+
+            //"kanepe1" nesnesinin Yazdir methodunun çağrılması.
+            kanepe1.Yazdir();
+            //"calisma_masasi" nesnesinin Yazdir methodunun çağrılması.
+            calisma_masasi.Yazdir();
+
+            Console.ReadKey();
+        }
+    }
+
+    //Soyut sınıf : mobilyalar için ortak özelliklerin ve methodların tanımlandığı soyut sınıf.
+    abstract class mobilya
+    {
+        public string renk;
+        abstract public void Yazdir();
+    }
+
+    //kanepe sınıfı, mobilya soyut sınıfından özellikleri ve methodları miras almıştır.
+    class kanepe : mobilya
+    {
+        public string kumas;
+        //Yazdir methodunun içeriğinin kanepe sınıfı için tanımının yapılması
+        public override void Yazdir()
+        {
+            Console.WriteLine("Kanepenin Özellikleri");
+            Console.WriteLine("Renk: {0}", renk);
+            Console.WriteLine("Kumaş: {0}", kumas);
+        }
+    }
+    //masa sınıfı, mobilya soyut sınıfından özellikleri ve methodları miras almıştır.
+    class masa : mobilya
+    {
+        public string materyal;
+        //Yazdir methodunun içeriğinin kanepe sınıfı için tanımının yapılması
+        public override void Yazdir()
+        {
+            Console.WriteLine("Masanın Özellikleri");
+            Console.WriteLine("Renk: {0}", renk);
+            Console.WriteLine("Materyal: {0}", materyal);
+        }
+    }
+
+}

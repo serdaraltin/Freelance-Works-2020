@@ -1,0 +1,599 @@
+
+
+Fri Aug 14 16:25:18 2020
+Command line: TestDisk
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 5.3.0-64-generic (#58-Ubuntu SMP Fri Jul 10 19:33:51 UTC 2020) x86_64
+Compiler: GCC 9.2
+ext2fs lib: 1.45.3, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.1
+/dev/sda: LBA, HPA, LBA48, DCO support
+/dev/sda: size       3907029168 sectors
+/dev/sda: user_max   3907029168 sectors
+/dev/sda: native_max 3907029168 sectors
+/dev/sdb: LBA, HPA, LBA48, DCO support
+/dev/sdb: size       1953525168 sectors
+/dev/sdb: user_max   1953525168 sectors
+/dev/sdb: native_max 1953525168 sectors
+/dev/sdc: LBA, HPA, LBA48, DCO support
+/dev/sdc: size       1953525168 sectors
+/dev/sdc: user_max   1953525168 sectors
+/dev/sdc: native_max 1953525168 sectors
+/dev/sdd: LBA, HPA, LBA48, DCO support
+/dev/sdd: size       1465147055 sectors
+/dev/sdd: user_max   1465147055 sectors
+/dev/sdd: native_max 1465149168 sectors
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop19 - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 2000 GB / 1863 GiB - CHS 243201 255 63, sector size=512 - WDC WD20EZRZ-00Z5HB0, S/N:WD-WCC4M6EFET53, FW:80.00A80
+Disk /dev/sdb - 1000 GB / 931 GiB - CHS 121601 255 63, sector size=512 - WDC WD10EZEX-08WN4A0, S/N:WD-WCC6Y6VU8KUD, FW:01.01A01
+Disk /dev/sdc - 1000 GB / 931 GiB - CHS 121601 255 63, sector size=512 - TOSHIBA MQ04ABF100, S/N:Y7KIC0PYT, FW:JU002E
+Disk /dev/sdd - 750 GB / 698 GiB - CHS 91201 255 63, sector size=512 - SAMSUNG HD753LJ, S/N:S13UJ1KQ909989, FW:1AA01113
+Disk /dev/loop0 - 52 MB / 49 MiB - 102192 sectors (RO), sector size=512
+Disk /dev/loop1 - 31 MB / 29 MiB - 61216 sectors (RO), sector size=512
+Disk /dev/loop10 - 65 MB / 62 MiB - 127160 sectors (RO), sector size=512
+Disk /dev/loop11 - 101 MB / 96 MiB - 198624 sectors (RO), sector size=512
+Disk /dev/loop12 - 101 MB / 96 MiB - 197888 sectors (RO), sector size=512
+Disk /dev/loop13 - 196 MB / 187 MiB - 383744 sectors (RO), sector size=512
+Disk /dev/loop14 - 70 MB / 67 MiB - 138368 sectors (RO), sector size=512
+Disk /dev/loop15 - 118 MB / 113 MiB - 232280 sectors (RO), sector size=512
+Disk /dev/loop16 - 58 MB / 55 MiB - 113296 sectors (RO), sector size=512
+Disk /dev/loop17 - 57 MB / 54 MiB - 112552 sectors (RO), sector size=512
+Disk /dev/loop18 - 143 KB / 140 KiB - 280 sectors (RO), sector size=512
+Disk /dev/loop2 - 148 MB / 141 MiB - 290128 sectors (RO), sector size=512
+Disk /dev/loop3 - 146 MB / 139 MiB - 286552 sectors (RO), sector size=512
+Disk /dev/loop4 - 169 MB / 161 MiB - 330576 sectors (RO), sector size=512
+Disk /dev/loop5 - 31 MB / 29 MiB - 61200 sectors (RO), sector size=512
+Disk /dev/loop6 - 57 MB / 54 MiB - 112264 sectors (RO), sector size=512
+Disk /dev/loop7 - 135 KB / 132 KiB - 264 sectors (RO), sector size=512
+Disk /dev/loop8 - 146 MB / 140 MiB - 286864 sectors (RO), sector size=512
+Disk /dev/loop9 - 118 MB / 113 MiB - 232280 sectors (RO), sector size=512
+Disk /dev/nvme0n1 - 512 GB / 476 GiB - CHS 488386 64 32, sector size=512
+
+Partition table type defaults to Intel
+Media is opened in read-only.
+Disk /dev/loop9 - 118 MB / 113 MiB (RO)
+Partition table type: EFI GPT
+
+Interface Advanced
+Bad GPT partition, invalid signature.
+Trying alternate GPT
+Bad GPT partition, invalid signature.
+Partition table type (auto): EFI GPT
+Disk /dev/nvme0n1 - 512 GB / 476 GiB
+Partition table type: EFI GPT
+
+Interface Advanced
+hdr_size=92
+hdr_lba_self=1
+hdr_lba_alt=1000215215 (expected 1000215215)
+hdr_lba_start=34
+hdr_lba_end=1000215182
+hdr_lba_table=2
+hdr_entries=128
+hdr_entsz=128
+check_part_gpt failed for partition
+ 3 P MS Reserved              1290240    1323007      32768 [Microsoft reserved partition]
+ 1 P Windows Recovery Env        2048    1085439    1083392 [Basic data partition]
+ 2 P EFI System               1085440    1290239     204800 [EFI system partition]
+ 3 P MS Reserved              1290240    1323007      32768 [Microsoft reserved partition]
+ 4 P MS Data                  1323008  359190527  357867520 [Basic data partition] [Windows]
+     NTFS, blocksize=4096, 183 GB / 170 GiB
+ 5 P Linux filesys. data    359190528  984190975  625000448 [System]
+ 6 P Linux Swap             984190976 1000214527   16023552
+Incomplete image created.
+
+
+dir_partition inode=2
+ 5 P Linux filesys. data    359190528  984190975  625000448 [System]
+Directory /
+       2 drwxr-xr-x     0      0      4096 14-Apr-2020 22:35 .
+       2 drwxr-xr-x     0      0      4096 14-Apr-2020 22:35 ..
+      11 drwx------     0      0     16384 22-Mar-2020 14:52 lost+found
+ 11272193 drwxr-xr-x     0      0      4096 31-Jul-2020 12:58 boot
+ 13893633 drwxr-xr-x     0      0     12288  6-Aug-2020 00:47 etc
+ 6029313 drwxr-xr-x     0      0      4096 22-Mar-2020 17:57 media
+ 12582913 drwxr-xr-x     0      0      4096 22-Mar-2020 22:32 var
+      12 lrwxrwxrwx     0      0         7 22-Mar-2020 14:52 bin
+ 11010049 drwxr-xr-x     0      0      4096 17-Oct-2019 15:30 dev
+ 11534337 drwxr-xr-x     0      0      4096 22-Mar-2020 16:05 home
+      13 lrwxrwxrwx     0      0         7 22-Mar-2020 14:52 lib
+      14 lrwxrwxrwx     0      0         9 22-Mar-2020 14:52 lib32
+      15 lrwxrwxrwx     0      0         9 22-Mar-2020 14:52 lib64
+      16 lrwxrwxrwx     0      0        10 22-Mar-2020 14:52 libx32
+ 9437185 drwxr-xr-x     0      0      4096 27-Mar-2020 19:42 mnt
+ 11796481 drwxr-xr-x     0      0      4096 22-Apr-2020 17:16 opt
+ 1572865 drwxr-xr-x     0      0      4096 14-Oct-2019 17:35 proc
+ 5242881 drwx------     0      0      4096 19-Apr-2020 20:11 root
+ 2621441 drwxr-xr-x     0      0      4096 22-Mar-2020 14:53 run
+      17 lrwxrwxrwx     0      0         8 22-Mar-2020 14:52 sbin
+  262145 drwxr-xr-x     0      0      4096 25-Jun-2020 15:29 snap
+ 2359297 drwxr-xr-x     0      0      4096 17-Oct-2019 15:22 srv
+ 6815745 drwxr-xr-x     0      0      4096 14-Oct-2019 17:35 sys
+ 8912897 drwxrwxrwt     0      0     12288 14-Aug-2020 16:25 tmp
+ 16777217 drwxr-xr-x     0      0      4096 23-Mar-2020 02:17 usr
+ 10485761 drwxr-xr-x     0      0      4096 22-Mar-2020 14:53 cdrom
+      19 -rwxr-xr-x     0      0      1308 23-Mar-2020 16:55 47293.sh
+    8142 -rw-r--r--     0      0         0 14-Apr-2020 01:25 .autorelabel
+X   8143 srwxr-xr-x     0      0         0 14-Apr-2020 22:35 php.socket-0
+X   8144 srwxr-xr-x     0      0         0 14-Apr-2020 22:35 php.socket-1
+X   8145 srwxr-xr-x     0      0         0 14-Apr-2020 22:35 php.socket-2
+X   8146 srwxr-xr-x     0      0         0 14-Apr-2020 22:35 php.socket-3
+
+dir_partition inode=11534337
+ 5 P Linux filesys. data    359190528  984190975  625000448 [System]
+Directory /home
+ 11534337 drwxr-xr-x     0      0      4096 22-Mar-2020 16:05 .
+       2 drwxr-xr-x     0      0      4096 14-Apr-2020 22:35 ..
+ 11534338 lrwxrwxrwx     0      0        44 22-Mar-2020 14:52 .directory
+ 11534339 drwxr-xr-x  1000   1000      4096 14-Aug-2020 16:24 serdar
+ 11682523 drwxr-xr-x  1001   1001      4096 19-Apr-2020 20:11 meyta
+
+dir_partition inode=11534339
+ 5 P Linux filesys. data    359190528  984190975  625000448 [System]
+Directory /home/serdar
+ 11534339 drwxr-xr-x  1000   1000      4096 14-Aug-2020 16:24 .
+ 11534337 drwxr-xr-x     0      0      4096 22-Mar-2020 16:05 ..
+ 11539809 -rwxrwxrwx  1000   1000    345551 22-Jan-2020 00:18 .face
+ 11534341 drwx------  1000   1000     12288 14-Aug-2020 16:25 .config
+ 11539810 -rwxrwxrwx  1000   1000       807 22-Jan-2020 21:38 .profile
+ 11534345 -rwxrwxrwx  1000   1000      5222  3-Mar-2020 02:44 .bashrc
+ 11534992 -rwxrwxrwx  1000   1000       220 22-Jan-2020 21:38 .bash_logout
+ 11534340 lrwxrwxrwx  1000   1000         5 22-Mar-2020 15:19 .face.icon
+ 11534347 drwxr-xr-x  1000   1000      4096 22-Mar-2020 15:21 .local
+ 11534351 drwx------  1000   1000      4096  6-Apr-2020 02:10 .gnupg
+ 11615974 -rw-------  1000   1000        52 14-Aug-2020 16:24 .Xauthority
+ 11612163 -rw-------  1000   1000    541744 14-Aug-2020 16:25 .xsession-errors
+ 11534366 drwxr-xr-x  1000   1000     12288 14-Aug-2020 16:24 .cache
+ 11534431 drwxr-xr-x  1000   1000      4096  3-Aug-2020 23:02 Desktop
+ 11534432 drwxr-xr-x  1000   1000      4096 11-Aug-2020 13:32 Downloads
+ 11534433 drwxr-xr-x  1000   1000      4096 19-Apr-2020 20:11 Templates
+ 11534434 drwxr-xr-x  1000   1000      4096 22-Mar-2020 17:57 Public
+ 11534435 drwxr-xr-x  1000   1000      4096 17-Apr-2020 04:33 Documents
+ 11534436 drwxr-xr-x  1000   1000      4096  9-Apr-2020 01:51 Music
+ 11534437 drwxr-xr-x  1000   1000      4096 23-Jun-2020 20:53 Pictures
+ 11534438 drwxr-xr-x  1000   1000      4096 24-Jun-2020 18:53 Videos
+ 11534346 -rw-rw-r--  1000   1000       497 14-Aug-2020 16:24 .gtkrc-2.0
+ 11534444 drwxrwxr-x  1000   1000      4096 22-Mar-2020 17:57 .kde
+ 11539814 -rwxrwxrwx  1000   1000         0 23-Jan-2020 01:50 .sudo_as_admin_successful
+ 11618713 -rw-------  1000   1000     23443 13-Aug-2020 23:14 .bash_history
+ 11801172 drwxrwxr-x  1000   1000      4096 23-Apr-2020 10:15 Programs
+ 11535594 -rwxrwxrwx  1000   1000      2455 24-Mar-2020 19:50 .armitage.prop
+ 11534344 -rwxrwxrwx  1000   1000        40 22-Mar-2020 20:13 .condarc
+ 11615947 -rwxrwxrwx  1000   1000       118 21-Jul-2020 15:24 .directory
+ 11534442 lrwxrwxrwx  1000   1000        23 20-Apr-2020 03:40 .gtkrc-2.0-kde4
+ 11616927 -rw-------  1000   1000       237 12-Aug-2020 13:29 .python_history
+ 11539811 -rwxrwxrwx  1000   1000       931 14-Mar-2020 17:14 .recently-used
+ 11534492 lrwxrwxrwx  1000   1000        31  2-Aug-2020 11:58 .steampath
+ 11535069 lrwxrwxrwx  1000   1000        29  2-Aug-2020 11:58 .steampid
+ 11534948 -rwxrwxrwx  1000   1000       268 19-Mar-2020 19:22 .wget-hsts
+ 11539815 -rwxrwxrwx  1000   1000     12288 29-Jan-2020 23:28 .wget-log.swp
+ 11539816 -rwxrwxrwx  1000   1000         2 18-Mar-2020 13:32 .windows-serial
+ 11539818 -rwxrwxrwx  1000   1000    261361 30-Jan-2020 14:58 .zynaddsubfx-bank-cache.xml
+ 11539819 -rwxrwxrwx  1000   1000      2256 30-Jan-2020 14:58 .zynaddsubfxXML.cfg
+ 11676224 drwxr-xr-x  1000   1000      4096 13-Jun-2020 23:51 snap
+ 11933554 drwx------  1000   1000      4096 17-Jul-2020 16:12 VirtualBox VMs
+ 11801356 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .anaconda
+ 12323647 drwxrwxr-x  1000   1000      4096  6-Apr-2020 01:15 .android
+ 12598248 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .AndroidStudio3.3
+ 12598249 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .AndroidStudio3.5
+ 14288149 drwxrwxr-x  1000   1000      4096 21-Mar-2020 14:21 .anydesk
+ 14288151 drwxrwxr-x  1000   1000      4096 21-Mar-2020 14:21 .arduino
+ 14288152 drwxrwxr-x  1000   1000      4096 22-Mar-2020 21:11 .arduino15
+ 14288356 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .armitage
+ 14418532 drwxrwxr-x  1000   1000      4096  9-Jul-2020 01:58 .audacity-data
+ 14418536 drwxrwxr-x  1000   1000      4096 22-Jul-2020 20:44 .bluefish
+ 14418539 drwxrwxr-x  1000   1000      4096 21-Mar-2020 14:21 .BurpSuite
+ 14418674 drwxrwxr-x  1000   1000      4096 22-Mar-2020 20:14 .conda
+ 14418677 drwxrwxr-x  1000   1000      4096 21-Mar-2020 14:31 .designer
+ 14418681 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .dotnet
+ 11675804 drwxrwxr-x  1000   1000      4096 15-Apr-2020 18:07 hs
+ 14942261 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .emacs.d
+ 14942262 drwxrwxr-x  1000   1000      4096 21-Mar-2020 14:31 .eric6
+ 14942278 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .fltk
+ 14942280 drwxrwxr-x  1000   1000      4096 21-Mar-2020 14:31 .fmxlinux
+ 14942281 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .gnome
+ 14942283 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .gphoto
+ 14942284 drwxrwxr-x  1000   1000      4096 21-Mar-2020 14:31 .icons
+ 14942532 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .ipython
+ 14942541 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .java
+ 14942572 drwxrwxr-x  1000   1000      4096 21-Mar-2020 14:31 .kite
+ 14942984 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .maltego
+ 15205147 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .mono
+ 15336213 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .mozilla
+ 15336222 drwxrwxr-x  1000   1000      4096 21-Mar-2020 14:43 .msf4
+ 15728888 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .mysql
+ 15728900 drwxrwxr-x  1000   1000      4096 22-Mar-2020 16:39 .nbi
+ 15728912 drwxrwxr-x  1000   1000      4096 21-Mar-2020 14:43 .netbeans
+ 15729232 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .omnisharp
+ 15729233 drwxrwxr-x  1000   1000      4096  1-Apr-2020 03:58 .oracle_jre_usage
+ 15729234 drwxrwxr-x  1000   1000      4096  9-Apr-2020 01:59 .p2
+ 15729444 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .pki
+ 11796866 drwxrwxr-x  1000   1000      4096 24-Mar-2020 21:23 .PlayOnLinux
+ 15990949 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .PyCharm2019.1
+ 15991279 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .Rider2019.3
+ 15991529 drwxrwxr-x  1000   1000      4096 21-Mar-2020 14:45 .scribus
+ 15991535 drwxrwxr-x  1000   1000      4096  7-Apr-2020 04:01 .ssh
+ 15991536 drwxrwxr-x  1000   1000      4096  2-Aug-2020 13:10 .steam
+ 15991537 drwxrwxr-x  1000   1000      4096 21-Mar-2020 14:45 .swt
+ 15991538 drwxrwxr-x  1000   1000      4096 21-Mar-2020 14:45 .synfig
+ 15991539 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .themes
+ 15991601 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .tooling
+ 16122335 drwxrwxr-x  1000   1000      4096 21-Mar-2020 14:45 .vscode
+ 16122684 drwxrwxr-x  1000   1000      4096 21-Mar-2020 14:47 .vsts
+ 16122685 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .wicd
+ 16122686 drwxrwxr-x  1000   1000      4096  8-Apr-2020 14:11 .wine
+ 11676647 drwxrwxr-x  1000   1000      4096 22-Mar-2020 21:10 Arduino
+ 11688425 drwxrwxr-x  1000   1000      4096 23-Mar-2020 00:46 Lenovo
+ 11555475 lrwxrwxrwx  1000   1000        38 24-Mar-2020 18:13 PlayOnLinux's virtual drives
+ 11690860 drwxrwxr-x  1000   1000      4096 15-Apr-2020 05:47 Sh
+ 12063530 drwxrwxr-x  1000   1000      4096 13-Aug-2020 21:20 Sadeceon
+ 12324804 drwxrwxr-x  1000   1000      4096 24-Mar-2020 19:44 Games
+ 11692464 drwxrwxr-x  1000   1000      4096 19-Apr-2020 20:12 .kingsoft
+ 11935786 drwxrwxr-x  1000   1000      4096 24-Mar-2020 21:25 Program Files
+ 11689286 drwxrwxr-x  1000   1000      4096  8-Jul-2020 23:13 .cxoffice
+ 11689279 drwxrwxr-x  1000   1000      4096 27-Mar-2020 21:17 .menu
+ 11556038 -rw-rw-r--  1000   1000      9572  6-Apr-2020 06:31 .mime.types
+ 15352343 drwxrwxr-x  1000   1000      4096  6-Apr-2020 01:07 .gradle
+ 11676035 drwx------  1000   1000      4096 15-Apr-2020 07:06 hts-cache
+ 11616874 drwxrwxr-x  1000   1000      4096 24-Jun-2020 19:09 .ssr
+ 12333247 drwxrwxr-x  1000   1000      4096 27-Mar-2020 18:10 .ts3client
+ 11676006 drwxrwxr-x  1000   1000      4096 27-Apr-2020 18:36 NetBeansProjects
+ 11616892 drwxr-xr-x  1000   1000      4096  5-May-2020 14:00 .fonts
+ 11616868 drwxrwxr-x  1000   1000      4096  2-Jun-2020 21:49 Odev
+ 11657413 drwx------  1000   1000      4096 13-Jun-2020 23:51 .gconf
+ 11556742 drwxrwxr-x  1000   1000      4096  1-Apr-2020 18:19 System Volume Information
+ 11616923 drwxrwxr-x  1000   1000      4096 12-Jun-2020 23:17 Odevler Final
+ 11558930 drwxrwxr-x  1000   1000      4096  5-Apr-2020 18:08 Unity
+ 11616872 drwxrwxr-x  1000   1000      4096 29-Jun-2020 22:42 Batman Under The Red Hood (2010) [1080p]
+X11615374 -rw-------  1000   1000    131072 14-Aug-2020 16:24 3nedlq
+X11612163 -rw-------  1000   1000    541744 14-Aug-2020 16:25 .Xauthority-l
+X11615974 -rw-------  1000   1000        52 14-Aug-2020 16:24 .Xauthority-n
+ 11657418 drwxrwxr-x  1000   1000      4096 30-Jun-2020 22:00 cm-rgb
+ 11657467 drwxrwxr-x  1000   1000      4096  2-Jul-2020 01:10 MyPaint
+X11618344 -rw-rw-r--  1000   1000    122368  6-Aug-2020 00:36 dbokul.gz
+X11615217 -rw-rw-r--  1000   1000    980730  2-Jul-2020 01:48 a.ora
+X11557846 -rw-rw-r--  1000   1000       835 14-Aug-2020 16:24 Lqj5yp
+X11606809 -rw-rw-r--  1000   1000    205216 12-Aug-2020 19:06 .Xauthority-l
+X11612163 -rw-------  1000   1000    541744 14-Aug-2020 16:25 .Xauthority-n
+X11618336 -rw-------  1000   1000      5029 13-Aug-2020 23:24 .python_history-05928.tmp
+X11558963 -rw-rw-r--  1000   1000    121153  7-May-2020 02:50 .Xauthority-n
+X11616884 drwxrwxr-x  1000   1000      4096 11-May-2020 11:31 \tmp\VirtualBox Dropped Files\2020-04-26T10:38:28.199955000Z\KISIM2\build\Debug\MinGW-Windows
+X11616887 drwxrwxr-x  1000   1000      4096 11-May-2020 11:31 \tmp\VirtualBox Dropped Files\2020-04-26T10:38:28.199955000Z\KISIM2\dist
+X11616888 drwxrwxr-x  1000   1000      4096 11-May-2020 11:31 \tmp\VirtualBox Dropped Files\2020-04-26T10:38:28.199955000Z\KISIM2\dist\Debug
+X11616889 -rw-rw-r--  1000   1000       744 30-Jul-2020 17:42 \tmp\VirtualBox Dropped Files\2020-04-26T10:38:28.199955000Z\KISIM2\dist\Debug\MinGW-Windows
+X11616890 drwxrwxr-x  1000   1000      4096 11-May-2020 11:31 \tmp\VirtualBox Dropped Files\2020-04-26T10:38:28.199955000Z\KISIM2\include
+X11616896 drwxr-xr-x  1000   1000      4096  5-May-2020 14:00 \tmp\VirtualBox Dropped Files\2020-04-26T10:38:28.199955000Z\KISIM2\lib
+X11616899 drwxrwxr-x  1000   1000      4096 11-May-2020 11:31 \tmp\VirtualBox Dropped Files\2020-04-26T10:38:28.199955000Z\KISIM2\nbproject
+X11616900 drwxr-xr-x  1000   1000      4096  5-May-2020 14:00 \tmp\VirtualBox Dropped Files\2020-04-26T10:38:28.199955000Z\KISIM2\nbproject\private
+X11616901 -rw-rw-r--  1000   1000     14856 31-Jul-2020 16:09 \tmp\VirtualBox Dropped Files\2020-04-26T10:38:28.199955000Z\KISIM2\src
+
+dir_partition inode=12063530
+ 5 P Linux filesys. data    359190528  984190975  625000448 [System]
+Directory /home/serdar/Sadeceon
+ 12063530 drwxrwxr-x  1000   1000      4096 13-Aug-2020 21:20 .
+ 11534339 drwxr-xr-x  1000   1000      4096 14-Aug-2020 16:24 ..
+ 12198702 drwxrwxr-x  1000   1000      4096 12-Aug-2020 19:26 #other
+ 12091803 drwxrwxr-x  1000   1000      4096 30-Jun-2020 19:19 Wizenghar
+ 12198706 drwxrwxr-x  1000   1000      4096 30-Jun-2020 19:19 #template
+ 12070465 -rwxrwxrwx  1000   1000       100 30-Jun-2020 19:19 .directory
+ 12063535 drwxrwxr-x  1000   1000     12288 13-Aug-2020 21:20 #completed
+X12091767 drwxrwxr-x  1000   1000      4096 30-Jun-2020 19:19 SSpanzer
+ 12060981 -rw-rw-r--  1000   1000        75 17-Apr-2020 05:25 .~lock.Project 2.docx#
+ 12065876 -rw-rw-r--  1000   1000      1392  4-May-2020 13:32 shop-word.txt
+ 19026824 drwxrwxr-x  1000   1000      4096  7-Apr-2020 19:39 #materials
+X12091767 drwxrwxr-x  1000   1000      4096 30-Jun-2020 19:19 202008131332 - SSpanzer
+X12091767 drwxrwxr-x  1000   1000      4096 30-Jun-2020 19:19 202008131332 - SSpanzer (C - Sale Automation)
+
+dir_partition inode=12091803
+ 5 P Linux filesys. data    359190528  984190975  625000448 [System]
+Directory /home/serdar/Sadeceon/Wizenghar
+ 12091803 drwxrwxr-x  1000   1000      4096 30-Jun-2020 19:19 .
+ 12063530 drwxrwxr-x  1000   1000      4096 13-Aug-2020 21:20 ..
+ 12091810 drwxrwxr-x  1000   1000      4096 13-Aug-2020 23:26 01_source-code
+ 12091811 drwxrwxr-x  1000   1000      4096 13-Aug-2020 23:25 00_document
+ 12091812 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 03_example-code
+ 12071533 -rwxrwxrwx  1000      0         5  8-Apr-2020 18:51 price.txt
+ 12071809 -rwxrwxrwx  1000      0       466  8-May-2020 11:57 finish-text.txt
+ 12071810 -rw-rw-r--  1000   1000        21 13-Aug-2020 23:25 password.txt
+
+dir_partition inode=12091810
+ 5 P Linux filesys. data    359190528  984190975  625000448 [System]
+Directory /home/serdar/Sadeceon/Wizenghar/01_source-code
+ 12091810 drwxrwxr-x  1000   1000      4096 13-Aug-2020 23:26 .
+ 12091803 drwxrwxr-x  1000   1000      4096 30-Jun-2020 19:19 ..
+ 12091813 drwxrwxr-x  1000   1000      4096 13-Aug-2020 23:26 00_document
+ 12091814 drwxrwxr-x  1000   1000      4096 13-Aug-2020 23:14 #backups
+ 12091815 drwxrwxr-x  1000   1000      4096 13-Aug-2020 23:22 01_evidence
+ 12091816 drwxrwxr-x  1000   1000      4096  6-Apr-2020 23:50 03_database
+ 12091817 drwxrwxr-x  1000   1000      4096  6-Apr-2020 23:50 02_diagram
+ 12091818 drwxrwxr-x  1000   1000      4096  6-Apr-2020 23:52 04_sources
+ 12091819 drwxrwxr-x  1000   1000      4096  6-Apr-2020 23:52 02_Report
+ 12091820 drwxrwxr-x  1000   1000      4096 13-Aug-2020 01:10 05_project
+ 12071927 -rw-rw-r--  1000   1000  31531517 13-Aug-2020 23:26 01_source-code.zip
+ 12071924 -rw-rw-r--  1000   1000  30934339 13-Aug-2020 23:25 05_project.zip
+X12071927 -rw-rw-r--  1000   1000  31531517 13-Aug-2020 23:26 01_source-code.zip.dbpUPY
+
+dir_partition inode=12091820
+ 5 P Linux filesys. data    359190528  984190975  625000448 [System]
+Directory /home/serdar/Sadeceon/Wizenghar/01_source-code/05_project
+ 12091820 drwxrwxr-x  1000   1000      4096 13-Aug-2020 01:10 .
+ 12091810 drwxrwxr-x  1000   1000      4096 13-Aug-2020 23:26 ..
+ 12091821 drwxrwxr-x  1000   1000      4096 13-Aug-2020 23:20 1
+ 12091830 drwxrwxr-x  1000   1000      4096 13-Aug-2020 23:23 2
+
+dir_partition inode=12091830
+ 5 P Linux filesys. data    359190528  984190975  625000448 [System]
+Directory /home/serdar/Sadeceon/Wizenghar/01_source-code/05_project/2
+ 12091830 drwxrwxr-x  1000   1000      4096 13-Aug-2020 23:23 .
+ 12091820 drwxrwxr-x  1000   1000      4096 13-Aug-2020 01:10 ..
+ 12091848 drwxrwxr-x  1000   1000      4096 13-Aug-2020 23:16 proje
+X12071923 -rw-rw-r--  1000   1000       190 13-Aug-2020 23:24 bilgilendirme.txt.part
+ 12071923 -rw-rw-r--  1000   1000       190 13-Aug-2020 23:24 bilgilendirme.txt
+X12071863 -rw-rw-r--  1000   1000       123 13-Aug-2020 22:09 urunler.txt
+X12071904 -rw-rw-rw-  1000   1000     12170 13-Aug-2020 23:16 qvvaxaef.hdu~
+X12071850 -rw-rw-r--  1000   1000         6 13-Aug-2020 23:14 satilan_urunler.txt
+X12071651 -rw-rw-r--  1000   1000  62128128 13-Aug-2020 23:17 main.cpp~RF1b958.TMP
+
+dir_partition inode=12091848
+ 5 P Linux filesys. data    359190528  984190975  625000448 [System]
+Directory /home/serdar/Sadeceon/Wizenghar/01_source-code/05_project/2/proje
+ 12091848 drwxrwxr-x  1000   1000      4096 13-Aug-2020 23:16 .
+ 12091830 drwxrwxr-x  1000   1000      4096 13-Aug-2020 23:23 ..
+ 12091849 drwxrwxr-x  1000   1000      4096 13-Aug-2020 23:18 proje
+ 12091850 drwxrwxrwx  1000   1000      4096 13-Aug-2020 23:16 .vs
+ 12071886 -rw-rw-r--  1000   1000      1297 13-Aug-2020 23:16 proje.sln
+ 12091854 drwxrwxr-x  1000   1000      4096 13-Aug-2020 23:16 Debug
+
+dir_partition inode=12091849
+ 5 P Linux filesys. data    359190528  984190975  625000448 [System]
+Directory /home/serdar/Sadeceon/Wizenghar/01_source-code/05_project/2/proje/proje
+ 12091849 drwxrwxr-x  1000   1000      4096 13-Aug-2020 23:18 .
+ 12091848 drwxrwxr-x  1000   1000      4096 13-Aug-2020 23:16 ..
+ 12071882 -rw-rw-rw-  1000   1000      7045 13-Aug-2020 23:16 proje.vcxproj
+ 12071885 -rw-rw-r--  1000   1000       962 13-Aug-2020 23:16 proje.vcxproj.filters
+ 12091853 drwxrwxr-x  1000   1000      4096 13-Aug-2020 23:16 Debug
+ 12071888 -rw-rw-r--  1000   1000        12 13-Aug-2020 23:14 hakedisler.txt
+ 12071889 -rw-rw-r--  1000   1000        25 13-Aug-2020 23:14 projeler.txt
+ 12071910 -rw-rw-r--  1000   1000         8 13-Aug-2020 23:18 satilan_urunler.txt
+ 12071891 -rw-rw-r--  1000   1000       123 13-Aug-2020 22:09 urunler.txt
+X12071910 -rw-rw-r--  1000   1000         8 13-Aug-2020 23:18 satilan_urunler_yeni.txt
+Directory /home/serdar/Sadeceon/Wizenghar/01_source-code/05_project/2/proje
+ 12091848 drwxrwxr-x  1000   1000      4096 13-Aug-2020 23:16 .
+ 12091830 drwxrwxr-x  1000   1000      4096 13-Aug-2020 23:23 ..
+ 12091849 drwxrwxr-x  1000   1000      4096 13-Aug-2020 23:18 proje
+ 12091850 drwxrwxrwx  1000   1000      4096 13-Aug-2020 23:16 .vs
+ 12071886 -rw-rw-r--  1000   1000      1297 13-Aug-2020 23:16 proje.sln
+ 12091854 drwxrwxr-x  1000   1000      4096 13-Aug-2020 23:16 Debug
+Directory /home/serdar/Sadeceon/Wizenghar/01_source-code/05_project/2
+ 12091830 drwxrwxr-x  1000   1000      4096 13-Aug-2020 23:23 .
+ 12091820 drwxrwxr-x  1000   1000      4096 13-Aug-2020 01:10 ..
+ 12091848 drwxrwxr-x  1000   1000      4096 13-Aug-2020 23:16 proje
+X12071923 -rw-rw-r--  1000   1000       190 13-Aug-2020 23:24 bilgilendirme.txt.part
+ 12071923 -rw-rw-r--  1000   1000       190 13-Aug-2020 23:24 bilgilendirme.txt
+X12071863 -rw-rw-r--  1000   1000       123 13-Aug-2020 22:09 urunler.txt
+X12071904 -rw-rw-rw-  1000   1000     12170 13-Aug-2020 23:16 qvvaxaef.hdu~
+X12071850 -rw-rw-r--  1000   1000         6 13-Aug-2020 23:14 satilan_urunler.txt
+X12071651 -rw-rw-r--  1000   1000  62128128 13-Aug-2020 23:17 main.cpp~RF1b958.TMP
+Directory /home/serdar/Sadeceon/Wizenghar/01_source-code/05_project
+ 12091820 drwxrwxr-x  1000   1000      4096 13-Aug-2020 01:10 .
+ 12091810 drwxrwxr-x  1000   1000      4096 13-Aug-2020 23:26 ..
+ 12091821 drwxrwxr-x  1000   1000      4096 13-Aug-2020 23:20 1
+ 12091830 drwxrwxr-x  1000   1000      4096 13-Aug-2020 23:23 2
+Directory /home/serdar/Sadeceon/Wizenghar/01_source-code
+ 12091810 drwxrwxr-x  1000   1000      4096 13-Aug-2020 23:26 .
+ 12091803 drwxrwxr-x  1000   1000      4096 30-Jun-2020 19:19 ..
+ 12091813 drwxrwxr-x  1000   1000      4096 13-Aug-2020 23:26 00_document
+ 12091814 drwxrwxr-x  1000   1000      4096 13-Aug-2020 23:14 #backups
+ 12091815 drwxrwxr-x  1000   1000      4096 13-Aug-2020 23:22 01_evidence
+ 12091816 drwxrwxr-x  1000   1000      4096  6-Apr-2020 23:50 03_database
+ 12091817 drwxrwxr-x  1000   1000      4096  6-Apr-2020 23:50 02_diagram
+ 12091818 drwxrwxr-x  1000   1000      4096  6-Apr-2020 23:52 04_sources
+ 12091819 drwxrwxr-x  1000   1000      4096  6-Apr-2020 23:52 02_Report
+ 12091820 drwxrwxr-x  1000   1000      4096 13-Aug-2020 01:10 05_project
+ 12071927 -rw-rw-r--  1000   1000  31531517 13-Aug-2020 23:26 01_source-code.zip
+ 12071924 -rw-rw-r--  1000   1000  30934339 13-Aug-2020 23:25 05_project.zip
+X12071927 -rw-rw-r--  1000   1000  31531517 13-Aug-2020 23:26 01_source-code.zip.dbpUPY
+Directory /home/serdar/Sadeceon/Wizenghar
+ 12091803 drwxrwxr-x  1000   1000      4096 30-Jun-2020 19:19 .
+ 12063530 drwxrwxr-x  1000   1000      4096 13-Aug-2020 21:20 ..
+ 12091810 drwxrwxr-x  1000   1000      4096 13-Aug-2020 23:26 01_source-code
+ 12091811 drwxrwxr-x  1000   1000      4096 13-Aug-2020 23:25 00_document
+ 12091812 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 03_example-code
+ 12071533 -rwxrwxrwx  1000      0         5  8-Apr-2020 18:51 price.txt
+ 12071809 -rwxrwxrwx  1000      0       466  8-May-2020 11:57 finish-text.txt
+ 12071810 -rw-rw-r--  1000   1000        21 13-Aug-2020 23:25 password.txt
+Directory /home/serdar/Sadeceon
+ 12063530 drwxrwxr-x  1000   1000      4096 13-Aug-2020 21:20 .
+ 11534339 drwxr-xr-x  1000   1000      4096 14-Aug-2020 16:24 ..
+ 12198702 drwxrwxr-x  1000   1000      4096 12-Aug-2020 19:26 #other
+ 12091803 drwxrwxr-x  1000   1000      4096 30-Jun-2020 19:19 Wizenghar
+ 12198706 drwxrwxr-x  1000   1000      4096 30-Jun-2020 19:19 #template
+ 12070465 -rwxrwxrwx  1000   1000       100 30-Jun-2020 19:19 .directory
+ 12063535 drwxrwxr-x  1000   1000     12288 13-Aug-2020 21:20 #completed
+X12091767 drwxrwxr-x  1000   1000      4096 30-Jun-2020 19:19 SSpanzer
+ 12060981 -rw-rw-r--  1000   1000        75 17-Apr-2020 05:25 .~lock.Project 2.docx#
+ 12065876 -rw-rw-r--  1000   1000      1392  4-May-2020 13:32 shop-word.txt
+ 19026824 drwxrwxr-x  1000   1000      4096  7-Apr-2020 19:39 #materials
+X12091767 drwxrwxr-x  1000   1000      4096 30-Jun-2020 19:19 202008131332 - SSpanzer
+X12091767 drwxrwxr-x  1000   1000      4096 30-Jun-2020 19:19 202008131332 - SSpanzer (C - Sale Automation)
+Directory /home/serdar
+ 11534339 drwxr-xr-x  1000   1000      4096 14-Aug-2020 16:24 .
+ 11534337 drwxr-xr-x     0      0      4096 22-Mar-2020 16:05 ..
+ 11539809 -rwxrwxrwx  1000   1000    345551 22-Jan-2020 00:18 .face
+ 11534341 drwx------  1000   1000     12288 14-Aug-2020 16:25 .config
+ 11539810 -rwxrwxrwx  1000   1000       807 22-Jan-2020 21:38 .profile
+ 11534345 -rwxrwxrwx  1000   1000      5222  3-Mar-2020 02:44 .bashrc
+ 11534992 -rwxrwxrwx  1000   1000       220 22-Jan-2020 21:38 .bash_logout
+ 11534340 lrwxrwxrwx  1000   1000         5 22-Mar-2020 15:19 .face.icon
+ 11534347 drwxr-xr-x  1000   1000      4096 22-Mar-2020 15:21 .local
+ 11534351 drwx------  1000   1000      4096  6-Apr-2020 02:10 .gnupg
+ 11615974 -rw-------  1000   1000        52 14-Aug-2020 16:24 .Xauthority
+ 11612163 -rw-------  1000   1000    541744 14-Aug-2020 16:25 .xsession-errors
+ 11534366 drwxr-xr-x  1000   1000     12288 14-Aug-2020 16:24 .cache
+ 11534431 drwxr-xr-x  1000   1000      4096  3-Aug-2020 23:02 Desktop
+ 11534432 drwxr-xr-x  1000   1000      4096 11-Aug-2020 13:32 Downloads
+ 11534433 drwxr-xr-x  1000   1000      4096 19-Apr-2020 20:11 Templates
+ 11534434 drwxr-xr-x  1000   1000      4096 22-Mar-2020 17:57 Public
+ 11534435 drwxr-xr-x  1000   1000      4096 17-Apr-2020 04:33 Documents
+ 11534436 drwxr-xr-x  1000   1000      4096  9-Apr-2020 01:51 Music
+ 11534437 drwxr-xr-x  1000   1000      4096 23-Jun-2020 20:53 Pictures
+ 11534438 drwxr-xr-x  1000   1000      4096 24-Jun-2020 18:53 Videos
+ 11534346 -rw-rw-r--  1000   1000       497 14-Aug-2020 16:24 .gtkrc-2.0
+ 11534444 drwxrwxr-x  1000   1000      4096 22-Mar-2020 17:57 .kde
+ 11539814 -rwxrwxrwx  1000   1000         0 23-Jan-2020 01:50 .sudo_as_admin_successful
+ 11618713 -rw-------  1000   1000     23443 13-Aug-2020 23:14 .bash_history
+ 11801172 drwxrwxr-x  1000   1000      4096 23-Apr-2020 10:15 Programs
+ 11535594 -rwxrwxrwx  1000   1000      2455 24-Mar-2020 19:50 .armitage.prop
+ 11534344 -rwxrwxrwx  1000   1000        40 22-Mar-2020 20:13 .condarc
+ 11615947 -rwxrwxrwx  1000   1000       118 21-Jul-2020 15:24 .directory
+ 11534442 lrwxrwxrwx  1000   1000        23 20-Apr-2020 03:40 .gtkrc-2.0-kde4
+ 11616927 -rw-------  1000   1000       237 12-Aug-2020 13:29 .python_history
+ 11539811 -rwxrwxrwx  1000   1000       931 14-Mar-2020 17:14 .recently-used
+ 11534492 lrwxrwxrwx  1000   1000        31  2-Aug-2020 11:58 .steampath
+ 11535069 lrwxrwxrwx  1000   1000        29  2-Aug-2020 11:58 .steampid
+ 11534948 -rwxrwxrwx  1000   1000       268 19-Mar-2020 19:22 .wget-hsts
+ 11539815 -rwxrwxrwx  1000   1000     12288 29-Jan-2020 23:28 .wget-log.swp
+ 11539816 -rwxrwxrwx  1000   1000         2 18-Mar-2020 13:32 .windows-serial
+ 11539818 -rwxrwxrwx  1000   1000    261361 30-Jan-2020 14:58 .zynaddsubfx-bank-cache.xml
+ 11539819 -rwxrwxrwx  1000   1000      2256 30-Jan-2020 14:58 .zynaddsubfxXML.cfg
+ 11676224 drwxr-xr-x  1000   1000      4096 13-Jun-2020 23:51 snap
+ 11933554 drwx------  1000   1000      4096 17-Jul-2020 16:12 VirtualBox VMs
+ 11801356 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .anaconda
+ 12323647 drwxrwxr-x  1000   1000      4096  6-Apr-2020 01:15 .android
+ 12598248 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .AndroidStudio3.3
+ 12598249 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .AndroidStudio3.5
+ 14288149 drwxrwxr-x  1000   1000      4096 21-Mar-2020 14:21 .anydesk
+ 14288151 drwxrwxr-x  1000   1000      4096 21-Mar-2020 14:21 .arduino
+ 14288152 drwxrwxr-x  1000   1000      4096 22-Mar-2020 21:11 .arduino15
+ 14288356 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .armitage
+ 14418532 drwxrwxr-x  1000   1000      4096  9-Jul-2020 01:58 .audacity-data
+ 14418536 drwxrwxr-x  1000   1000      4096 22-Jul-2020 20:44 .bluefish
+ 14418539 drwxrwxr-x  1000   1000      4096 21-Mar-2020 14:21 .BurpSuite
+ 14418674 drwxrwxr-x  1000   1000      4096 22-Mar-2020 20:14 .conda
+ 14418677 drwxrwxr-x  1000   1000      4096 21-Mar-2020 14:31 .designer
+ 14418681 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .dotnet
+ 11675804 drwxrwxr-x  1000   1000      4096 15-Apr-2020 18:07 hs
+ 14942261 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .emacs.d
+ 14942262 drwxrwxr-x  1000   1000      4096 21-Mar-2020 14:31 .eric6
+ 14942278 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .fltk
+ 14942280 drwxrwxr-x  1000   1000      4096 21-Mar-2020 14:31 .fmxlinux
+ 14942281 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .gnome
+ 14942283 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .gphoto
+ 14942284 drwxrwxr-x  1000   1000      4096 21-Mar-2020 14:31 .icons
+ 14942532 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .ipython
+ 14942541 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .java
+ 14942572 drwxrwxr-x  1000   1000      4096 21-Mar-2020 14:31 .kite
+ 14942984 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .maltego
+ 15205147 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .mono
+ 15336213 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .mozilla
+ 15336222 drwxrwxr-x  1000   1000      4096 21-Mar-2020 14:43 .msf4
+ 15728888 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .mysql
+ 15728900 drwxrwxr-x  1000   1000      4096 22-Mar-2020 16:39 .nbi
+ 15728912 drwxrwxr-x  1000   1000      4096 21-Mar-2020 14:43 .netbeans
+ 15729232 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .omnisharp
+ 15729233 drwxrwxr-x  1000   1000      4096  1-Apr-2020 03:58 .oracle_jre_usage
+ 15729234 drwxrwxr-x  1000   1000      4096  9-Apr-2020 01:59 .p2
+ 15729444 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .pki
+ 11796866 drwxrwxr-x  1000   1000      4096 24-Mar-2020 21:23 .PlayOnLinux
+ 15990949 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .PyCharm2019.1
+ 15991279 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .Rider2019.3
+ 15991529 drwxrwxr-x  1000   1000      4096 21-Mar-2020 14:45 .scribus
+ 15991535 drwxrwxr-x  1000   1000      4096  7-Apr-2020 04:01 .ssh
+ 15991536 drwxrwxr-x  1000   1000      4096  2-Aug-2020 13:10 .steam
+ 15991537 drwxrwxr-x  1000   1000      4096 21-Mar-2020 14:45 .swt
+ 15991538 drwxrwxr-x  1000   1000      4096 21-Mar-2020 14:45 .synfig
+ 15991539 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .themes
+ 15991601 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .tooling
+ 16122335 drwxrwxr-x  1000   1000      4096 21-Mar-2020 14:45 .vscode
+ 16122684 drwxrwxr-x  1000   1000      4096 21-Mar-2020 14:47 .vsts
+ 16122685 drwxrwxr-x  1000   1000      4096 21-Mar-2020 13:51 .wicd
+ 16122686 drwxrwxr-x  1000   1000      4096  8-Apr-2020 14:11 .wine
+ 11676647 drwxrwxr-x  1000   1000      4096 22-Mar-2020 21:10 Arduino
+ 11688425 drwxrwxr-x  1000   1000      4096 23-Mar-2020 00:46 Lenovo
+ 11555475 lrwxrwxrwx  1000   1000        38 24-Mar-2020 18:13 PlayOnLinux's virtual drives
+ 11690860 drwxrwxr-x  1000   1000      4096 15-Apr-2020 05:47 Sh
+ 12063530 drwxrwxr-x  1000   1000      4096 13-Aug-2020 21:20 Sadeceon
+ 12324804 drwxrwxr-x  1000   1000      4096 24-Mar-2020 19:44 Games
+ 11692464 drwxrwxr-x  1000   1000      4096 19-Apr-2020 20:12 .kingsoft
+ 11935786 drwxrwxr-x  1000   1000      4096 24-Mar-2020 21:25 Program Files
+ 11689286 drwxrwxr-x  1000   1000      4096  8-Jul-2020 23:13 .cxoffice
+ 11689279 drwxrwxr-x  1000   1000      4096 27-Mar-2020 21:17 .menu
+ 11556038 -rw-rw-r--  1000   1000      9572  6-Apr-2020 06:31 .mime.types
+ 15352343 drwxrwxr-x  1000   1000      4096  6-Apr-2020 01:07 .gradle
+ 11676035 drwx------  1000   1000      4096 15-Apr-2020 07:06 hts-cache
+ 11616874 drwxrwxr-x  1000   1000      4096 24-Jun-2020 19:09 .ssr
+ 12333247 drwxrwxr-x  1000   1000      4096 27-Mar-2020 18:10 .ts3client
+ 11676006 drwxrwxr-x  1000   1000      4096 27-Apr-2020 18:36 NetBeansProjects
+ 11616892 drwxr-xr-x  1000   1000      4096  5-May-2020 14:00 .fonts
+ 11616868 drwxrwxr-x  1000   1000      4096  2-Jun-2020 21:49 Odev
+ 11657413 drwx------  1000   1000      4096 13-Jun-2020 23:51 .gconf
+ 11556742 drwxrwxr-x  1000   1000      4096  1-Apr-2020 18:19 System Volume Information
+ 11616923 drwxrwxr-x  1000   1000      4096 12-Jun-2020 23:17 Odevler Final
+ 11558930 drwxrwxr-x  1000   1000      4096  5-Apr-2020 18:08 Unity
+ 11616872 drwxrwxr-x  1000   1000      4096 29-Jun-2020 22:42 Batman Under The Red Hood (2010) [1080p]
+X11615374 -rw-------  1000   1000    131072 14-Aug-2020 16:24 3nedlq
+X11612163 -rw-------  1000   1000    541744 14-Aug-2020 16:25 .Xauthority-l
+X11615974 -rw-------  1000   1000        52 14-Aug-2020 16:24 .Xauthority-n
+ 11657418 drwxrwxr-x  1000   1000      4096 30-Jun-2020 22:00 cm-rgb
+ 11657467 drwxrwxr-x  1000   1000      4096  2-Jul-2020 01:10 MyPaint
+X11618344 -rw-rw-r--  1000   1000    122368  6-Aug-2020 00:36 dbokul.gz
+X11615217 -rw-rw-r--  1000   1000    980730  2-Jul-2020 01:48 a.ora
+X11557846 -rw-rw-r--  1000   1000       835 14-Aug-2020 16:24 Lqj5yp
+X11606809 -rw-rw-r--  1000   1000    205216 12-Aug-2020 19:06 .Xauthority-l
+X11612163 -rw-------  1000   1000    541744 14-Aug-2020 16:25 .Xauthority-n
+X11618336 -rw-------  1000   1000      5029 13-Aug-2020 23:24 .python_history-05928.tmp
+X11558963 -rw-rw-r--  1000   1000    121153  7-May-2020 02:50 .Xauthority-n
+X11616884 drwxrwxr-x  1000   1000      4096 11-May-2020 11:31 \tmp\VirtualBox Dropped Files\2020-04-26T10:38:28.199955000Z\KISIM2\build\Debug\MinGW-Windows
+X11616887 drwxrwxr-x  1000   1000      4096 11-May-2020 11:31 \tmp\VirtualBox Dropped Files\2020-04-26T10:38:28.199955000Z\KISIM2\dist
+X11616888 drwxrwxr-x  1000   1000      4096 11-May-2020 11:31 \tmp\VirtualBox Dropped Files\2020-04-26T10:38:28.199955000Z\KISIM2\dist\Debug
+X11616889 -rw-rw-r--  1000   1000       744 30-Jul-2020 17:42 \tmp\VirtualBox Dropped Files\2020-04-26T10:38:28.199955000Z\KISIM2\dist\Debug\MinGW-Windows
+X11616890 drwxrwxr-x  1000   1000      4096 11-May-2020 11:31 \tmp\VirtualBox Dropped Files\2020-04-26T10:38:28.199955000Z\KISIM2\include
+X11616896 drwxr-xr-x  1000   1000      4096  5-May-2020 14:00 \tmp\VirtualBox Dropped Files\2020-04-26T10:38:28.199955000Z\KISIM2\lib
+X11616899 drwxrwxr-x  1000   1000      4096 11-May-2020 11:31 \tmp\VirtualBox Dropped Files\2020-04-26T10:38:28.199955000Z\KISIM2\nbproject
+X11616900 drwxr-xr-x  1000   1000      4096  5-May-2020 14:00 \tmp\VirtualBox Dropped Files\2020-04-26T10:38:28.199955000Z\KISIM2\nbproject\private
+X11616901 -rw-rw-r--  1000   1000     14856 31-Jul-2020 16:09 \tmp\VirtualBox Dropped Files\2020-04-26T10:38:28.199955000Z\KISIM2\src
+Directory /home
+ 11534337 drwxr-xr-x     0      0      4096 22-Mar-2020 16:05 .
+       2 drwxr-xr-x     0      0      4096 14-Apr-2020 22:35 ..
+ 11534338 lrwxrwxrwx     0      0        44 22-Mar-2020 14:52 .directory
+ 11534339 drwxr-xr-x  1000   1000      4096 14-Aug-2020 16:24 serdar
+ 11682523 drwxr-xr-x  1001   1001      4096 19-Apr-2020 20:11 meyta
+Directory /
+       2 drwxr-xr-x     0      0      4096 14-Apr-2020 22:35 .
+       2 drwxr-xr-x     0      0      4096 14-Apr-2020 22:35 ..
+      11 drwx------     0      0     16384 22-Mar-2020 14:52 lost+found
+ 11272193 drwxr-xr-x     0      0      4096 31-Jul-2020 12:58 boot
+ 13893633 drwxr-xr-x     0      0     12288  6-Aug-2020 00:47 etc
+ 6029313 drwxr-xr-x     0      0      4096 22-Mar-2020 17:57 media
+ 12582913 drwxr-xr-x     0      0      4096 22-Mar-2020 22:32 var
+      12 lrwxrwxrwx     0      0         7 22-Mar-2020 14:52 bin
+ 11010049 drwxr-xr-x     0      0      4096 17-Oct-2019 15:30 dev
+ 11534337 drwxr-xr-x     0      0      4096 22-Mar-2020 16:05 home
+      13 lrwxrwxrwx     0      0         7 22-Mar-2020 14:52 lib
+      14 lrwxrwxrwx     0      0         9 22-Mar-2020 14:52 lib32
+      15 lrwxrwxrwx     0      0         9 22-Mar-2020 14:52 lib64
+      16 lrwxrwxrwx     0      0        10 22-Mar-2020 14:52 libx32
+ 9437185 drwxr-xr-x     0      0      4096 27-Mar-2020 19:42 mnt
+ 11796481 drwxr-xr-x     0      0      4096 22-Apr-2020 17:16 opt
+ 1572865 drwxr-xr-x     0      0      4096 14-Oct-2019 17:35 proc
+ 5242881 drwx------     0      0      4096 19-Apr-2020 20:11 root
+ 2621441 drwxr-xr-x     0      0      4096 22-Mar-2020 14:53 run
+      17 lrwxrwxrwx     0      0         8 22-Mar-2020 14:52 sbin
+  262145 drwxr-xr-x     0      0      4096 25-Jun-2020 15:29 snap
+ 2359297 drwxr-xr-x     0      0      4096 17-Oct-2019 15:22 srv
+ 6815745 drwxr-xr-x     0      0      4096 14-Oct-2019 17:35 sys
+ 8912897 drwxrwxrwt     0      0     12288 14-Aug-2020 16:25 tmp
+ 16777217 drwxr-xr-x     0      0      4096 23-Mar-2020 02:17 usr
+ 10485761 drwxr-xr-x     0      0      4096 22-Mar-2020 14:53 cdrom
+      19 -rwxr-xr-x     0      0      1308 23-Mar-2020 16:55 47293.sh
+    8142 -rw-r--r--     0      0         0 14-Apr-2020 01:25 .autorelabel
+X   8143 srwxr-xr-x     0      0         0 14-Apr-2020 22:35 php.socket-0
+X   8144 srwxr-xr-x     0      0         0 14-Apr-2020 22:35 php.socket-1
+X   8145 srwxr-xr-x     0      0         0 14-Apr-2020 22:35 php.socket-2
+X   8146 srwxr-xr-x     0      0         0 14-Apr-2020 22:35 php.socket-3
+
+TestDisk exited normally.

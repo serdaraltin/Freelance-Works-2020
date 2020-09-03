@@ -1,0 +1,233 @@
+#.net Developer Assignment
+
+You are a developer for a mobile application collecting and publishing recipes. The task assigned to you is to create the back-end REST services which can be consumed by the mobile application developer.
+//Yemek tarifleri toplayan(collect) ve yayınlayan(publish) bir mobil uygulama için geliştiricisiniz. Göreviniz ise mobil uygulama geliştiricisi tarafından kullanılabilecek back-end REST servis oluşturmanızdır.
+
+
+Below you'll find the user stories the product owner defined to create the first version of the Recipe web site.
+//Tarif web sitesinin 1. versiyonunu oluşturmak için ürünün sahibi tarafından tanımlanan kullanıcı hikayelerini aşağıda bulacaksınız.
+
+
+Your web api project should use,
+//Web api projeniz aşağıdakileri kullanmalı,
+- ORM,
+- Dependecy injection,
+- Repository Pattern
+
+You are free to choose which libraries or framework you would like to use.
+//Kullanacağın kütüphaneleri ve framework u kendi isteğine göre seçmekte özgürsün.
+
+### Story 1 - *As a mobile application developer I would like to query recipes from the back-end system with the capability to query subsets so I don't get all recipes at once*
+// Senaryo 1 - Mobil uygulama geliştiricisi olarak subsets leri(altdizinleri) sorgulayabilecek bir back-end sistemden tarifleri sorgulamak isterim ve böylece bütün tarifleri bir kerede almam.
+
+URL: /services/recipe/all  
+HTTP Method: POST
+
+HTTP response codes:
+HTTP geri dönüş kodları
+
+| Code | Reason |
+| ---- | ------ |
+| 200  | Successful operation | //İşlem başarılı
+| 204  | No recipes found | //Tarif Bulunamadı
+| 500  | Internal error occurred | //Dahili bir hata oluştu
+
+
+HTTP 200 : List of recipes  
+MimeTypes: application/json
+
+Request body
+//istek yapısı
+
+request is up to you, add properties whichever you want to query over
+istek(request) size kalmış, sorgulamak istediğiniz özelliği ekleyin
+
+
+Body: 
+
+```
+{
+  "results": 1,         //sonuclar
+  "total": 90,          //toplam  
+  "recipes": [          //Tarifler
+    { 
+      "title": "30 Minute Chili",     //Konu
+      "categories": [                 //Kategori
+        "Main dish",                  //Ana Yemek
+        "Chili"
+      ],
+      "ingredients": [                  //Malzemeler
+        {
+          "amount": {                   //Miktar
+            "quantity": "1",            //Adet
+            "unit": "pound"             //birim
+          },
+          "name": "Ground chuck or lean ground; beef"
+        },
+        {
+          "amount": {
+            "quantity": "1",
+            "unit": ""
+          },
+          "name": "Onion; large, chopped"
+        },
+        {
+          "amount": {
+            "quantity": "1",
+            "unit": "can"
+          },
+          "name": "Kidney beans; (12 oz)"
+        },
+        {
+          "amount": {
+            "quantity": "1",
+            "unit": "can"
+          },
+          "name": "Tomato soup; undiluted"
+        },
+        {
+          "amount": {
+            "quantity": "1",
+            "unit": "teaspoon"
+          },
+          "name": "Salt"
+        },
+        {
+          "amount": {
+            "quantity": "1",
+            "unit": "tablespoon"
+          },
+          "name": "Chili powder; (or to taste)"
+        },
+        {
+          "amount": {
+            "quantity": "",
+            "unit": ""
+          },
+          "name": "Hot pepper sauce; to taste"
+        }
+      ],
+      "directions": {
+        "step": "  Brown the meat in a little butter and cook until the meat is brown -- about\n  10 minutes. Add all other ingredients and let simmer for 30 minutes. Your\n  choice of hot sauce may be added to taste.\n  \n  Recipe by: MasterCook Archives\n  \n  Posted to recipelu-digest Volume 01 Number 577 by Rodeo46898\n  <Rodeo46898@aol.com> on Jan 22, 1998\n \n"
+      }
+    }
+  ]
+}
+```
+
+### Story 2 - *As a mobile application developer I would like to query all recipe categories from the back-end so I provide an easy selection mechanism on the web site*
+// Senaryoikaye 2 - Mobil uygulama geliştiricisi olarak tüm tarif kategorilerini back-end tarafından sorguluyorum ve böylece web sitesi için kolay bir seçim mekanizması sağlıyorum.
+
+URL: /services/recipe/filter/categories  
+HTTP Method: GET
+
+HTTP response codes:
+
+| Code | Reason |
+| ---- | ------ |
+| 200  | Successful operation |
+| 204  | No categories found |
+| 500  | Internal error occurred |
+
+
+HTTP 200 : List of recipes  
+MimeTypes: application/json
+
+Body
+
+```
+{
+  "results": 7,
+  "categories": [
+    "chili",
+    "cake mixes",
+    "main dish",
+    "cakes",
+    "liquor",
+    "vegetables",
+    "microwave"
+  ]
+}
+```
+
+### Story 3 - *As a mobile application developer I would like to have an endpoint on the back-end to add new recipes to the store*
+//Senaryo 3 -  Mobil uygulama geliştiricisi olarak mağazaya yeni tarifler eklemek için back-end tarafında bir endpoint istiyorum.
+
+URL: /services/recipe/add  
+HTTP Method: PUT
+
+HTTP response codes:
+
+| Code | Reason |
+| ---- | ------ |
+| 201  | Recipe created |
+| 400  | Wrong JSON object
+| 409  | Recipe duplicated |
+| 500  | Internal error occurred |
+
+Request body
+
+```
+{
+  "title": "30 Minute Chili",
+  "categories": [
+    "Main dish",
+    "Chili"
+  ],
+  "ingredients": [
+    {
+      "amount": {
+        "quantity": "1",
+        "unit": "pound"
+      },
+      "name": "Ground chuck or lean ground; beef"
+    },
+    {
+      "amount": {
+        "quantity": "1",
+        "unit": ""
+      },
+      "name": "Onion; large, chopped"
+    },
+    {
+      "amount": {
+        "quantity": "1",
+        "unit": "can"
+      },
+      "name": "Kidney beans; (12 oz)"
+    },
+    {
+      "amount": {
+        "quantity": "1",
+        "unit": "can"
+      },
+      "name": "Tomato soup; undiluted"
+    },
+    {
+      "amount": {
+        "quantity": "1",
+        "unit": "teaspoon"
+      },
+      "name": "Salt"
+    },
+    {
+      "amount": {
+        "quantity": "1",
+        "unit": "tablespoon"
+      },
+      "name": "Chili powder; (or to taste)"
+    },
+    {
+      "amount": {
+        "quantity": "",
+        "unit": ""
+      },
+      "name": "Hot pepper sauce; to taste"
+    }
+  ],
+  "directions": {
+    "step": "  Brown the meat in a little butter and cook until the meat is brown -- about\n  10 minutes. Add all other ingredients and let simmer for 30 minutes. Your\n  choice of hot sauce may be added to taste.\n  \n  Recipe by: MasterCook Archives\n  \n  Posted to recipelu-digest Volume 01 Number 577 by Rodeo46898\n  <Rodeo46898@aol.com> on Jan 22, 1998\n \n"
+  }
+}
+
+
