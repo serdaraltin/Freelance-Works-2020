@@ -1,0 +1,4 @@
+Rapor dosyası kapak sayfasını özelliştirdikten sonra
+Sol üst bölümden;
+Dosya > Farklı Kaydet > Pdf(.pdf)
+seçeneğinden pdf olarak kaydediniz. 

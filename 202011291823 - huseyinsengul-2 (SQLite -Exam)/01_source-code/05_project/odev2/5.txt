@@ -1,0 +1,10 @@
+KURULUM
+
+	1. https://www.sqlite.org/download.html adresinden sqlite-tools-win32-x86-*.zip dosyasını indiriniz.
+	2. C:\sqlite adında bir klasör oluştur ve dosyaları oraya çıkartınız 
+	3. Klasör yolunu ortam değişkenlerine eklemek için; Başlat -> Ara -> Sistem Ortam Değişkenlerini düzenleyiniz.
+	4. Ortam değişkenlerine sqlite konumunu ekleyiniz.
+
+PATH TANIMI GEREKSİNİMİ
+	
+	Komut penceresinin açıldığı herhangi bir yerden sqlite3 komutu ile SQLite erişmek için.

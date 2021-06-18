@@ -1,0 +1,10 @@
+----------------------------------------------------------------
+Sun Dec 15 23:17:28 EET 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.2.2 - (1181258): instance a816c00e-016f-0b35-6dce-000007093d70 
+on database directory C:\Users\Serdar\Desktop\Trade\Sadeceon\cemgu\kaynak-kod\cemgu\okul  with class loader sun.misc.Launcher$AppClassLoader@74a14482 
+Loaded from file:/C:/Users/Serdar/Desktop/Trade/Sadeceon/cemgu/kaynak-kod/cemgu/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_131-b11
+user.dir=C:\Users\Serdar\Desktop\Trade\Sadeceon\cemgu\kaynak-kod\cemgu
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

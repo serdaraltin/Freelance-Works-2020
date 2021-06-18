@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Windows 10"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-08-26 09:45:49 &#214;S"/>
+        <attribute name="created" value="V2luZG93cyAxMDtERVNLVE9QLTA0OFNSTE87MjAyMC0wOC0yNjswOTo0MDo1MSDDllM7MzM1OA=="/>
+        <attribute name="edited" value="V2luZG93cyAxMDtERVNLVE9QLTA0OFNSTE87MjAyMC0wOC0yNjswOTo0NTo0OSDDllM7MjszNDc5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="T1, T2" type="Integer" array="False" size=""/>
+            <assign variable="T1" expression="2"/>
+            <assign variable="T2" expression="2"/>
+            <declare name="i, j" type="Integer" array="False" size=""/>
+            <for variable="i" start="1" end="4" direction="inc" step="2">
+                <assign variable="T1" expression="i"/>
+                <for variable="j" start="1" end="5" direction="inc" step="1">
+                    <if expression="(j % 2) &lt;&gt; 0">
+                        <then>
+                            <assign variable="T1" expression="T1+(2*j)"/>
+                        </then>
+                        <else>
+                            <assign variable="T2" expression="T2+i+j"/>
+                        </else>
+                    </if>
+                </for>
+            </for>
+            <output expression="2*T1" newline="False"/>
+            <output expression="T2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

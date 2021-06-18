@@ -1,0 +1,9 @@
+ALTERNATE KEY
+	
+	Birincil Anahtar benzeridir ve ikincil anahtar olarak tanımlanır.
+	Veriye bu key ile erişmek mümkündür.
+
+	Örnek:
+		Tablo : Ad,Soyad,No,Sinif
+
+		Bu tablodaki birincil anahtarın bulunduğu alan hariç tüm alanlar alternate key(ikincil anahatar) dir.

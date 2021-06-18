@@ -1,0 +1,10 @@
+1. İlişkisel ver modelinde 1-1 ilişkinin nasıl çalıştığını bir örnek üzerinde kısaca anlatınız.
+2. Bir veritabanında öğrenci özlük bilgilerini içeren kimlik adında tablo olsun. Öğrencilerin ders seçimi yaptıkları seçim isminde bir başka tablo daha olsun. Seçim tablosunda hangi alanlar (sütunlar) bulunmalıdır ? Her iki tabloyu ilişkilendirecek bir şekilde ilişki modelini gösteriniz.
+3. Sırasal Erişimi dosya nedir? Random Erişimi dosyadan farkı nedir ? Kısaca belirtiniz.
+4. Python ile bir dosya oluşturmak istesek hangi modlarda dosyayı oluşturabiliriz? Her modun amacını kısaca belirtiniz.
+5. Çoktan Çoka ilişki modeli nedir bunu bir örnek üzerinde anlatınız.
+6. Kaç tür anahtar (key) vardır. Veritabanında anahtar alan ne işe yarar ?
+7. Alternate key nedir? Bir örnek veriniz.
+8. Primary key ile Foreign key arasındaki fark nedir? Bir örnek ile açıklayınız.
+9. SQLite3 ‘ü MYSQL den ayıran temel özellikler ve farklar nelerdir ?
+10. SQLite da komut tipleri nasıl gruplanmıştır.

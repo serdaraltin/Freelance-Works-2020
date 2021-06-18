@@ -1,0 +1,11 @@
+https://www.w3schools.com/python/python_user_input.asp
+https://stackoverflow.com/questions/285289/exit-codes-in-python
+https://www.journaldev.com/23750/python-convert-string-to-list
+https://www.geeksforgeeks.org/python-pandas-series-str-contains/
+https://www.afternerd.com/blog/python-string-contains/
+https://www.geeksforgeeks.org/different-ways-to-clear-a-list-in-python/
+https://www.programiz.com/python-programming/methods/list/clear
+https://www.programiz.com/python-programming/methods/list/remove
+https://www.geeksforgeeks.org/python-list-remove/
+https://note.nkmk.me/en/python-list-clear-pop-remove-del/
+https://discuss.codecademy.com/t/what-ways-can-we-use-to-remove-elements-from-a-list-in-python/376298 

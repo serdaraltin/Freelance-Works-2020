@@ -1,0 +1,142 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+#define COUNT 10
+
+struct node
+{
+	int data;
+	struct node *left;
+	struct node *right;
+};
+
+struct node* newNode(int data){
+	struct node* node = (struct node*)malloc(sizeof(struct node));
+
+	node->data = data;
+
+	node->left = NULL;
+	node->right = NULL;
+
+	return (node);
+}
+
+void printTree(struct node *tp, int spaces )
+{
+  int i;
+
+  if( tp != NULL )
+  {
+    printTree( tp->right, spaces + 3 );
+    for( i = 0; i < spaces; i++ )
+      printf(" ");
+    printf("%d\n",tp->data);
+    printTree( tp->left, spaces + 3 );
+  }
+}
+
+struct node* insert(struct node* node, int data){
+	if(node == NULL)
+		return newNode(data);
+
+	if(data < node->data)
+		node->right = insert(node->right,data);
+	else if (data > node->data)
+		node->left = insert(node->left,data);
+
+	return node;
+}
+
+struct node* minValueNode(struct node* node){
+	struct node* current = node; 
+
+    while (current && current->left != NULL) 
+        current = current->left; 
+  
+    return current; 
+}
+
+struct node* deleteNode(struct node* root, int data){
+
+    if (root == NULL) 
+    	return root; 
+  
+    if (data < root->data) 
+        root->left = deleteNode(root->left, data); 
+    else if (data > root->data) 
+        root->right = deleteNode(root->right, data); 
+    else
+    { 
+        if (root->left == NULL) 
+        { 
+            struct node *temp = root->right; 
+            free(root); 
+            return temp; 
+        } 
+        else if (root->right == NULL) 
+        { 
+            struct node *temp = root->left; 
+            free(root); 
+            return temp; 
+        } 
+        struct node* temp = minValueNode(root->right); 
+        root->data = temp->data; 
+
+        root->right = deleteNode(root->right, temp->data); 
+    } 
+    return root; 
+}
+
+void inorder(struct node *root) 
+{ 
+    if (root != NULL){ 
+        printf("%d ", root->data); 
+        inorder(root->right); 
+		inorder(root->left); 
+    } 
+} 
+
+void deleteTree(struct node* node)  
+{ 
+    if (node == NULL) return; 
+  
+    /* first delete both subtrees */
+    deleteTree(node->left); 
+    deleteTree(node->right); 
+    
+    /* then delete the node */
+    printf("\n Deleting node: %d", node->data); 
+    free(node); 
+}  
+
+int main(){
+	struct node *root = NULL;
+
+	root = insert(root,7);
+
+	insert(root,9);
+	insert(root,1);
+	insert(root,12);
+	insert(root,8);
+	insert(root,4);
+	insert(root,34);
+	insert(root,11);
+	insert(root,5);
+	insert(root,3);
+	insert(root,45);
+
+	inorder(root); 
+	printf("\n-----------------------------\n");
+
+	root = deleteNode(root,45);
+
+	inorder(root); 
+	printf("\n-----------------------------\n");
+
+	root = deleteNode(root,4);
+
+
+	inorder(root); 
+	printf("\n-----------------------------\n");
+	return 0;
+} 

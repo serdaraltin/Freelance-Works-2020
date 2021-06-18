@@ -1,0 +1,86 @@
+
+/*
+ * 1. Kalıtım nedir? Örnek bir program yazarak kendi ifadelerinizle açıklayınız?
+ * 
+ * Kalıtım(Inheritence) : Nesneye Dayalı Programlama(OOP) özelliklerinden biridir.
+ * Bir sınıftaki methodların ve özelliklerin başka bir sınıfa aktarılması şeklidir.
+ * Kalıtan sınıf kalıttığı sınıfın method ve özelliklerine erişim sağlayabilir.
+ * Türetilen, türediği sınıfın bütün özelliklerini içerir.
+ * 
+ */
+
+
+using System;
+
+namespace ConsoleApp1
+{
+    //Bir kişiye ait temel özelliklerin tanımlandığı sınıf.
+    class Kisi_Ozellikleri
+    {
+        public string Ad;
+        public string Soyad;
+        public string Sehir;
+        public int Yas;
+    }
+
+    //Öğretmen kişisine ait özelliklerin tanımlandığı sınıf,
+    //Kisi_Ozellikleri sınıfından kalıtılmıştır böylelikle Kisi_Ozellikleri sınıfındaki özelliklere erişebilir.
+    class Ogretmen : Kisi_Ozellikleri
+    {
+        public string Universite;
+        public string Bolum;
+    }
+    //Öğrenci kişisine ait özelliklerin tanımlandığı sınıf,
+    //Kisi_Ozellikleri sınıfından kalıtılmıştır böylelikle Kisi_Ozellikleri sınıfındaki özelliklere erişebilir.
+    class Ogrenci : Kisi_Ozellikleri
+    {
+    }
+
+    //Programın ana sınıfı
+    class Program
+    {
+        //Main methodu
+        static void Main(string[] args)
+        {
+
+
+            Console.WriteLine("---> OGRETMEN BILGILERI\n");
+            //Ogretmen sınıfından "ahmet" adında bir nesne türetilmesi
+            Ogretmen ahmet = new Ogretmen();
+
+            //ilgili bilgilerin "ahmet" nesnesinin ilgili alanlarına doldurulması.
+            ahmet.Ad = "Ahmet";
+            ahmet.Soyad = "Bal";
+            ahmet.Bolum = "Veritabanı Yönetim Uzmanı";
+            ahmet.Universite = "Başakşehir MYO";
+            ahmet.Yas = 35;
+            ahmet.Sehir = "İstanbul";
+
+            //İlgili bilgilerin yazdırılması.
+            Console.WriteLine(ahmet.Ad);
+            Console.WriteLine(ahmet.Soyad);
+            Console.WriteLine(ahmet.Bolum);
+            Console.WriteLine(ahmet.Universite);
+            Console.WriteLine(ahmet.Yas);
+            Console.WriteLine(ahmet.Sehir + "\n\n");
+
+
+            Console.WriteLine("---> OGRENCI BILGILERI GELIYOR\n");
+            //Ogretmen sınıfından "ahmet" adında bir nesne türetilmesi
+            Ogrenci selin = new Ogrenci();
+
+            //ilgili bilgilerin "selin" nesnesinin ilgili alanlarına doldurulması.
+            selin.Ad = "Selin";
+            selin.Soyad = "Akbulut";
+            selin.Sehir = "Adana";
+            selin.Yas = 19;
+
+            //İlgili bilgilerin yazdırılması.
+            Console.WriteLine(selin.Ad);
+            Console.WriteLine(selin.Soyad);
+            Console.WriteLine(selin.Yas);
+            Console.WriteLine(selin.Sehir);
+            Console.ReadLine();
+        }
+    }
+}

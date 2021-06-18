@@ -1,0 +1,57 @@
+addseats tk1212 2 0 0
+addseats tk5457 3 0 0
+addseats tk1212 2 3 0
+addseats tk1212 2 3 4
+queue tk1212 psg_bus_1 business 1
+queue tk1212 psg_eco_1 economy 1
+queue tk1212 psg_bus_2 business 2
+queue tk1212 psg_eco_2 economy 2
+addseats tk5457 3 4 0
+error
+queue tk5457 psg_std_2 standard 1
+error
+queue tk5457 psg_eco_4 economy 1
+queue tk5457 psg_bus_3 business 1
+queue tk1212 psg_bus_4 business 3
+addseats tk5457 3 4 4
+queue tk1212 psg_eco_6 economy 3
+queue tk5457 psg_eco_7 economy 2
+queue tk1212 psg_bus_5 business 4
+error
+queue tk5457 psg_eco_9 economy 3
+queue tk5457 psg_eco_10 economy 4
+queue tk5457 psg_eco_11 economy 5
+queue tk5457 psg_eco_12 economy 6
+sold tk1212 2 3 2
+closed tk5457 0 8
+waiting psg_bus_3
+waiting psg_eco_7
+waiting psg_eco_4
+waiting psg_eco_9
+waiting psg_eco_10
+waiting psg_eco_11
+waiting psg_eco_12
+waiting psg_std_2
+error
+report tk1212
+business 2
+psg_bus_1
+psg_bus_2
+economy 3
+psg_eco_6
+psg_eco_1
+psg_eco_2
+standard 2
+psg_bus_4
+psg_bus_5
+end of report tk1212
+report tk5457
+business 0
+economy 0
+standard 0
+end of report tk5457
+closed tk1212 7 0
+info psg_std_2 tk5457 standard none
+info psg_eco_2 tk1212 economy economy
+error
+info psg_eco_12 tk5457 economy none

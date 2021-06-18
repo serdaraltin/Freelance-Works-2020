@@ -1,0 +1,6 @@
+c:\users\main\documents\visual studio 2017\Projects\CumleyiKelimelereBolme\CumleyiKelimelereBolme\bin\Debug\CumleyiKelimelereBolme.exe.config
+c:\users\main\documents\visual studio 2017\Projects\CumleyiKelimelereBolme\CumleyiKelimelereBolme\bin\Debug\CumleyiKelimelereBolme.exe
+c:\users\main\documents\visual studio 2017\Projects\CumleyiKelimelereBolme\CumleyiKelimelereBolme\bin\Debug\CumleyiKelimelereBolme.pdb
+c:\users\main\documents\visual studio 2017\Projects\CumleyiKelimelereBolme\CumleyiKelimelereBolme\obj\Debug\CumleyiKelimelereBolme.csprojResolveAssemblyReference.cache
+c:\users\main\documents\visual studio 2017\Projects\CumleyiKelimelereBolme\CumleyiKelimelereBolme\obj\Debug\CumleyiKelimelereBolme.exe
+c:\users\main\documents\visual studio 2017\Projects\CumleyiKelimelereBolme\CumleyiKelimelereBolme\obj\Debug\CumleyiKelimelereBolme.pdb

@@ -1,0 +1,3 @@
+Güvenlik gerekçesiyle dosya şifrelenmiştir.
+
+Sipariş onaylandığında parola aktarılacaktır.

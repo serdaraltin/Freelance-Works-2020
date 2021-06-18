@@ -1,0 +1,87 @@
+D:\ödevler\kitapci\Dal\bin\Debug\Dal.dll.config
+D:\ödevler\kitapci\Dal\bin\Debug\Dal.dll
+D:\ödevler\kitapci\Dal\bin\Debug\Dal.pdb
+D:\ödevler\kitapci\Dal\bin\Debug\entities.dll
+D:\ödevler\kitapci\Dal\bin\Debug\EntityFramework.dll
+D:\ödevler\kitapci\Dal\bin\Debug\EntityFramework.SqlServer.dll
+D:\ödevler\kitapci\Dal\bin\Debug\entities.pdb
+D:\ödevler\kitapci\Dal\bin\Debug\entities.dll.config
+D:\ödevler\kitapci\Dal\bin\Debug\EntityFramework.xml
+D:\ödevler\kitapci\Dal\bin\Debug\EntityFramework.SqlServer.xml
+D:\ödevler\kitapci\Dal\obj\Debug\Dal.csprojAssemblyReference.cache
+D:\ödevler\kitapci\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
+D:\ödevler\kitapci\Dal\obj\Debug\Dal.csproj.CopyComplete
+D:\ödevler\kitapci\Dal\obj\Debug\Dal.dll
+D:\ödevler\kitapci\Dal\obj\Debug\Dal.pdb
+C:\Users\LENOVO\Desktop\kitapci\Dal\bin\Debug\Dal.dll.config
+C:\Users\LENOVO\Desktop\kitapci\Dal\bin\Debug\Dal.dll
+C:\Users\LENOVO\Desktop\kitapci\Dal\bin\Debug\Dal.pdb
+C:\Users\LENOVO\Desktop\kitapci\Dal\bin\Debug\entities.dll
+C:\Users\LENOVO\Desktop\kitapci\Dal\bin\Debug\EntityFramework.dll
+C:\Users\LENOVO\Desktop\kitapci\Dal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\LENOVO\Desktop\kitapci\Dal\bin\Debug\entities.pdb
+C:\Users\LENOVO\Desktop\kitapci\Dal\bin\Debug\entities.dll.config
+C:\Users\LENOVO\Desktop\kitapci\Dal\bin\Debug\EntityFramework.xml
+C:\Users\LENOVO\Desktop\kitapci\Dal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\LENOVO\Desktop\kitapci\Dal\obj\Debug\Dal.csprojAssemblyReference.cache
+C:\Users\LENOVO\Desktop\kitapci\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\kitapci\Dal\obj\Debug\Dal.csproj.CopyComplete
+C:\Users\LENOVO\Desktop\kitapci\Dal\obj\Debug\Dal.dll
+C:\Users\LENOVO\Desktop\kitapci\Dal\obj\Debug\Dal.pdb
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\Dal\bin\Debug\Dal.dll.config
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\Dal\bin\Debug\Dal.dll
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\Dal\bin\Debug\Dal.pdb
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\Dal\bin\Debug\entities.dll
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\Dal\bin\Debug\EntityFramework.dll
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\Dal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\Dal\bin\Debug\JetEntityFrameworkProvider.dll
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\Dal\bin\Debug\entities.pdb
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\Dal\bin\Debug\entities.dll.config
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\Dal\bin\Debug\EntityFramework.xml
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\Dal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\Dal\obj\Debug\Dal.csprojAssemblyReference.cache
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\Dal\obj\Debug\Dal.csproj.CopyComplete
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\Dal\obj\Debug\Dal.dll
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\Dal\obj\Debug\Dal.pdb
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\Dal\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\Dal\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\Dal\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\Dal\bin\Debug\Dal.dll.config
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\Dal\bin\Debug\Dal.dll
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\Dal\bin\Debug\Dal.pdb
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\Dal\bin\Debug\entities.dll
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\Dal\bin\Debug\EntityFramework.dll
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\Dal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\Dal\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\Dal\bin\Debug\JetEntityFrameworkProvider.dll
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\Dal\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\Dal\bin\Debug\entities.pdb
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\Dal\bin\Debug\entities.dll.config
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\Dal\bin\Debug\EntityFramework.xml
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\Dal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\Dal\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\Dal\obj\Debug\Dal.csprojAssemblyReference.cache
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\Dal\obj\Debug\Dal.csproj.CopyComplete
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\Dal\obj\Debug\Dal.dll
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\Dal\obj\Debug\Dal.pdb
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\Dal\bin\Debug\Dal.dll.config
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\Dal\bin\Debug\Dal.dll
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\Dal\bin\Debug\Dal.pdb
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\Dal\bin\Debug\entities.dll
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\Dal\bin\Debug\EntityFramework.dll
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\Dal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\Dal\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\Dal\bin\Debug\JetEntityFrameworkProvider.dll
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\Dal\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\Dal\bin\Debug\entities.pdb
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\Dal\bin\Debug\entities.dll.config
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\Dal\bin\Debug\EntityFramework.xml
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\Dal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\Dal\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\Dal\obj\Debug\Dal.csprojAssemblyReference.cache
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\Dal\obj\Debug\Dal.csproj.CopyComplete
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\Dal\obj\Debug\Dal.dll
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\Dal\obj\Debug\Dal.pdb

@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\furkankorkmzr\furkankorkmzr\bin\Debug\furkankorkmzr.exe.config
+C:\Users\User\Desktop\furkankorkmzr\furkankorkmzr\bin\Debug\furkankorkmzr.exe
+C:\Users\User\Desktop\furkankorkmzr\furkankorkmzr\bin\Debug\furkankorkmzr.pdb
+C:\Users\User\Desktop\furkankorkmzr\furkankorkmzr\obj\Debug\furkankorkmzr.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\furkankorkmzr\furkankorkmzr\obj\Debug\furkankorkmzr.Form_Giris.resources
+C:\Users\User\Desktop\furkankorkmzr\furkankorkmzr\obj\Debug\furkankorkmzr.Form_Products.resources
+C:\Users\User\Desktop\furkankorkmzr\furkankorkmzr\obj\Debug\furkankorkmzr.Form_VeritabaniBaglanti.resources
+C:\Users\User\Desktop\furkankorkmzr\furkankorkmzr\obj\Debug\furkankorkmzr.Properties.Resources.resources
+C:\Users\User\Desktop\furkankorkmzr\furkankorkmzr\obj\Debug\furkankorkmzr.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\furkankorkmzr\furkankorkmzr\obj\Debug\furkankorkmzr.exe
+C:\Users\User\Desktop\furkankorkmzr\furkankorkmzr\obj\Debug\furkankorkmzr.pdb
+C:\Users\User\Desktop\furkankorkmzr\furkankorkmzr\obj\Debug\furkankorkmzr.Form_Urun.resources

@@ -1,0 +1,2 @@
+Proje Netbeans IDE si ile hazırlanmıştır.
+words.txt dosyası proje ile aynı dizinde bulunmaktadır. 

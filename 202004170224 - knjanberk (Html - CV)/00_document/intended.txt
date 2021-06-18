@@ -1,0 +1,13 @@
+Ad=Canberk Soyad=Oğuz
+Lise= hasan süzer anadolu lisesi 
+üniversite=erdemli myo
+yaş=20 
+il= gaziantep 
+ülke=türkiye 
+e-mail=janberk0627@hotmail.com 
+telofon=05370454193 
+
+Gazaintepte doğdum aslen çerkesim.
+ilkokul ve orta okulu Ünler İlköğretim okulunda okudum .
+Lisede hasan süzer anadolu sizesinden mezun oldum . 
+1 sene mezuna kaldım ve şuan erdemli myo da bilgisayar proğramcılığı okuyorum.

@@ -1,0 +1,11 @@
+ SQLite3 .dump ve .schema KOMUTLARI FARKI
+
+ 	.dump NE İŞE YARAR
+ 		Veritabanını veya ayrı bir tabloyu metin biçiminde oluşturmak için kullanılan tüm SQL ifadelerini dökümü
+
+ 	.schema NE İŞE YARAR
+ 		Tüm tablolar veya belirtilen tablo için CREATE deyiminin SQL metnini gösterme
+
+ 	ARASINDAKİ FARKLAR
+ 		.dump örnek olarak bir tablonun metin biçimini verirken .schema o tablonun tekrardan oluşturulması için
+ 		gereken SQL metninin verir

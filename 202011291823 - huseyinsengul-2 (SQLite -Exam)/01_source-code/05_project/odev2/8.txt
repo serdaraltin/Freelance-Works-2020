@@ -1,0 +1,18 @@
+TABLODAKİ VERİLERİ EXCEL ORTAMINA AKTARMA
+	
+	SQLite KISMI
+
+		.mode csv
+		.output dosya.txt
+		select * from tablo_adi
+
+	EXCEL KISMI
+
+		Veri > Dışarıdan Veri Al > Metinden
+		Metin Aktarma Sihirbazı > Sınırlandırılmış > Virgül > Verileri İçe Aktar
+		Bitir
+
+	KULLANILAN MOD
+
+		csv (comma seperate value / virgülle ayrılmış değerler)
+ 

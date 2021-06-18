@@ -1,0 +1,3 @@
+B Tree ve 2-3 Tree algoritmaları hakkında genel bilgi veriniz.
+Belirlediğiniz 10 integer sayıyı 2-3 ağaç yapısına ekleme işlemi ve
+3 adet sayıyı bu ağaçtan silme işlemi yaparak gerçekleştiriniz

@@ -1,0 +1,26 @@
+Gerekli yapıları ilan edin. (Doğum tarh, YYYYMMDD formatında tek br tam sayı olarak kaydedlecektr.) 
+• Kullanıcıdan grş metn dosyasının adını girin. 
+• Bu metn dosyasındak tüm verler okuyun ve bağlantılı br lstede saklayın. 
+	DİKKAT: Bağlantılı lste Her zaman öğrenclern doğum tarhlerne göre sıralanacaktır. 
+• Tüm öğrencler bağlantılı lstede göster. • Br bölüm kodu grn ve öğrencler o bölüme göstern. 
+• Tüm öğrenclern sınıf alanını 1 arttırma. • Bu lsteden sınıf değer> 4 olan düğümler kaldırın, 
+	ancak bunları knc lsteye ekleyn. Öyleyse Onları serbest bırakmayın, sadece br bağlantılı lsteye ekleyn. 
+• İlk bağlantılı lstey tekrar görüntüleyn ve knc bağlantılı lstey görüntüleyn
+
+
+
+1. Dosyadan veri okuma
+2. Linklist(bağlı liste) oluşturma
+3. Linklist(bağlı liste) ekleme,silme işlemleri yapma
+4. Sıralama algoritması oluşturma
+5. 
+
+
+örnek dosya girdisi-----------------------
+------------------------------------------
+149875280;Burcu Aksu;04/04/1994;F;CS;3
+160051581;Erhan Orkun;06/05/1995;M;EEE;3
+155898933;Nuh Kaplan;26/01/1998;M;ME;2
+157577471;Turgut Aksu;08/03/1995;M;IE;4
+185060240;Hulya Kurt;04/08/1999;F;CivE;1
+------------------------------------------

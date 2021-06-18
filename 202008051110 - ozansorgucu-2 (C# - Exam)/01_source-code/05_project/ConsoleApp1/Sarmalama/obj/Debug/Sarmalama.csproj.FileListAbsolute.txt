@@ -1,0 +1,4 @@
+C:\Users\User\Desktop\ConsoleApp1\Sarmalama\bin\Debug\Sarmalama.exe
+C:\Users\User\Desktop\ConsoleApp1\Sarmalama\bin\Debug\Sarmalama.pdb
+C:\Users\User\Desktop\ConsoleApp1\Sarmalama\obj\Debug\Sarmalama.exe
+C:\Users\User\Desktop\ConsoleApp1\Sarmalama\obj\Debug\Sarmalama.pdb

@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+struct linklist{
+    int job;
+    struct linklist *next;
+};
+
+typedef struct linklist *node;
+
+
+node createNode(){
+    node temp;
+    temp = (node)malloc(sizeof(struct linklist));
+    temp->next = NULL;
+    return temp;
+}
+
+node addNode(node head, int value){
+    node temp,p;
+    temp = createNode();
+    temp->job = value;
+    if(head == NULL){
+        head = temp;
+    }else{
+        p = head;
+        while(p->next != NULL){
+            p = p->next;
+        }
+        p->next = temp;
+    }
+    return head;
+}
+
+int main(){
+
+    addNode(node *job1, 2);
+
+	
+}
+
+

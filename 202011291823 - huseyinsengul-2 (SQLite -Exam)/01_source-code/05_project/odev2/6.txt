@@ -1,0 +1,5 @@
+ SQLite3 ü bilgisayara kurmadan komutları web üzerinden çalıştırmak mümkün mü? Bu işi yapacak bir süte örneği veriniz.
+
+ 	Evet mümkün
+
+ 	Örnek Site : https://www.sqlitetutorial.net/

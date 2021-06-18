@@ -1,0 +1,13 @@
+PYTHON DOSYA OLUŞTURMA MODLARI
+	
+	'w' modu: 
+		Dosyayı sadece yazmak için açar. Varolan dosyanın üzerine yazma işlemini yapar. Eğer çağrılan dosya bulunamadıysa yeni bir dosya oluşturur.
+	'w+' modu: 
+		Dosyayı hem okumak hem de yazmak için açar. Varolan dosyanın üzerine yazma işlemini yapar. Eğer çağrılan dosya bulunamadıysa yeni bir dosya oluşturur.
+	'a' modu: 
+		Dosyayı ekleme işlemi için açar. Eğer çağrılan dosya bulunursa, en sonundan eklemeye devam eder. Eğer dosya yoksa sadece yazma işlemi yapacak yeni bir dosya oluşturur.
+	'a+' modu: 
+		Dosyayı hem ekleme hem de okuma işlemi için açar. Eğer çağrılan dosya bulunursa, en sonundan eklemeye devam eder. Eğer dosya yoksa yazma ve okuma işlemleri yapacak yeni bir dosya oluşturur.
+
+	Örnek:
+		dosya = open('dosya.txt', 'w') 

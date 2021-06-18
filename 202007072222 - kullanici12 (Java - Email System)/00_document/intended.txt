@@ -1,0 +1,17 @@
+İki tür kullanıcı olacak. Bunlar Yönetici ve Basit Kullanıcı.
+
+Yönetici:Silme, güncelleme vb. gibi kullanıcı(lar) ı çalıştırabilir.
+Basit Kullanıcı: Bir veya daha fazla alıcıya posta oluşturabilir.
+
+
+Bir kullanıcı bir posta oluşturduğunda, ilgili GUI bileşeninde alıcıların posta adreslerini içermelidir.
+Adres, kayıtlı kullanıcılarda bulunup bulunmadığı kontrol etmelidir.
+Değilse, kayıtlı bir kullanıcı adresi girilene kadar posta adresi tekrar alınmalıdır.
+Alıcı kullanıcı adresi kayıtlı kullanıcılar dosyasında bulunursa, 
+Gönderen "Gönder" düğmesine tıkladıktan sonra, gönderenin adresi, postanın konusu ve postanın gövdesi,alıcının 
+Posta Kutusuna(kullanıcı kimliği) girilmelidir.Ayrıca, posta gönderenin SentMailBox (UserID) dosyasına dahil edilmelidir.
+Açıkçası, yeni bir kullanıcı kaydedildiğinde, her kullanıcı için otomatik olarak iki dosya, MailBox (UserID) ve SentMailBox (UserID) oluşturulmalıdır.
+Bir kullanıcı gelen posta kutusundan veya gönderilen posta kutusundan herhangi bir postayı sildiğinde, bu posta ilgili dosyadan silinir.
+
+
+Posta hesapları şu şekilde tanımlanmalıdır: xxx@stu.aydin.edu.tr (örnek: *)

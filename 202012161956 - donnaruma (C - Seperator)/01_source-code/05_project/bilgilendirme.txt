@@ -1,0 +1,3 @@
+işlemci mimarisinden kaynaklı yeniden derleme gerekebilmektedir.
+derleme işlemi için : gcc main.c
+çalıştırma işlemi için : ./a.out 

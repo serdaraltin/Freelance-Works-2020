@@ -1,0 +1,5 @@
+1 - Oda için struct oluşturma [öğrenci nolar, 4 kişilik hacim] -> 100 oda
+2 - Öğrenci için struct oluşturma [öğrenci no]
+3 - Eski öğrenci için struct oluşturma [öğrenci no]
+4 - odalar.txt, aktifogrenciler.txt, pasifogrenciler.txt olarak bilgiler dosyalara kaydedilecek
+5 - ekleme, silme , guncelleme

@@ -1,0 +1,17 @@
+﻿  stdafx.cpp
+  Soru1.cpp
+g:\freelance\+serhatdurn\01_source-code\05_project\programlamatemelleri\soru1\soru1.cpp(9): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+g:\freelance\+serhatdurn\01_source-code\05_project\programlamatemelleri\soru1\soru1.cpp(20): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+g:\freelance\+serhatdurn\01_source-code\05_project\programlamatemelleri\soru1\soru1.cpp(37): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+g:\freelance\+serhatdurn\01_source-code\05_project\programlamatemelleri\soru1\soru1.cpp(49): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+g:\freelance\+serhatdurn\01_source-code\05_project\programlamatemelleri\soru1\soru1.cpp(76): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+g:\freelance\+serhatdurn\01_source-code\05_project\programlamatemelleri\soru1\soru1.cpp(88): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+  LINK : G:\FreeLance\+serhatdurn\01_source-code\05_project\ProgramlamaTemelleri\Debug\Soru1.exe not found or not built by the last incremental link; performing full link
+  Soru1.vcxproj -> G:\FreeLance\+serhatdurn\01_source-code\05_project\ProgramlamaTemelleri\Debug\Soru1.exe
+  Soru1.vcxproj -> G:\FreeLance\+serhatdurn\01_source-code\05_project\ProgramlamaTemelleri\Debug\Soru1.pdb (Partial PDB)

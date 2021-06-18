@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Main"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-12-17 03:32:02 &#214;S"/>
+        <attribute name="created" value="TWFpbjtERVNLVE9QLVZVOUxEMjc7MjAyMC0xMi0xNzswMzoxMjoyOSDDllM7Mjg2NQ=="/>
+        <attribute name="edited" value="TWFpbjtERVNLVE9QLVZVOUxEMjc7MjAyMC0xMi0xNzswMzozMjowMiDDllM7NjsyOTcx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi1, sayi2, tekAdet, ciftAdet, tekToplam, ciftToplam" type="Integer" array="False" size=""/>
+            <declare name="tekOrtalama, ciftOrtalama" type="Real" array="False" size=""/>
+            <assign variable="tekAdet" expression="0"/>
+            <assign variable="ciftAdet" expression="0"/>
+            <assign variable="tekToplam" expression="0"/>
+            <assign variable="ciftToplam" expression="0"/>
+            <assign variable="tekOrtalama" expression="0"/>
+            <assign variable="ciftOrtalama" expression="0"/>
+            <input variable="sayi1"/>
+            <input variable="sayi2"/>
+            <declare name="kucuk, buyuk" type="Integer" array="False" size=""/>
+            <if expression="sayi1&gt;sayi2">
+                <then>
+                    <assign variable="kucuk" expression="sayi2"/>
+                    <assign variable="buyuk" expression="sayi1"/>
+                </then>
+                <else>
+                    <assign variable="kucuk" expression="sayi1"/>
+                    <assign variable="buyuk" expression="sayi2"/>
+                </else>
+            </if>
+            <declare name="sayac, adim" type="Integer" array="False" size=""/>
+            <assign variable="sayac" expression="0"/>
+            <assign variable="adim" expression="1"/>
+            <for variable="sayac" start="kucuk" end="buyuk" direction="inc" step="1">
+                <output expression="adim" newline="False"/>
+                <output expression="tekToplam" newline="True"/>
+                <output expression="tekAdet" newline="True"/>
+                <output expression="ciftToplam" newline="True"/>
+                <output expression="ciftAdet" newline="True"/>
+                <output expression="ciftAdet" newline="True"/>
+                <output expression="tekOrtalama" newline="True"/>
+                <output expression="ciftOrtalama" newline="True"/>
+                <if expression="sayac % 2 = 0">
+                    <then>
+                        <assign variable="ciftAdet" expression="ciftAdet+1"/>
+                        <assign variable="ciftToplam" expression="ciftToplam+sayac"/>
+                    </then>
+                    <else>
+                        <assign variable="tekAdet" expression="tekAdet+1"/>
+                        <assign variable="tekToplam" expression="tekToplam+1"/>
+                    </else>
+                </if>
+                <if expression="tekToplam&gt;0">
+                    <then>
+                        <assign variable="tekOrtalama" expression="tekToplam/tekAdet"/>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="ciftToplam&gt;0">
+                    <then>
+                        <assign variable="ciftOrtalama" expression="ciftToplam/ciftAdet"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="adim" expression="adim+1"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

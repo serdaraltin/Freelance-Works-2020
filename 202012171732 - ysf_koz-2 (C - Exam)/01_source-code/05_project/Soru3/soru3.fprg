@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Main"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-12-17 05:31:41 &#214;S"/>
+        <attribute name="created" value="TWFpbjtERVNLVE9QLVZVOUxEMjc7MjAyMC0xMi0xNzswNToyMzoyMCDDllM7Mjg2MA=="/>
+        <attribute name="edited" value="TWFpbjtERVNLVE9QLVZVOUxEMjc7MjAyMC0xMi0xNzswNTozMTo0MSDDllM7MjsyOTcx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="gunlukUcret, gelirVergisi, aylikBrutGelir, netAylikMaas" type="Real" array="False" size=""/>
+            <declare name="calisilanGunSayisi" type="Integer" array="False" size=""/>
+            <output expression="&quot;Calisan gunluk ucret (TL)&quot;" newline="True"/>
+            <input variable="gunlukUcret"/>
+            <output expression="&quot;Calisilan gun sayisi&quot;" newline="True"/>
+            <input variable="calisilanGunSayisi"/>
+            <assign variable="aylikBrutGelir" expression="gunlukUcret*calisilanGunSayisi"/>
+            <if expression="aylikBrutGelir&gt;5000">
+                <then>
+                    <assign variable="gelirVergisi" expression="(aylikBrutGelir/100)*25"/>
+                </then>
+                <else>
+                    <assign variable="gelirVergisi" expression="(aylikBrutGelir/100) * 20"/>
+                </else>
+            </if>
+            <assign variable="netAylikMaas" expression="aylikBrutGelir-gelirVergisi"/>
+            <output expression="&quot;Aylik bru gelir&quot;" newline="True"/>
+            <output expression="aylikBrutGelir" newline="True"/>
+            <output expression="&quot;Gelir vergisi&quot;" newline="True"/>
+            <output expression="gelirVergisi" newline="True"/>
+            <output expression="&quot;Net maas&quot;" newline="True"/>
+            <output expression="netAylikMaas" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

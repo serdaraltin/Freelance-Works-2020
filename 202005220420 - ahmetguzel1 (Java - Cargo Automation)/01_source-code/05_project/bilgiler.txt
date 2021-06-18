@@ -1,0 +1,3 @@
+yonetici bilgileri >
+Kullanıcı Adı : admin
+Parola : admin 

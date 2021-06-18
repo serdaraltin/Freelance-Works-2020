@@ -1,0 +1,51 @@
+Private Sub Command1_Click()
+
+Dim metin As String
+Dim metinters As String
+
+metin = InputBox("Islemek uzere bir metin giriniz" + vbCrLf + "icerisinde sessiz harfler bulunmali")
+
+For adim = Len(metin) To 1 Step -1
+    Dim harf As String
+    harf = Mid(metin, adim, 1)
+    metinters = metinters & harf
+Next
+
+MsgBox metinters
+
+Dim sessizmetin As String
+
+For k = 1 To Len(metin) Step 1
+
+      If Mid(metin, k, 1) <> "a" Then
+          If Mid(metin, k, 1) <> "e" Then
+            If Mid(metin, k, 1) <> "ı" Then
+                If Mid(metin, k, 1) <> "i" Then
+                    If Mid(metin, k, 1) <> "o" Then
+                        If Mid(metin, k, 1) <> "ö" Then
+                            If Mid(metin, k, 1) <> "u" Then
+                                If Mid(metin, k, 1) <> "ü" Then
+                                    sessizmetin = sessizmetin + Mid(metin, k, 1)
+                                End If
+                            End If
+                        End If
+                    End If
+                End If
+            End If
+          End If
+      End If
+      
+Next
+
+
+MsgBox sessizmetin
+
+Dim sessizmetinuzunluk As Integer
+
+sessizmetinuzunluk = Len(sessizmetin)
+
+MsgBox sessizmetinuzunluk
+
+
+End Sub
+ 

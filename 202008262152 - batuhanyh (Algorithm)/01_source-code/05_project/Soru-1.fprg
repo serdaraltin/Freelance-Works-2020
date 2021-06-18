@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="main"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-08-26 09:40:12 &#214;S"/>
+        <attribute name="created" value="bWFpbjtLVUJVTlRVOzIwMjAtMDgtMjY7MDk6MDY6NDAgUE07MjI2Mg=="/>
+        <attribute name="edited" value="bWFpbjtLVUJVTlRVOzIwMjAtMDgtMjY7MDk6MzY6MTcgUE07MTQ7MjQyOQ=="/>
+        <attribute name="edited" value="V2luZG93cyAxMDtERVNLVE9QLTA0OFNSTE87MjAyMC0wOC0yNjswOTo0MDoxMiDDllM7MzszNDY1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="gunSayisi" type="Integer" array="False" size=""/>
+            <input variable="gunSayisi"/>
+            <declare name="yil, ay, gun" type="Integer" array="False" size=""/>
+            <declare name="rAy" type="Real" array="False" size=""/>
+            <assign variable="yil" expression="gunSayisi / 365"/>
+            <assign variable="rAy" expression="(((gunSayisi / 365 - yil) * 1000) / 30) / 3"/>
+            <assign variable="ay" expression="rAy"/>
+            <assign variable="gun" expression="gunSayisi - ((yil * 365) + (ay *30))"/>
+            <output expression="yil" newline="True"/>
+            <output expression="ay" newline="True"/>
+            <output expression="gun" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

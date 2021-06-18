@@ -1,0 +1,1 @@
+mingw yolu bilgisayar pathinde tanımlı olmalıdır.

@@ -1,0 +1,2 @@
+Derleyici, nesne değişkenine bir nesne atadığında binding işlemi gerçekleştirilir.
+Bir nesne, belirli bir nesne türü olarak belirlilen bir değişkene atandığında Erken bağlanır. Bir nesne, object türünde olduğu belirtilen bir değişkene atandığında Geç bağlanır.

@@ -1,0 +1,27 @@
+addseat tk1212 business 2
+addseat tk1212 economy 3
+addseat tk1212 standard 4
+enqueue tk1212 business psg_bus_1 
+enqueue tk1212 economy psg_eco_1 
+enqueue tk1212 business psg_bus_2 
+enqueue tk1212 economy psg_eco_2 
+enqueue tk1212 standard psg_std_1 
+sell tk1212
+enqueue tk1212 economy psg_eco_3 
+enqueue tk1212 economy psg_eco_4 
+enqueue tk1212 business psg_bus_3 diplomat
+enqueue tk1212 business psg_bus_4 
+enqueue tk1212 economy psg_eco_6 veteran
+sell tk1212
+addseat tk1212 standard 4
+enqueue tk1212 economy psg_eco_7 veteran
+enqueue tk1212 business psg_bus_5
+enqueue tk1212 business psg_bus_6
+enqueue tk1212 economy psg_eco_8
+sell tk1212
+report tk1212 
+close tk1212 
+info psg_bus_4
+info psg_eco_2
+info psg_eco_3
+info psg_eco_6 

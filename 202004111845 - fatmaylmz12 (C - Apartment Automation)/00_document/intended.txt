@@ -1,0 +1,10 @@
+c++ da yapılcak Site Yönetim Programı(apartman sitesi olan ,web sitesi değil yanlış anlaşılmasın)
+struct yapısıyla beraber ikili türden rastgele erişimli dosyalama yöntemiyle veriler dosyalarda kalıcı olarak tutulacaktır
+programa ait dosyada en az 8 faklı veri alanı olmalıdır.
+program başlatıldığında bir menü olmalı.(kayıt ekleme,kayıt listeleme,kayıt arama,kayıt silme,kayıt güncelleme vb,)
+hepsi bir klasörün içinde olmalı.
+
+
+	printf("Ad\t:%s\nSoyad\t:%s\nMail\t:%s\nTelefon\t:%s\nDogum Tarih\t:%s\nMedeni Hal\t:%d\nKat\t:%d\nDaire\t:%d\nBaslangic Tarih\t:%s\n",
+			liste->ad,liste->soyad,liste->mailAdres,liste->telefon,liste->dogumTarih,liste->medeniHal,liste->kat,liste->daire,liste->baslangicTarih);
+	

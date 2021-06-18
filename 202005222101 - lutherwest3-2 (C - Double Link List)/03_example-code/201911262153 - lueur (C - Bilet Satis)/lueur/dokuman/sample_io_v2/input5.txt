@@ -1,0 +1,38 @@
+addseat it215 business 2
+addseat it215 economy 3
+addseat it215 standard 4
+enqueue it215 business psg_bus_1 
+enqueue it215 economy psg_eco_1 
+enqueue it215 business psg_bus_2 
+enqueue it215 economy psg_eco_2 
+addseat gw0215 business 4
+addseat gw0215 economy 3
+addseat gw0215 standard 7
+enqueue it215 standard psg_std_1 
+enqueue it215 economy psg_eco_3 
+enqueue it215 economy psg_eco_4 
+enqueue gw0215 economy psg_eco_13 
+enqueue gw0215 economy psg_eco_14 
+enqueue gw0215 business psg_bus_3 diplomat
+enqueue it215 business psg_bus_13 diplomat
+enqueue it215 business psg_bus_4 
+enqueue it215 economy psg_eco_6 veteran
+enqueue it215 economy psg_eco_7 veteran
+sell it215
+report it215 
+close it215 
+info psg_bus_4
+info psg_eco_2
+info psg_eco_3
+info psg_eco_6 
+enqueue gw0215 business psg_bus_11 
+enqueue gw0215 economy psg_eco_11 
+enqueue gw0215 business psg_bus_12 
+enqueue gw0215 economy psg_eco_12 
+enqueue gw0215 standard psg_std_11 
+enqueue gw0215 business psg_bus_14 
+enqueue gw0215 economy psg_eco_16 veteran
+enqueue gw0215 economy psg_eco_17 veteran
+sell gw0215
+report gw0215 
+close gw0215 

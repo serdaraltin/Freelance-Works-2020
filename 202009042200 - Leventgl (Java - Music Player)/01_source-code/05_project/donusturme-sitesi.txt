@@ -1,0 +1,5 @@
+Öncelikle istediğiniz müzikleri mp3 formatında indirin.
+Ardından aşağıdaki siteden indirdiğiniz müzikleri dönüştürüp indirin.
+Son olarak kolay seçim için .aiff formatında indirdiğiniz müzikleri proje klasörüne taşıyın.
+
+https://convertio.co/tr/mp3-aiff/ 

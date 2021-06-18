@@ -1,0 +1,11 @@
+evet burdan ögretmmenin bana yazdıgı şeyleri yazıyorum
+
+Datagtidview deki bilgileri richtextbox a aktaran kod örneği yapalım her satir farklı renkte olsun richtextbox daki her bilgi satırı farklı renkte olsun(bu cümlede ne yazdıgını anlamadım farklı bişiden bahsediyoda olabilir asıl dikkate alınması gereken altta yazanlar sanırım)
+
+sadece mp3 ve vaw uzantılı dosyalar için dosya taşıma uygulamasıAma sadece mp3 ve vaw dosyaları görünecek(istedigi bu)
+
+Rapor gönderin bir de programın olduğu cd yi
+
+cdye çekicegim programı ayrı bir klasör içinde
+
+ayın en geç 20 sinde sizden almak istiyorum cok sağolun teşekkürler.(Çok profesyonel bir iş olmasına gerek yok)

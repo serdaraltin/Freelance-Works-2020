@@ -1,0 +1,6 @@
+[Dolphin]
+PreviewsShown=false
+Timestamp=2020,6,2,22,6,34
+Version=4
+ViewMode=1
+VisibleRoles=Details_text,Details_type,Details_size,Details_modificationtime,Details_accesstime,CustomizedDetails

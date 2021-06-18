@@ -1,0 +1,5 @@
+5707,Ahmet,BALABAN,ahmetbalaban@stu.aydin.edu.tr,111111,
+2374,Aysun,Almaz,aysunalmaz@stu.aydin.edu.tr,123456,
+8551,Duygu,Dumaz,duygudumaz@stu.aydin.edu.tr,789456,
+9871,Selin,Pelin,selinpelin@stu.aydin.edu.tr,159753,
+1122,İbrahim,Pala,sedatpala@stu.aydin.edu.tr,123654,

@@ -1,0 +1,91 @@
+D:\ödevler\kitapci\entities\bin\Debug\entities.dll.config
+D:\ödevler\kitapci\entities\bin\Debug\entities.dll
+D:\ödevler\kitapci\entities\bin\Debug\entities.pdb
+D:\ödevler\kitapci\entities\bin\Debug\EntityFramework.dll
+D:\ödevler\kitapci\entities\bin\Debug\EntityFramework.SqlServer.dll
+D:\ödevler\kitapci\entities\bin\Debug\EntityFramework.xml
+D:\ödevler\kitapci\entities\bin\Debug\EntityFramework.SqlServer.xml
+D:\ödevler\kitapci\entities\obj\Debug\entities.csprojAssemblyReference.cache
+D:\ödevler\kitapci\entities\obj\Debug\entities.csproj.CoreCompileInputs.cache
+D:\ödevler\kitapci\entities\obj\Debug\entities.csproj.CopyComplete
+D:\ödevler\kitapci\entities\obj\Debug\entities.dll
+D:\ödevler\kitapci\entities\obj\Debug\entities.pdb
+C:\Users\LENOVO\Desktop\kitapci\entities\bin\Debug\entities.dll.config
+C:\Users\LENOVO\Desktop\kitapci\entities\bin\Debug\entities.dll
+C:\Users\LENOVO\Desktop\kitapci\entities\bin\Debug\entities.pdb
+C:\Users\LENOVO\Desktop\kitapci\entities\bin\Debug\EntityFramework.dll
+C:\Users\LENOVO\Desktop\kitapci\entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\LENOVO\Desktop\kitapci\entities\bin\Debug\EntityFramework.xml
+C:\Users\LENOVO\Desktop\kitapci\entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\LENOVO\Desktop\kitapci\entities\obj\Debug\entities.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\kitapci\entities\obj\Debug\entities.csproj.CopyComplete
+C:\Users\LENOVO\Desktop\kitapci\entities\obj\Debug\entities.dll
+C:\Users\LENOVO\Desktop\kitapci\entities\obj\Debug\entities.pdb
+C:\Users\LENOVO\Desktop\kitapci\entities\obj\Debug\entities.csprojAssemblyReference.cache
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\entities\bin\Debug\entities.dll.config
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\entities\bin\Debug\entities.dll
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\entities\bin\Debug\entities.pdb
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\entities\bin\Debug\EntityFramework.dll
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\entities\bin\Debug\JetEntityFrameworkProvider.dll
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\entities\bin\Debug\EntityFramework.xml
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\entities\obj\Debug\entities.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\entities\obj\Debug\entities.csproj.CopyComplete
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\entities\obj\Debug\entities.dll
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\entities\obj\Debug\entities.pdb
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\entities\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\entities\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\entities\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\entities\obj\Debug\entities.Migrations.initialDb.resources
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\entities\obj\Debug\entities.csproj.GenerateResource.cache
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\entities\bin\Debug\entities.dll.config
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\entities\bin\Debug\entities.dll
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\entities\bin\Debug\entities.pdb
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\entities\bin\Debug\EntityFramework.dll
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\entities\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\entities\bin\Debug\JetEntityFrameworkProvider.dll
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\entities\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\entities\bin\Debug\EntityFramework.xml
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\entities\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\entities\obj\Debug\entities.Migrations.initialDb.resources
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\entities\obj\Debug\entities.csproj.GenerateResource.cache
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\entities\obj\Debug\entities.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\entities\obj\Debug\entities.csproj.CopyComplete
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\entities\obj\Debug\entities.dll
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\entities\obj\Debug\entities.pdb
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\entities\bin\Debug\entities.dll.config
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\entities\bin\Debug\entities.dll
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\entities\bin\Debug\entities.pdb
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\entities\bin\Debug\EntityFramework.dll
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\entities\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\entities\bin\Debug\JetEntityFrameworkProvider.dll
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\entities\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\entities\bin\Debug\EntityFramework.xml
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\entities\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\entities\obj\Debug\entities.Migrations.initialDb.resources
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\entities\obj\Debug\entities.csproj.GenerateResource.cache
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\entities\obj\Debug\entities.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\entities\obj\Debug\entities.csproj.CopyComplete
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\entities\obj\Debug\entities.dll
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\entities\obj\Debug\entities.pdb
+G:\FreeLance\onurtv\01_source-code\05_project\kutuphane\entities\bin\Debug\entities.dll.config
+G:\FreeLance\onurtv\01_source-code\05_project\kutuphane\entities\bin\Debug\entities.dll
+G:\FreeLance\onurtv\01_source-code\05_project\kutuphane\entities\bin\Debug\entities.pdb
+G:\FreeLance\onurtv\01_source-code\05_project\kutuphane\entities\bin\Debug\EntityFramework.dll
+G:\FreeLance\onurtv\01_source-code\05_project\kutuphane\entities\bin\Debug\EntityFramework.SqlServer.dll
+G:\FreeLance\onurtv\01_source-code\05_project\kutuphane\entities\bin\Debug\EntityFramework.SqlServerCompact.dll
+G:\FreeLance\onurtv\01_source-code\05_project\kutuphane\entities\bin\Debug\JetEntityFrameworkProvider.dll
+G:\FreeLance\onurtv\01_source-code\05_project\kutuphane\entities\bin\Debug\System.Data.SqlServerCe.dll
+G:\FreeLance\onurtv\01_source-code\05_project\kutuphane\entities\bin\Debug\EntityFramework.xml
+G:\FreeLance\onurtv\01_source-code\05_project\kutuphane\entities\bin\Debug\EntityFramework.SqlServer.xml
+G:\FreeLance\onurtv\01_source-code\05_project\kutuphane\entities\bin\Debug\EntityFramework.SqlServerCompact.xml
+G:\FreeLance\onurtv\01_source-code\05_project\kutuphane\entities\obj\Debug\entities.csprojResolveAssemblyReference.cache
+G:\FreeLance\onurtv\01_source-code\05_project\kutuphane\entities\obj\Debug\entities.Migrations.initialDb.resources
+G:\FreeLance\onurtv\01_source-code\05_project\kutuphane\entities\obj\Debug\entities.csproj.GenerateResource.Cache
+G:\FreeLance\onurtv\01_source-code\05_project\kutuphane\entities\obj\Debug\entities.dll
+G:\FreeLance\onurtv\01_source-code\05_project\kutuphane\entities\obj\Debug\entities.pdb

@@ -1,0 +1,30 @@
+Bu ödev kapsamında kullanıcının gireceği string ifadeleri AVL Ağacı üzerinde saklayacak ve aşağıda belirtilen işlemlerin yapılmasına olanak sağlayacak bir program yazmanız istenmektedir.
+
+
+
+Not: String karşılaştırmaları yapılırken (hangisinin küçük/büyük olduğunu belirlerken) aynı karakterin büyük ve küçük harflerle temsil edilmesi arasında fark olmadığı kabul edilecektir.
+
+
+
+Kullanıcı girdileri ve bu girdilere göre yapılacak işlemler aşağıdaki gibidir.
+
+- Yazılacak program kullanıcıdan sonsuz sayıda girdi alabilir.
+
+- Kullanıcıdan her defasında alınan girdinin ekle(X), sil(X ), ata(X),  yaz(preorder), yaz(inorder) veya yaz(postorder) olup 
+olmadığı kontrol edilmelidir. Eğer farklı bir giriş varsa hatalı giriş yapıldığı kullanıcıya bildirilmelidir.
+
+- Eğer kullanıcıdan alınan girdi ekle(X) ise X ifadesi için ağaca bir düğüm eklenir. Gerekli ise dengeleme işlemleri yapılır
+ve kullanıcıya ekleme işleminin yapıldığı bilgisi verilir.
+
+- Eğer kullanıcıdan alınan girdi sil (X) ise ilgili düğüm aranır. Eğer varsa silinir ve gerekli ise dengeleme işlemleri
+yapılarak kullanıcıya silme işleminin yapıldığı bilgisi verilir. Eğer ağaçta bu bilgiye sahip bir düğüm yoksa bu ifadenin ağaçta olmadığı uyarısı verilir.
+
+- Eğer kullanıcıdan alınan girdi ata(X) ise ilgili düğüm aranır. Eğer varsa ilgili düğümün ata düğümlerinde (ancestor nodes) tutulan bilgiler ebeveyn (parent) düğümden kök düğüme doğru olacak sırayla ekrana basılır. Düğüm kök düğüm ise kök düğüm olduğu belirtilir. Eğer ağaçta bu bilgiye sahip bir düğüm yoksa bu ifadenin ağaçta olmadığı uyarısı verilir. 
+Not: Düğümlerde ebeveyn bilgisi tutmanıza müsaade edilmemektedir!
+
+- Yazdığınız programı gerekli görseller/ ekran kayıtları verilerek detaylı anlatan ve çalışan-çalışmayan kısımlar belirten en fazla 3 sayfa olacak şekilde bir rapor yazmalısınız. Raporun düzeni ve içeriği dikkate alınır.
+
+
+Not: Rapor haricinde alacağınız toplam puan rapordan alınabilecek maksimum puanı etkiler.
+Not: Yazdığınız kodlarda herhangi bir kaynakta bulunan kodlarla %30'dan fazla benzerlik bulunursa benzerlik oranınca eksi puan alırsınız.
+Ayrıca, kodları birbirinin kodlarına %30'dan fazla benzeyenler sıfır puan alırlar.

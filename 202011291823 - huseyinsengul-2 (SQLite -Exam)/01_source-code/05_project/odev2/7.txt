@@ -1,0 +1,8 @@
+a. Bir veritabanı nasıl açılır?	
+	sqlite3 veritabani.db
+
+b. Database bağlantısı olup olmadığı hangi komutla anlaşılır ?
+	.database
+
+c. Kulllanabileceğimiz tabloları nasıl hangi komutla görürüz? 
+	.tables

@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F52CA783-0A66-47DE-A175-E6D3E166DDB0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EBilet_Programı</RootNamespace>
+    <AssemblyName>EBilet Programı</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>hollywood_ticket.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AsilAnaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AsilAnaForm.Designer.cs">
+      <DependentUpon>AsilAnaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EBiletTiklananKoltuklar.cs">
+      <DependentUpon>EBiletTiklananKoltuklar.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EBiletTiklananKoltuklar.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EBiletTiklananKoltuklar.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FilmSec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmSec.Designer.cs">
+      <DependentUpon>FilmSec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmKoltukSec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmKoltukSec.Designer.cs">
+      <DependentUpon>FilmKoltukSec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EBiletProgramiDataSet.cs">
+      <DependentUpon>EBiletProgramiDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EBiletProgramiDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EBiletProgramiDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="hataDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hataDialog.Designer.cs">
+      <DependentUpon>hataDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AsilAnaForm.resx">
+      <DependentUpon>AsilAnaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmSec.resx">
+      <DependentUpon>FilmSec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmKoltukSec.resx">
+      <DependentUpon>FilmKoltukSec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hataDialog.resx">
+      <DependentUpon>hataDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="Report2.rdlc" />
+    <None Include="app.config" />
+    <None Include="EBiletProgramiDataSet.xsc">
+      <DependentUpon>EBiletProgramiDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="EBiletProgramiDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EBiletProgramiDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EBiletProgramiDataSet.xss">
+      <DependentUpon>EBiletProgramiDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="EBiletTiklananKoltuklar.xsc">
+      <DependentUpon>EBiletTiklananKoltuklar.xsd</DependentUpon>
+    </None>
+    <None Include="EBiletTiklananKoltuklar.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EBiletTiklananKoltuklar.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EBiletTiklananKoltuklar.xss">
+      <DependentUpon>EBiletTiklananKoltuklar.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hollywood_ticket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arka_planlar1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="hollywood_ticket.ico" />
+    <Content Include="movies.ico" />
+    <None Include="Resources\Als_004.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,45 @@
+ACEDEMİCİAN
+    Faculty Members
+    Research Assistants
+
+OFFICER
+
+EMPLOYEE
+    Full Time
+        Worker
+        Chief
+    Part Time
+
+SECURITY
+
+------------------------
+GENEL
+	severancePay -> (calisilan yil)*(20*0.8)
+
+ACADEMİCİAN
+	severencePay -> (calisilan yil)*(20*0.8)
+	baseSalary = 2600
+	ssBenefits -> Faculty Member(baseSalary %135) / Research Assistants(baseSalary %105) / Mesai(20)
+	addCourseFee -> (saat > 20)
+
+OFFICER
+	severencePay -> (calisilan yil)*(20*0.8)
+	baseSalary = 2600
+	ssBenefits -> (baseSalary %65) / Mesai(20)
+
+SECURITY 
+	severencePay -> (calisilan yil)*(20*0.8)
+	hourOfWork -> (saat > 10)
+	foodMoney -> (günlük > 10)
+	transMoney -> (günlük > 5)
+
+EMPLOYEE
+	FULL TIME
+		severencePay -> (calisilan yil)*(20*15)
+		dayOfWork -> Chief (günlük > 125) / Worker (günlük > 105)
+		baseSalary = (gün*dayOfWork)
+		overWorkSalary -> Cheif (saat > 15) / Worker (saat > 11)
+	PART TIME
+		severencePay -> (calisilan yil)*(20*15)
+		hourOfWork -> (saat > 18)
+		

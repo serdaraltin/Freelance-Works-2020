@@ -1,0 +1,4 @@
+1 karton adet 12
+2 firca adet 33
+3 denemead kg 13
+5 demir kg 25

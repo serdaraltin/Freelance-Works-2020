@@ -1,0 +1,9 @@
+DDL NEDİR
+	DDL, Veri Tanımlama Dili anlamına gelir. Bu dil, veritabanının yapısını değiştirmek için kullanılır. Create, Alter, Drop, Truncate bazı DDL komutlarıdır.
+
+DML NEDİR
+	DML, Veri İşleme Dili anlamına gelir. DML, veritabanındaki verileri yönetmek için kullanılır. Yaygın DML komutları şunlardır: ekleme, silme, güncelleme.
+
+
+DDL VE DML ARASINDAKİ FARKLAR
+	DDL'nin veritabanının yapısını değiştirmek için kullanılması ve DML'nin veritabanındaki verileri yönetmek için kullanılmasıdır.

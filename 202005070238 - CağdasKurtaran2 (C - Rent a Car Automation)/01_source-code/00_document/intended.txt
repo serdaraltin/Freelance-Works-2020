@@ -1,0 +1,6 @@
+bu dersde bir proje hazırlamalısınız. proje bir oyun veya araç kiralama gibi bir CRM sistemi olabilir. 
+Proje : 
+1) Projenizi PDF belge formatında adım adım açıklayın 
+2) projenizden bir video kaydedin ve projenizi sunun 
+3) projenizin içinde olması gerekenler - structure - function - array - file -search -sort 
+4) videonuzu youtube'a yükleyin ve bağlantıyı (link) bana gönderin

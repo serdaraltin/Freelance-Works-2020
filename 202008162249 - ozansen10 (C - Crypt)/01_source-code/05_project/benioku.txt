@@ -1,0 +1,2 @@
+Bilgisayar > Özellikler > Gelişmiş Özellikler > Ortam Değişkenleri > path
+kısmına C:\MinGW\bin klasörünün tanımlanması gerekmektedir.

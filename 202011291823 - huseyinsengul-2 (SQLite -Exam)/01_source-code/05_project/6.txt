@@ -1,0 +1,12 @@
+ANAHTAR TÜRLERİ
+	
+	3 tür anahtar vardır.
+
+	Primary Key (Birincil Anahtar):
+		Bir tablodaki, her bir satırın yerine vekil olabilecek bir anahtar veridir. Tabloda bu alana ait bilginin tekrarlanmaması gerekir. Standart olarak bir tabloda verilerin, fiziksel hafıza üstünde de hangi alana göre dizileceğini de primary key belirler. Bu, bazen bir tek alan olabileceği gibi, bazen birden fazla alan da birleşerek bir birincil anahtar oluşturabilir. 
+
+	Unique Key (Tekil Anahtar):
+		Unique Key olarak tanımlanan alan için bir değer sadece bir kere girilebilir. Bir başka satıra daha aynı verinin girilmesine izin verilmez. Primary Key ’den farklı olarak Unique Key, NULL (boşluk) değerini alabilir. 
+
+	Foreign Key (Yabancı Anahtar):
+		İkincil anahtarın bir diğer adı yabancı anahtardır.  Bir tabloya girilebilecek değerleri başka bir tablonun belli bir alanında yer alabilecek veri grubu ile sınırlandırmaya ve en önemlisi de ilişkilendirmeye yarar. Yani hem veri tekrarının önüne geçmek, hem de daha sonradan yapılan güncellemelerde ilgili verilerin her yerde güncellenmesini sağlamaktır. 

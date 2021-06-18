@@ -1,0 +1,15 @@
+c:\users\ramazan\documents\visual studio 2015\Projects\dershane_otomasyon\dershane_otomasyon\bin\Debug\dershane_otomasyon.exe
+c:\users\ramazan\documents\visual studio 2015\Projects\dershane_otomasyon\dershane_otomasyon\bin\Debug\dershane_otomasyon.pdb
+c:\users\ramazan\documents\visual studio 2015\Projects\dershane_otomasyon\dershane_otomasyon\obj\Debug\dershane_otomasyon.csprojResolveAssemblyReference.cache
+c:\users\ramazan\documents\visual studio 2015\Projects\dershane_otomasyon\dershane_otomasyon\obj\Debug\dershane_otomasyon.Form1.resources
+c:\users\ramazan\documents\visual studio 2015\Projects\dershane_otomasyon\dershane_otomasyon\obj\Debug\dershane_otomasyon.Properties.Resources.resources
+c:\users\ramazan\documents\visual studio 2015\Projects\dershane_otomasyon\dershane_otomasyon\obj\Debug\dershane_otomasyon.csproj.GenerateResource.Cache
+c:\users\ramazan\documents\visual studio 2015\Projects\dershane_otomasyon\dershane_otomasyon\obj\Debug\dershane_otomasyon.exe
+c:\users\ramazan\documents\visual studio 2015\Projects\dershane_otomasyon\dershane_otomasyon\obj\Debug\dershane_otomasyon.pdb
+c:\users\ramazan\documents\visual studio 2015\Projects\dershane_otomasyon\dershane_otomasyon\obj\Debug\dershane_otomasyon.Form2.resources
+c:\users\ramazan\documents\visual studio 2015\Projects\dershane_otomasyon\dershane_otomasyon\obj\Debug\dershane_otomasyon.Form3.resources
+c:\users\ramazan\documents\visual studio 2015\Projects\dershane_otomasyon\dershane_otomasyon\obj\Debug\dershane_otomasyon.Form4.resources
+C:\Users\ramazan\documents\visual studio 2015\Projects\dershane_otomasyon\dershane_otomasyon\obj\Debug\dershane_otomasyon.Form5.resources
+C:\Users\ramazan\documents\visual studio 2015\Projects\dershane_otomasyon\dershane_otomasyon\obj\Debug\dershane_otomasyon.Form6.resources
+C:\Users\ramazan\documents\visual studio 2015\Projects\dershane_otomasyon\dershane_otomasyon\obj\Debug\dershane_otomasyon.Form7.resources
+C:\Users\ramazan\Documents\Visual Studio 2015\Projects\dershane_otomasyon\dershane_otomasyon\obj\Debug\dershane_otomasyon.Form8.resources

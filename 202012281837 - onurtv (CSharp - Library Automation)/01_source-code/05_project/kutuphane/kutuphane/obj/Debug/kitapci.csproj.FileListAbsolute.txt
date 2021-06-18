@@ -1,0 +1,145 @@
+C:\Users\LENOVO\Desktop\kitapci\kitapci\obj\Debug\kitapci.csprojAssemblyReference.cache
+C:\Users\LENOVO\Desktop\kitapci\kitapci\obj\Debug\kitapci.fmrAnaSayfa.resources
+C:\Users\LENOVO\Desktop\kitapci\kitapci\obj\Debug\kitapci.Properties.Resources.resources
+C:\Users\LENOVO\Desktop\kitapci\kitapci\obj\Debug\kitapci.csproj.GenerateResource.cache
+C:\Users\LENOVO\Desktop\kitapci\kitapci\obj\Debug\kitapci.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\kitapci\kitapci\bin\Debug\kitapci.exe.config
+C:\Users\LENOVO\Desktop\kitapci\kitapci\bin\Debug\kitapci.exe
+C:\Users\LENOVO\Desktop\kitapci\kitapci\bin\Debug\kitapci.pdb
+C:\Users\LENOVO\Desktop\kitapci\kitapci\obj\Debug\kitapci.exe
+C:\Users\LENOVO\Desktop\kitapci\kitapci\obj\Debug\kitapci.pdb
+C:\Users\LENOVO\Desktop\kitapci\kitapci\bin\Debug\EntityFramework.dll
+C:\Users\LENOVO\Desktop\kitapci\kitapci\bin\Debug\EntityFramework.xml
+C:\Users\LENOVO\Desktop\kitapci\kitapci\obj\Debug\kitapci.frmKiradakiKitaplar.resources
+C:\Users\LENOVO\Desktop\kitapci\kitapci\obj\Debug\kitapci.frmKitapEkle.resources
+C:\Users\LENOVO\Desktop\kitapci\kitapci\obj\Debug\kitapci.frmKitapGuncelle.resources
+C:\Users\LENOVO\Desktop\kitapci\kitapci\obj\Debug\kitapci.frmKitapKirala.resources
+C:\Users\LENOVO\Desktop\kitapci\kitapci\obj\Debug\kitapci.frmKitapSilListele.resources
+C:\Users\LENOVO\Desktop\kitapci\kitapci\obj\Debug\kitapci.frmYayinEviEkle.resources
+C:\Users\LENOVO\Desktop\kitapci\kitapci\obj\Debug\kitapci.frmYazarEkle.resources
+C:\Users\LENOVO\Desktop\kitapci\kitapci\obj\Debug\kitapci.csproj.CopyComplete
+D:\ödevler\kitapci\kitapci\obj\Debug\kitapci.csprojAssemblyReference.cache
+D:\ödevler\kitapci\kitapci\obj\Debug\kitapci.fmrAnaSayfa.resources
+D:\ödevler\kitapci\kitapci\obj\Debug\kitapci.frmKiradakiKitaplar.resources
+D:\ödevler\kitapci\kitapci\obj\Debug\kitapci.frmKitapEkle.resources
+D:\ödevler\kitapci\kitapci\obj\Debug\kitapci.frmKitapGuncelle.resources
+D:\ödevler\kitapci\kitapci\obj\Debug\kitapci.frmKitapKirala.resources
+D:\ödevler\kitapci\kitapci\obj\Debug\kitapci.frmKitapSilListele.resources
+D:\ödevler\kitapci\kitapci\obj\Debug\kitapci.frmMusteriEkle.resources
+D:\ödevler\kitapci\kitapci\obj\Debug\kitapci.frmMusteriGuncelle.resources
+D:\ödevler\kitapci\kitapci\obj\Debug\kitapci.frmMusteriSilListele.resources
+D:\ödevler\kitapci\kitapci\obj\Debug\kitapci.frmSatisDetay.resources
+D:\ödevler\kitapci\kitapci\obj\Debug\kitapci.frmSatisListesi.resources
+D:\ödevler\kitapci\kitapci\obj\Debug\kitapci.frmSatisYap.resources
+D:\ödevler\kitapci\kitapci\obj\Debug\kitapci.frmYayinEviEkle.resources
+D:\ödevler\kitapci\kitapci\obj\Debug\kitapci.frmYazarEkle.resources
+D:\ödevler\kitapci\kitapci\obj\Debug\kitapci.Properties.Resources.resources
+D:\ödevler\kitapci\kitapci\obj\Debug\kitapci.csproj.GenerateResource.cache
+D:\ödevler\kitapci\kitapci\obj\Debug\kitapci.csproj.CoreCompileInputs.cache
+D:\ödevler\kitapci\kitapci\obj\Debug\kitapci.exe
+D:\ödevler\kitapci\kitapci\obj\Debug\kitapci.pdb
+C:\Users\LENOVO\Desktop\kitapci\kitapci\obj\Debug\kitapci.frmKitapDetay.resources
+C:\Users\LENOVO\Desktop\kitapci\kitapci\bin\Debug\Bll.dll
+C:\Users\LENOVO\Desktop\kitapci\kitapci\bin\Debug\Dal.dll
+C:\Users\LENOVO\Desktop\kitapci\kitapci\bin\Debug\entities.dll
+C:\Users\LENOVO\Desktop\kitapci\kitapci\bin\Debug\Bll.pdb
+C:\Users\LENOVO\Desktop\kitapci\kitapci\bin\Debug\Dal.pdb
+C:\Users\LENOVO\Desktop\kitapci\kitapci\bin\Debug\Dal.dll.config
+C:\Users\LENOVO\Desktop\kitapci\kitapci\bin\Debug\entities.pdb
+C:\Users\LENOVO\Desktop\kitapci\kitapci\bin\Debug\entities.dll.config
+C:\Users\LENOVO\Desktop\kitapci\kitapci\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\LENOVO\Desktop\kitapci\kitapci\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Users\LENOVO\Desktop\kitapci\kitapci\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\LENOVO\Desktop\kitapci\kitapci\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\LENOVO\Desktop\kitapci\kitapci\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\Users\LENOVO\Desktop\kitapci\kitapci\obj\Debug\kitapci.frmOgrenciEkle.resources
+C:\Users\LENOVO\Desktop\kitapci\kitapci\obj\Debug\kitapci.frmOgrenciGuncelle.resources
+C:\Users\LENOVO\Desktop\kitapci\kitapci\obj\Debug\kitapci.frmOgrenciSilListele.resources
+C:\Users\LENOVO\Desktop\kitapci\kitapci\obj\Debug\kitapci.frmKitapListesi.resources
+C:\Users\LENOVO\Desktop\kitapci\kitapci\obj\Debug\kitapci.frmOgrenciEmanetGecmisiListe.resources
+C:\Users\LENOVO\Desktop\kitapci\kitapci\obj\Debug\kitapci.frmOgrenciListesi.resources
+C:\Users\LENOVO\Desktop\kitapci\kitapci\obj\Debug\kitapci.frmEmanetKitapDetay.resources
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\bin\Debug\kitapci.exe.config
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\bin\Debug\kitapci.exe
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\bin\Debug\kitapci.pdb
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\bin\Debug\Bll.dll
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\bin\Debug\Dal.dll
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\bin\Debug\entities.dll
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\bin\Debug\EntityFramework.dll
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\bin\Debug\JetEntityFrameworkProvider.dll
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\bin\Debug\Bll.pdb
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\bin\Debug\Dal.pdb
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\bin\Debug\Dal.dll.config
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\bin\Debug\entities.pdb
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\bin\Debug\entities.dll.config
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\bin\Debug\EntityFramework.xml
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\obj\Debug\kitapci.csprojAssemblyReference.cache
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\obj\Debug\kitapci.fmrAnaSayfa.resources
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\obj\Debug\kitapci.frmEmanetKitapDetay.resources
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\obj\Debug\kitapci.frmKiradakiKitaplar.resources
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\obj\Debug\kitapci.frmKitapEkle.resources
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\obj\Debug\kitapci.frmKitapGuncelle.resources
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\obj\Debug\kitapci.frmKitapKirala.resources
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\obj\Debug\kitapci.frmKitapListesi.resources
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\obj\Debug\kitapci.frmKitapSilListele.resources
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\obj\Debug\kitapci.frmOgrenciEkle.resources
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\obj\Debug\kitapci.frmOgrenciEmanetGecmisiListe.resources
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\obj\Debug\kitapci.frmOgrenciGuncelle.resources
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\obj\Debug\kitapci.frmOgrenciListesi.resources
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\obj\Debug\kitapci.frmOgrenciSilListele.resources
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\obj\Debug\kitapci.frmKitapDetay.resources
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\obj\Debug\kitapci.frmYayinEviEkle.resources
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\obj\Debug\kitapci.frmYazarEkle.resources
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\obj\Debug\kitapci.Properties.Resources.resources
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\obj\Debug\kitapci.csproj.GenerateResource.cache
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\obj\Debug\kitapci.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\obj\Debug\kitapci.csproj.CopyComplete
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\obj\Debug\kitapci.exe
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\kitapci\obj\Debug\kitapci.pdb
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\bin\Debug\kitapci.exe.config
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\bin\Debug\kitapci.exe
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\bin\Debug\kitapci.pdb
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\bin\Debug\Bll.dll
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\bin\Debug\Dal.dll
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\bin\Debug\entities.dll
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\bin\Debug\EntityFramework.dll
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\bin\Debug\JetEntityFrameworkProvider.dll
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\bin\Debug\Bll.pdb
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\bin\Debug\Dal.pdb
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\bin\Debug\Dal.dll.config
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\bin\Debug\entities.pdb
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\bin\Debug\entities.dll.config
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\bin\Debug\EntityFramework.xml
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\obj\Debug\kitapci.csprojAssemblyReference.cache
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\obj\Debug\kitapci.frmEmanetKitapDetay.resources
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\obj\Debug\kitapci.frmKiradakiKitaplar.resources
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\obj\Debug\kitapci.frmKitapEkle.resources
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\obj\Debug\kitapci.frmKitapGuncelle.resources
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\obj\Debug\kitapci.frmKitapKirala.resources
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\obj\Debug\kitapci.frmKitapListesi.resources
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\obj\Debug\kitapci.frmKitapSilListele.resources
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\obj\Debug\kitapci.frmOgrenciEkle.resources
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\obj\Debug\kitapci.frmOgrenciEmanetGecmisiListe.resources
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\obj\Debug\kitapci.frmOgrenciGuncelle.resources
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\obj\Debug\kitapci.frmOgrenciListesi.resources
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\obj\Debug\kitapci.frmOgrenciSilListele.resources
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\obj\Debug\kitapci.frmKitapDetay.resources
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\obj\Debug\kitapci.frmYayinEviEkle.resources
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\obj\Debug\kitapci.frmYazarEkle.resources
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\obj\Debug\kitapci.Properties.Resources.resources
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\obj\Debug\kitapci.csproj.GenerateResource.cache
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\obj\Debug\kitapci.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\obj\Debug\kitapci.csproj.CopyComplete
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\obj\Debug\kitapci.exe
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\obj\Debug\kitapci.pdb
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\kitapci\obj\Debug\kitapci.frmAnaSayfa.resources

@@ -1,0 +1,4 @@
+ Bağlantı kurulan tablolar arasında bağlantı kurulan alanların benzersiz olaması gerekmektedir.
+
+ Örnek: Öğrenci bilgilerinin tutulduğu bir tablo ve bu öğrenci bilgilerinin detaylarının tutulduğu bir tablo arasında
+ eğer her bir öğrenci bilgisine karşılık sadece bir tane detay bilgisi varsa buna bire bir ilişkili tablolar denmektedir.

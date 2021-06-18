@@ -1,0 +1,10 @@
+SQLite3 ve MYSQL FARKLARI
+
+	SQLite, sunucusuz bir veritabanıdır ve bağımsızdır
+	MySQL çalışması için bir sunucuya ve bir ağ üzerinden etkileşim için bir istemci ve sunucu mimarisine ihtiyacı vardır.
+	SQLite de Blob, Integer, Null, Text, Real gibi veri türleri vardır.
+	MySQL de Tinyint, Smallint, Mediumint, Int, Bigint, Double, Float, Real, Ondalık, Çift duyarlık, Sayısal, Zaman Damgası, Tarih, Tarih, Char, Varchar, Yıl, Tinytext, Tinyblob, Blob, Metin, MediumBlob gibi veri türlerine yardımcı olur , MediumText, Enum, Set, Longblob, Longtext veri türleri vardır.
+	Veri türleri bakımından MySQL oldukça gelişmiştir.
+	Depolama ve taşınabilirlik bakımından SQLite çok ufak ve stabildir ve kolaylıkla taşınabilir.
+	SQLite de kullanıcı yönetimi işlevi yokken MySQL de vardır.
+	Güvenlik bakımından SQLite bir kimlik doğrulaması yokken MySQL de birçok çeşitli doğrulama vardır.

@@ -1,0 +1,1 @@
+create proc sarkici_sarkilari @s_adi nvarchar(50) as select sarki_ismi from sarki where sarkici = @s_adi

@@ -1,0 +1,5 @@
+Bilgisayarınızda Mingw g++ ve make kurulu olmalıdır.
+Programı çalıştırmak için bu dosyanın bulunduğu dizinde bir terminal(konsol) açmalı;
+> make
+komutunu girmelisiniz.
+Not : Mingw yolunun bilgisayarın PATH alanında tanımlı olması gerekmektedir. 

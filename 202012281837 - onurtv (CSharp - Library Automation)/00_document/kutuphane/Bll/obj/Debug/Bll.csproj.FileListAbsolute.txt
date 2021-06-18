@@ -1,0 +1,75 @@
+D:\ödevler\kitapci\Bll\bin\Debug\Bll.dll
+D:\ödevler\kitapci\Bll\bin\Debug\Bll.pdb
+D:\ödevler\kitapci\Bll\bin\Debug\Dal.dll
+D:\ödevler\kitapci\Bll\bin\Debug\entities.dll
+D:\ödevler\kitapci\Bll\bin\Debug\EntityFramework.dll
+D:\ödevler\kitapci\Bll\bin\Debug\Dal.pdb
+D:\ödevler\kitapci\Bll\bin\Debug\Dal.dll.config
+D:\ödevler\kitapci\Bll\bin\Debug\entities.pdb
+D:\ödevler\kitapci\Bll\bin\Debug\entities.dll.config
+D:\ödevler\kitapci\Bll\bin\Debug\EntityFramework.xml
+D:\ödevler\kitapci\Bll\obj\Debug\Bll.csprojAssemblyReference.cache
+D:\ödevler\kitapci\Bll\obj\Debug\Bll.csproj.CoreCompileInputs.cache
+D:\ödevler\kitapci\Bll\obj\Debug\Bll.csproj.CopyComplete
+D:\ödevler\kitapci\Bll\obj\Debug\Bll.dll
+D:\ödevler\kitapci\Bll\obj\Debug\Bll.pdb
+C:\Users\LENOVO\Desktop\kitapci\Bll\bin\Debug\Bll.dll
+C:\Users\LENOVO\Desktop\kitapci\Bll\bin\Debug\Bll.pdb
+C:\Users\LENOVO\Desktop\kitapci\Bll\bin\Debug\Dal.dll
+C:\Users\LENOVO\Desktop\kitapci\Bll\bin\Debug\entities.dll
+C:\Users\LENOVO\Desktop\kitapci\Bll\bin\Debug\EntityFramework.dll
+C:\Users\LENOVO\Desktop\kitapci\Bll\bin\Debug\Dal.pdb
+C:\Users\LENOVO\Desktop\kitapci\Bll\bin\Debug\Dal.dll.config
+C:\Users\LENOVO\Desktop\kitapci\Bll\bin\Debug\entities.pdb
+C:\Users\LENOVO\Desktop\kitapci\Bll\bin\Debug\entities.dll.config
+C:\Users\LENOVO\Desktop\kitapci\Bll\bin\Debug\EntityFramework.xml
+C:\Users\LENOVO\Desktop\kitapci\Bll\obj\Debug\Bll.csprojAssemblyReference.cache
+C:\Users\LENOVO\Desktop\kitapci\Bll\obj\Debug\Bll.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\kitapci\Bll\obj\Debug\Bll.csproj.CopyComplete
+C:\Users\LENOVO\Desktop\kitapci\Bll\obj\Debug\Bll.dll
+C:\Users\LENOVO\Desktop\kitapci\Bll\obj\Debug\Bll.pdb
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\Bll\bin\Debug\Bll.dll
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\Bll\bin\Debug\Bll.pdb
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\Bll\bin\Debug\Dal.dll
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\Bll\bin\Debug\entities.dll
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\Bll\bin\Debug\EntityFramework.dll
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\Bll\bin\Debug\Dal.pdb
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\Bll\bin\Debug\Dal.dll.config
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\Bll\bin\Debug\entities.pdb
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\Bll\bin\Debug\entities.dll.config
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\Bll\bin\Debug\EntityFramework.xml
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\Bll\obj\Debug\Bll.csprojAssemblyReference.cache
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\Bll\obj\Debug\Bll.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\Bll\obj\Debug\Bll.csproj.CopyComplete
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\Bll\obj\Debug\Bll.dll
+C:\Users\LENOVO\Desktop\yedek\Yeni klasör\kitapci\Bll\obj\Debug\Bll.pdb
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\Bll\bin\Debug\Bll.dll
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\Bll\bin\Debug\Bll.pdb
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\Bll\bin\Debug\Dal.dll
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\Bll\bin\Debug\entities.dll
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\Bll\bin\Debug\EntityFramework.dll
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\Bll\bin\Debug\Dal.pdb
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\Bll\bin\Debug\Dal.dll.config
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\Bll\bin\Debug\entities.pdb
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\Bll\bin\Debug\entities.dll.config
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\Bll\bin\Debug\EntityFramework.xml
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\Bll\obj\Debug\Bll.csprojAssemblyReference.cache
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\Bll\obj\Debug\Bll.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\Bll\obj\Debug\Bll.csproj.CopyComplete
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\Bll\obj\Debug\Bll.dll
+C:\Users\LENOVO\Desktop\Yeni klasör\kutuphaneUygulamaAccess\kitapci\Bll\obj\Debug\Bll.pdb
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\Bll\bin\Debug\Bll.dll
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\Bll\bin\Debug\Bll.pdb
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\Bll\bin\Debug\Dal.dll
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\Bll\bin\Debug\entities.dll
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\Bll\bin\Debug\EntityFramework.dll
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\Bll\bin\Debug\Dal.pdb
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\Bll\bin\Debug\Dal.dll.config
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\Bll\bin\Debug\entities.pdb
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\Bll\bin\Debug\entities.dll.config
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\Bll\bin\Debug\EntityFramework.xml
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\Bll\obj\Debug\Bll.csprojAssemblyReference.cache
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\Bll\obj\Debug\Bll.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\Bll\obj\Debug\Bll.csproj.CopyComplete
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\Bll\obj\Debug\Bll.dll
+C:\Users\LENOVO\Desktop\kutuphaneUygulamaAccess\kutuphane\Bll\obj\Debug\Bll.pdb

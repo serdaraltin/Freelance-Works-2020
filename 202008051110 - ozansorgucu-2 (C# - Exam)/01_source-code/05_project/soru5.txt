@@ -1,0 +1,69 @@
+/*
+ * 5. Sarmalama/Paketleme (Kapsülleme) nedir? Örnek bir program yazarak kendi ifadelerinizle
+ * açıklayınız?
+ * 
+ * Kapsülleme (Encapsulation): Bir veya daha fazla öğeyi fiziksel veya mantıksal bir paket içinde gizleme işlemidir.
+ * Nesneye yönelik programlamanın(OOP) temel özelliklerindendir.
+ * Kapsülleme erişim belirteçleri kullanılarak gerçekleştirilir.
+ * Bir erişim belirtici, bir sınıf üyesinin kapsamını ve görünürliğini tanımlar.
+ * 
+ */
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Sarmalama
+{
+    //Programın ana sınıfı
+    class Program
+    {
+        //Main methodu
+        static void Main(string[] args)
+        {
+            //Dikdortgen sınıfından "sekil" adında bir nesne türetilmesi
+            Dikdortgen sekil = new Dikdortgen();
+            // uzunluk üyesi private olduğu için public yapıldığından Uzunluk() metodu ile erişim sağlanıyor.
+            sekil.Uzunluk(4);
+            //genislik üyesi private olduğu için public yapıldığından Genislik() metodu ile erişim sağlanıyor.
+            sekil.Genislik(5);
+            //public olduğu için sınıf dışından ulaşılabilir durumda.
+            sekil.Yazdir();    
+
+            Console.ReadLine();
+        }
+    }
+    //Dikdortgen sınıcı
+    class Dikdortgen
+    {
+        //üye değişkenleri hepsi private(özel) olarak tanımlı, doğrudan erişilemez
+        private double uzunluk;
+        private double genislik;
+
+        //dışarıdan erişime açık Uzunluk methodu ile uzunluk değişkenine atama işlemi yapılması.
+        public void Uzunluk(double sayi)
+        {
+            uzunluk = sayi;
+        }
+        //dışarıdan erişime açık Genislik methodu ile genislik değişkenine atama işlemi yapılması.
+        public void Genislik(double sayi)
+        {
+            genislik = sayi;
+        }
+        //dışarıdan erişime açık AlanGetir methodu ile dikdortgenin alanının değerinin geriye döndürülmesi
+        public double AlanGetir()
+        {
+            return uzunluk * genislik;
+        }
+        //dışarıdan erişime açık Yazdir methodu ile dikdortgenin bilgilerinin yazdırılması.
+        public void Yazdir()
+        {
+            Console.WriteLine("Uzunluk: {0}", uzunluk);
+            Console.WriteLine("Genişlik: {0}", genislik);
+            Console.WriteLine("Alan: {0}", AlanGetir());
+        }
+    }
+
+}

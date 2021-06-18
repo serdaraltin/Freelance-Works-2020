@@ -1,0 +1,8 @@
+G:/FreeLance/mcccakmak-2 (C# - String Sperate)/01_source-code/05_project/CumleyiKelimelereBolme/CumleyiKelimelereBolme/bin/Debug/CumleyiKelimelereBolme.exe.config
+G:/FreeLance/mcccakmak-2 (C# - String Sperate)/01_source-code/05_project/CumleyiKelimelereBolme/CumleyiKelimelereBolme/bin/Debug/CumleyiKelimelereBolme.exe
+G:/FreeLance/mcccakmak-2 (C# - String Sperate)/01_source-code/05_project/CumleyiKelimelereBolme/CumleyiKelimelereBolme/bin/Debug/CumleyiKelimelereBolme.pdb
+G:/FreeLance/mcccakmak-2 (C# - String Sperate)/01_source-code/05_project/CumleyiKelimelereBolme/CumleyiKelimelereBolme/obj/Debug/CumleyiKelimelereBolme.csprojResolveAssemblyReference.cache
+G:/FreeLance/mcccakmak-2 (C# - String Sperate)/01_source-code/05_project/CumleyiKelimelereBolme/CumleyiKelimelereBolme/obj/Debug/CumleyiKelimelereBolme.exe
+G:/FreeLance/mcccakmak-2 (C# - String Sperate)/01_source-code/05_project/CumleyiKelimelereBolme/CumleyiKelimelereBolme/obj/Debug/CumleyiKelimelereBolme.pdb
+/home/main/FreeLance/mcccakmak-2 (C# - String Sperate)/01_source-code/05_project/CumleyiKelimelereBolme/CumleyiKelimelereBolme/obj/Debug/CumleyiKelimelereBolme.exe
+/home/main/FreeLance/mcccakmak-2 (C# - String Sperate)/01_source-code/05_project/CumleyiKelimelereBolme/CumleyiKelimelereBolme/obj/Debug/CumleyiKelimelereBolme.pdb

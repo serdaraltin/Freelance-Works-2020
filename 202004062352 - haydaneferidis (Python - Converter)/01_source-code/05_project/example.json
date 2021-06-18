@@ -1,0 +1,28 @@
+[
+  {
+    "university name": "DOKUZ EYLÜL ÜNİVERSİTESİ",
+	"uType": "Devlet",
+	"items":
+	[
+		{
+			"faculty": "Mühendislik Fakültesi",
+			"department": 
+			[
+				{
+					"id": "103110442",
+					"name": "Bilgisayar Mühendisliği",
+					"lang": "en",
+					"second": "No",
+					"period": 4,
+					"spec": 3,
+					"quota": 90,
+					"field": "SAY",
+					"last_min_score": 425.12447,
+					"last_min_order": 37000,
+					"grant": null
+				}
+			]
+		}
+	]
+  }
+]

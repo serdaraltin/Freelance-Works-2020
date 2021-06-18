@@ -1,0 +1,68 @@
+addseats it215 2 0 0
+addseats it215 2 3 0
+addseats it215 2 3 4
+queue it215 psg_bus_1 business 1
+queue it215 psg_eco_1 economy 1
+queue it215 psg_bus_2 business 2
+queue it215 psg_eco_2 economy 2
+addseats gw0215 4 0 0
+addseats gw0215 4 3 0
+addseats gw0215 4 3 7
+queue it215 psg_std_1 standard 1
+queue it215 psg_eco_3 economy 3
+queue it215 psg_eco_4 economy 4
+queue gw0215 psg_eco_13 economy 1
+queue gw0215 psg_eco_14 economy 2
+queue gw0215 psg_bus_3 business 1
+queue it215 psg_bus_13 business 3
+queue it215 psg_bus_4 business 4
+queue it215 psg_eco_6 economy 5
+queue it215 psg_eco_7 economy 6
+sold it215 2 3 4
+report it215
+business 2
+psg_bus_13
+psg_bus_1
+economy 3
+psg_eco_6
+psg_eco_7
+psg_eco_1
+standard 4
+psg_std_1
+psg_bus_2
+psg_bus_4
+psg_eco_2
+end of report it215
+closed it215 9 2
+waiting psg_eco_3
+waiting psg_eco_4
+info psg_bus_4 it215 business standard
+info psg_eco_2 it215 economy standard
+info psg_eco_3 it215 economy none
+info psg_eco_6 it215 economy economy
+queue gw0215 psg_bus_11 business 2
+queue gw0215 psg_eco_11 economy 3
+queue gw0215 psg_bus_12 business 3
+queue gw0215 psg_eco_12 economy 4
+queue gw0215 psg_std_11 standard 1
+queue gw0215 psg_bus_14 business 4
+queue gw0215 psg_eco_16 economy 5
+queue gw0215 psg_eco_17 economy 6
+sold gw0215 4 3 4
+report gw0215
+business 4
+psg_bus_3
+psg_bus_11
+psg_bus_12
+psg_bus_14
+economy 3
+psg_eco_16
+psg_eco_17
+psg_eco_13
+standard 4
+psg_std_11
+psg_eco_14
+psg_eco_11
+psg_eco_12
+end of report gw0215
+closed gw0215 11 0

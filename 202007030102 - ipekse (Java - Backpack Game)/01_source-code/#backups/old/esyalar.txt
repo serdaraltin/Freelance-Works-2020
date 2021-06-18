@@ -1,0 +1,32 @@
+ton balığı,1,0.2,2
+ceket,0,0.8,4
+bıçak,3,0.1,7
+bandaj,2,0.1,5
+antiseptik,2,0.2,6
+matara,1,0.5,3
+tüfek,3,2.0,10
+ağrı kesici,2,0.1,3
+antibiyotik,2,0.1,5
+şekerleme,1,0.1,1
+enerji içeceği,1,0.1,2
+fıstık ezmesi,1,0.3,4
+gazoz,1,0.2,1
+enerji içeceği,1,0.2,2
+iş eldiveni,0,0.2,3
+kapüşonlu svetşört,0,0.4,3
+t-shirt,0,0.1,1
+kaban,0,1.2,4
+kot,0,0.5,3
+pantolon,0,0.8,5
+alçı,2,0.1,4
+kazak,0,0.3,4
+çizme,0,1.0,7
+spor ayakkabı,0,0.3,4
+sırt yatağı,3,1,10
+tırmanma ipi,3,1,8
+olta takımı,3,0.1,7
+işaret fişeği,3,0.2,3
+el feneri,3,0.3,6
+yangın söndürücü,3,0.1,10
+tencere,3,0.5,5
+kahve çekirdeği,1,0.3,2

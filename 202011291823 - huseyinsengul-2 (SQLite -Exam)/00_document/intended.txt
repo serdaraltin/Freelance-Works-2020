@@ -1,0 +1,31 @@
+1. Ödev;
+
+
+İlişkisel ver modelinde 1-1 ilişkinin nasıl çalıştığını bir örnek üzerinde kısaca anlatınız.
+Bir veritabanında öğrenci özlük bilgilerini içeren kimlik adında tablo olsun. Öğrencilerin ders seçimi yaptıkları seçim isminde bir başka tablo daha olsun. Seçim tablosunda hangi alanlar (sütunlar) bulunmalıdır ? Her iki tabloyu ilişkilendirecek bir şekilde ilişki modelini gösteriniz.
+Sırasal Erişimi dosya nedir? Random Erişimi dosyadan farkı nedir ? Kısaca belirtiniz.
+Python ile bir dosya oluşturmak istesek hangi modlarda dosyayı oluşturabiliriz? Her modun amacını kısaca belirtiniz.
+Çoktan Çoka ilişki modeli nedir bunu bir örnek üzerinde anlatınız.
+Kaç tür anahtar (key) vardır. Veritabanında anahtar alan ne işe yarar ?
+Alternate key nedir? Bir örnek veriniz.
+Primary key ile Foreign key arasındaki fark nedir? Bir örnek ile açıklayınız.
+SQLite3 ‘ü MYSQL den ayıran temel özellikler ve farklar nelerdir ?
+SQLite da komut tipleri nasıl gruplanmıştır.
+
+
+2. Ödev;
+
+
+DML komutları ile DDL komutlar hangileridir. Aralarındaki fark nedir ?
+SQLite3 de .dump ve .schema komutları be işe yarar aralarındaki fark nedir ?
+SQLite3 depolama sınıfı nedir? MYSQL gibi veritabanlarındaki veri tipleri arasındaki fark nedir ?
+BLOB depolama sınıfı nedir kısaca bu alanda ne tür bilgilerin depolanacağını belirtiniz.
+Windows a SQLite3 kurarken hangi aşamalar vardır? PATH tanımı neden gereklidir?
+SQLite3 ü bilgisayara kurmadan komutları web üzerinden çalıştırmak mümkün mü? Bu işi yapacak bir süte örneği veriniz.
+sqlite > ortamına geçtikten sonra ;
+Bir veritabanı nasıl açılır?
+Database bağlantısı olup olmadığı hangi komutla anlaşılır ?
+Kulllanabileceğimiz tabloları nasıl hangi komutla görürüz?
+Bir SQLite3 tablosundaki verileri excel ortamına aktarmak için hangi komutu kullanırız ? Hangi modu kullanmamız gerekir ?
+Tablodaki verilerin tamamını listelemek için hangi komut kullanılır?
+MongoDB ile SQLite3 ü birbirinden ayıran en temel özellik nedir ?

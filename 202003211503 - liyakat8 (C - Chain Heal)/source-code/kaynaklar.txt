@@ -1,0 +1,7 @@
+https://stackoverflow.com/questions/20578187/c-convert-argv1-to-double
+https://cboard.cprogramming.com/c-programming/134232-converting-command-line-char-*argv[]-int.html
+https://stackoverflow.com/questions/43160958/passing-a-integer-through-command-line-in-c/43161028
+https://stackoverflow.com/questions/16869467/command-line-arguments-reading-a-file
+https://www.geeksforgeeks.org/command-line-arguments-in-c-cpp/
+https://www.tutorialspoint.com/cprogramming/c_command_line_arguments.htm
+https://stackoverflow.com/questions/39472161/c-reading-input-from-char-argv 

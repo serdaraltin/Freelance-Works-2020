@@ -1,0 +1,19 @@
+TABLOLAR:
+
+	kimlik:
+		Id (Primary Key)
+		Ad
+		Soyad
+		Dogum_Tarihi
+		Adres
+
+	secim:
+		Id (Primary Key)
+		Kimlik_Id (Foreign Key)
+		Ders_Adi
+
+İLİŞKİ:
+	Tablolar arasında bire-çok ilişkisi vardır.
+	Bir öğrenciye ait birçok secim kaydı bulunabilir ve secim kaydındaki "Kimlik_Id" foreign key ile 
+	kimlik kaydına erişilebilinir.
+	

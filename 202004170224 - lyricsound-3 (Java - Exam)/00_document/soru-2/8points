@@ -1,0 +1,4 @@
+a -> kapsülleme kodun kontollü olarak değişmesini veya değişmemesini sağlar, güvenlik sağlar
+b -> javada extends ile iki sınıftan miras alınamaz bunun yerine inteface kullanılır
+c -> evet komposizyon sadece tekrarın önüne geçmek için kullanılır kalıtımda eklenen kodlar modifiye edilebilir
+d -> kod blokları ile aynı isme sahip iki farklı türde değişkenler tanımlanabilir, blokların doğru kullanımı ile alt ve üst değişken bağımsız olacaktır

@@ -1,0 +1,14 @@
+ÇOKTAN ÇOKA İLİŞKİ
+	
+	Bu ilişki modelinde ilişkinin bulunduğu tablolar arasında doğrudan bağlantı kurulamaz.
+	İlişki 3. bir tablo aracılığıyla gerçekleştirilir.
+
+	Örnek:
+		öğrenci tablosu
+		ders tablosu
+		ödev tablosu
+
+		Öğrenciler bir çok dersten ödev alabilmektedir. Aynı şekilde bir dersten de birçok öğrenci ödev alabilir.
+		Bu durumda bu tablolar çoka çok ilişki modeline sahiptir (öğrenci tablosu ve ders tablosu).
+		Öğrenci tablosu ve ders tablosu 3. tablo olan ödev tablosu üzerinden ilişkilidir.
+		Ödev tablosunda öğrenci kaydına ait birincil anahtar ve ders kaydına ait birincil anahtar bulunmaktadır.

@@ -1,0 +1,15 @@
+﻿  Source.c
+c:\users\main\documents\visual studio 2017\projects\consoleapplication3\consoleapplication3\source.c(61): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+c:\users\main\documents\visual studio 2017\projects\consoleapplication3\consoleapplication3\source.c(83): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+c:\users\main\documents\visual studio 2017\projects\consoleapplication3\consoleapplication3\source.c(89): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+c:\users\main\documents\visual studio 2017\projects\consoleapplication3\consoleapplication3\source.c(99): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+c:\users\main\documents\visual studio 2017\projects\consoleapplication3\consoleapplication3\source.c(109): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+c:\users\main\documents\visual studio 2017\projects\consoleapplication3\consoleapplication3\source.c(84): warning C4101: 'dizino2': unreferenced local variable
+c:\users\main\documents\visual studio 2017\projects\consoleapplication3\consoleapplication3\source.c(127): warning C4717: 'menu': recursive on all control paths, function will cause runtime stack overflow
+  ConsoleApplication3.vcxproj -> c:\users\main\documents\visual studio 2017\Projects\ConsoleApplication3\Debug\ConsoleApplication3.exe
+  ConsoleApplication3.vcxproj -> c:\users\main\documents\visual studio 2017\Projects\ConsoleApplication3\Debug\ConsoleApplication3.pdb (Partial PDB)

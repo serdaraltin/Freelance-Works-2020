@@ -1,0 +1,6 @@
+Y:\Sadeceon\Abdllh\source-code\Abdllh\Abdllh\bin\Debug\Abdllh.exe.config
+Y:\Sadeceon\Abdllh\source-code\Abdllh\Abdllh\bin\Debug\Abdllh.exe
+Y:\Sadeceon\Abdllh\source-code\Abdllh\Abdllh\bin\Debug\Abdllh.pdb
+Y:\Sadeceon\Abdllh\source-code\Abdllh\Abdllh\obj\Debug\Abdllh.csprojResolveAssemblyReference.cache
+Y:\Sadeceon\Abdllh\source-code\Abdllh\Abdllh\obj\Debug\Abdllh.exe
+Y:\Sadeceon\Abdllh\source-code\Abdllh\Abdllh\obj\Debug\Abdllh.pdb

@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Main"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-12-17 05:22:19 &#214;S"/>
+        <attribute name="created" value="TWFpbjtERVNLVE9QLVZVOUxEMjc7MjAyMC0xMi0xNzswNToxNDoyOCDDllM7Mjg2OA=="/>
+        <attribute name="edited" value="TWFpbjtERVNLVE9QLVZVOUxEMjc7MjAyMC0xMi0xNzswNToyMjoxOSDDllM7MjsyOTc2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayac, sayi, adet, toplam" type="Integer" array="False" size=""/>
+            <declare name="ortalama" type="Real" array="False" size=""/>
+            <assign variable="sayac" expression="0"/>
+            <assign variable="adet" expression="0"/>
+            <assign variable="toplam" expression="0"/>
+            <assign variable="ortalama" expression="0"/>
+            <assign variable="sayi" expression="-1"/>
+            <while expression="1=1">
+                <output expression="&quot;Bir sayi giriniz&quot;" newline="True"/>
+                <input variable="sayi"/>
+                <if expression="sayi &gt;=0">
+                    <then>
+                        <breakpoint/>
+                    </then>
+                    <else/>
+                </if>
+                <output expression="sayac" newline="True"/>
+                <output expression="sayi" newline="True"/>
+                <output expression="adet" newline="True"/>
+                <output expression="toplam" newline="True"/>
+                <output expression="ortalama" newline="True"/>
+                <assign variable="toplam" expression="toplam+sayi"/>
+                <if expression="adet&gt;0">
+                    <then>
+                        <assign variable="ortalama" expression="toplam/adet"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="adet" expression="adet+1"/>
+                <assign variable="sayac" expression="sayac+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

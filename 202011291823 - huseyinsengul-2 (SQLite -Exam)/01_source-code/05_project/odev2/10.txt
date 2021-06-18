@@ -1,0 +1,5 @@
+MONGODB VE SQLite FAKRLARI
+
+MongoDB, verileri yapı olarak değişiklik gösterebilen JSON benzeri belgelerde depolar ve dinamik, esnek bir şema sunar. MongoDB ayrıca yerleşik çoğaltma ve otomatik parçalama ile yüksek kullanılabilirlik ve ölçeklenebilirlik için tasarlandı.
+
+SQLite, gömülü bir SQL veritabanı motorudur. Diğer SQL veritabanlarının çoğunun aksine, SQLite'ın ayrı bir sunucu işlemi yoktur. SQLite, doğrudan sıradan disk dosyalarına okur ve yazar. Birden çok tablo, dizin, tetikleyici ve görünüm içeren eksiksiz bir SQL veritabanı tek bir disk dosyasında bulunur.

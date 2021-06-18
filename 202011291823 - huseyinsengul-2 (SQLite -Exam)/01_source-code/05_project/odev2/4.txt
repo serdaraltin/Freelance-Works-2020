@@ -1,0 +1,3 @@
+BLOB NEDİR
+	SQLite de resimleri veritabanın kaydetmek için kullanılan bir türdür.
+	Resim verisi bu türe çevrildikten sonra veritabanın kaydedilir.

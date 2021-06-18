@@ -1,0 +1,7 @@
+SQLite şu veri türlerini destekler: Blob, Integer, Null, Text, Real.
+
+MySQL, aşağıda belirtilen veri türlerini destekler:
+
+Tinyint, Smallint, Mediumint, Int, Bigint, Double, Float, Gerçek, Ondalık, Çift duyarlık, Sayısal, Zaman Damgası, Tarih, Tarih Saat, Karakter, Varchar, Yıl, Küçük Metin, Tinyblob, Blob, Metin, OrtaBlob, Orta Metin, Enum, Ayarla Longblob, Longtext.
+
+MySQL birçok alan için özelleştirilmiş veri tiplerini destekler ve çok esnektir.

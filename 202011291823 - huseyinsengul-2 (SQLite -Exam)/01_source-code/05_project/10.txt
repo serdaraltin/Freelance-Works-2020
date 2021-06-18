@@ -1,0 +1,25 @@
+SQLite KOMUT TİPLERi GRUPLANDIRMASI
+	
+	Komut	
+		Açıklama
+
+	.open personel.db	
+		Barinak adında bir veritabanı oluşturur.
+	.help	
+		Komutları gösterir.
+	.quit	
+		Çıkış
+	.table	
+		Bir veritabanındaki mevcut tabloları gösterir
+	.schema personel	
+		Personel adındaki Veri tablosunun oluşturulma cümlesini gösterir
+	PRAGMA TABLE_INFO(personel);	
+		Personel adındaki Veri tablosu tasarım görünümü gösterir
+	DROP TABLE personel	
+		Personel tablosunu veritabanından siler.
+	.mode ascii	
+		Modu ascii'ye çevirir.
+	.mode column	
+		veriler excel tarzı tablo görünümü ile listelenir.
+	.header on	
+		Sütun başlıklarını dagösterir. 

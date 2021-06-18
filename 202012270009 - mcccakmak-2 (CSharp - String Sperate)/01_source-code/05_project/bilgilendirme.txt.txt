@@ -1,0 +1,4 @@
+DotNet klasörü unix ortamları içindir.
+
+CumleyiKelimelereBolme klasörü windows ortamları içindir.
+Visual Studio 2017 ile hazırlanmıştır.

@@ -1,0 +1,5 @@
+"make" komutunun çalıştırılabilmesi için;
+C:\MinGW\msys\1.0\bin
+"g++" komutlarının çalıştırılabilmesi için;
+C:\MinGW\bin
+yolu Ortam değişkenlerinde tanımlı olmalıdır.

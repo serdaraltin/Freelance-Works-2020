@@ -1,0 +1,37 @@
+ SIRALI ERİŞİM
+
+	 Sıralı erişimde bilgilere daha önce belirlenen bir sıra izlenerek birbiri ardı sıra ulaşılmaktadır.
+	 Bu erişim yönteminde herhangi bir bilgiye doğrudan ulaşılamaz.
+
+	 Örnek: 
+	 	1000 adet kayıt bulunana bir dosyadaki 600. kayıta ulaşmak için önce 599 adet kayıt okunmalıdır.
+
+	 Ayrıntılar;
+		 - En basit erişim yöntemi
+		 - Veriler sırayla işlenir
+		 - Kayıtlar ard arda eklenir
+		 - Atlama yoktur
+		 - Yedekleme ve geriye dönde yapılabilir
+
+
+RASTGELE ERİŞİM
+
+	Rastgele erişimde istenilen harhangi bir bilgiye diğer kayıtlardan bağımsız olarak doğrudan ulaşılınabilir.
+	Her kaydın benzersiz tanımlayıcı bir özelliği olmak zorundadır. Bu özel tanımlayıcı "anahtar(key)" olarak isimlendirilir.
+	Anahtar bilgisinden diğer kayıtlara bakılmadan doğrudan istenilen kayıt verisine erişilebilinir.
+
+	Örnek:
+		100 adet kayıt bulunan bir dosyadaki 600. kayıta ulaşmak için başka kayıtlara bakılmaya gerek yoktur.
+
+
+	Ayrıntılar;
+		- Kayıtlar anahtar(key) ile birbirinden ayrılır
+		- Veriler sıralı olmak zorunda değildir
+		- Bir veriye doğrudan erişilebilinir
+
+FARKLAR
+
+	Sıralı erişimde herhangi bir anahtar(key) bilgisi gerekmez iken Rastgele erişimde ayırıcı bir özelliğe anahtar(key) ihtiyaç vardır.
+	Sıralı erişimde veriler sıralı bir şekilde depolanırken Rastgele erişimde veriler karışık olarak depolanır.
+	Sıralı erişimde verilere erişim tamamen sıralıdır herhangi bir kayda erişmek için dosyanın başından kayda kadar kayıtlar sırasıyla okunmalıdır.
+	Rastgele erişimde veriler sıralı değildir ve sadece anahtar(key) bilgisi ile istenilen kayıda doğrudan erişilebilinir.

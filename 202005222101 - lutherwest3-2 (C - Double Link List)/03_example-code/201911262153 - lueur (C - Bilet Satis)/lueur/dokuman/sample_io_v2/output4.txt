@@ -1,0 +1,39 @@
+addseats lh7758 2 0 0
+addseats pg3667 0 3 0
+addseats pg3667 0 3 4
+queue pg3667 ahmet business 1
+queue pg3667 psg_eco_1 economy 1
+queue pg3667 psg_bus_2 business 2
+queue pg3667 murtaza economy 2
+addseats lh7758 4 0 0
+addseats pg3667 0 6 4
+addseats pg3667 0 6 8
+queue pg3667 psg_std_1 standard 1
+queue pg3667 ayse economy 3
+queue pg3667 psg_eco_4 economy 4
+queue pg3667 psg_bus_3 business 3
+queue pg3667 halil business 4
+queue pg3667 psg_eco_6 economy 5
+queue pg3667 psg_eco_7 economy 6
+sold pg3667 0 6 5
+report pg3667
+business 0
+economy 6
+psg_eco_6
+psg_eco_7
+psg_eco_1
+murtaza
+ayse
+psg_eco_4
+standard 5
+psg_std_1
+psg_bus_3
+ahmet
+psg_bus_2
+halil
+end of report pg3667
+closed pg3667 11 0
+error
+error
+error
+info psg_eco_6 pg3667 economy economy

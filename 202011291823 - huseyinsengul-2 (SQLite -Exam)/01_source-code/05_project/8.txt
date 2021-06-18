@@ -1,0 +1,11 @@
+PRIMARY KEY ve FOREİGN KEY ARASINDAKİ FARK
+	örnek:
+		öğrenci tablosu : ID,Ad,Soyad
+		ders tablosu 	: ID,ad
+		ödev tablosu	: ID,ogrenci_Id,ders_Id,son_teslim
+
+		Yukarıdaki tablolarda "ID" alanları Primary Key(Yabanci Anahtar) alanlarıdır, "ogrenci_Id" ve "ders_Id"
+		alanları ise Foreign Key(Yabanci Anahatar) alanlaridir.
+
+		Bu anahtarlar yardımı ile hangi öğrencinin hangi dersten ödev aldığı bilgisine o kaydın primary key i ödev
+		tablosunda foreign key olarak tanımlanarak erişilir.

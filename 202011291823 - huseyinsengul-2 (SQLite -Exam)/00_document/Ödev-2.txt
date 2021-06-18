@@ -1,0 +1,13 @@
+1. DML komutları ile DDL komutlar hangileridir. Aralarındaki fark nedir ?
+2. SQLite3 de .dump ve .schema komutları be işe yarar aralarındaki fark nedir ?
+3. SQLite3 depolama sınıfı nedir? MYSQL gibi veritabanlarındaki veri tipleri arasındaki fark nedir ?
+4. BLOB depolama sınıfı nedir kısaca bu alanda ne tür bilgilerin depolanacağını belirtiniz.
+5. Windows a SQLite3 kurarken hangi aşamalar vardır? PATH tanımı neden gereklidir?
+6. SQLite3 ü bilgisayara kurmadan komutları web üzerinden çalıştırmak mümkün mü? Bu işi yapacak bir süte örneği veriniz.
+7. sqlite > ortamına geçtikten sonra ;
+  a. Bir veritabanı nasıl açılır?
+  b. Database bağlantısı olup olmadığı hangi komutla anlaşılır ?
+  c. Kulllanabileceğimiz tabloları nasıl hangi komutla görürüz?
+8. Bir SQLite3 tablosundaki verileri excel ortamına aktarmak için hangi komutu kullanırız ? Hangi modu kullanmamız gerekir ?
+9. Tablodaki verilerin tamamını listelemek için hangi komut kullanılır?
+10. MongoDB ile SQLite3 ü birbirinden ayıran en temel özellik nedir ?

@@ -1,0 +1,9 @@
+﻿  Soru2.cpp
+g:\freelance\+serhatdurn\01_source-code\05_project\programlamatemelleri\soru2\soru2.cpp(55): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+g:\freelance\+serhatdurn\01_source-code\05_project\programlamatemelleri\soru2\soru2.cpp(59): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+g:\freelance\+serhatdurn\01_source-code\05_project\programlamatemelleri\soru2\soru2.cpp(64): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+  Soru2.vcxproj -> G:\FreeLance\+serhatdurn\01_source-code\05_project\ProgramlamaTemelleri\Debug\Soru2.exe
+  Soru2.vcxproj -> G:\FreeLance\+serhatdurn\01_source-code\05_project\ProgramlamaTemelleri\Debug\Soru2.pdb (Partial PDB)

@@ -1,0 +1,1 @@
+sayilar.txt dosyasinin yeri degistirilmemelidir aksi halde program calismayacaktir. 

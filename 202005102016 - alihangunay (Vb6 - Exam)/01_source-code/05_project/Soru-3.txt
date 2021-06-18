@@ -1,0 +1,35 @@
+Private Sub Command1_Click()
+MsgBox "    ALTIN   " + parcala(doviz(False))
+MsgBox "    DOVİZ   " + parcala(doviz(True))
+End Sub
+
+Function parcala(parcalanacakmetin As String) As String
+Dim islemsonucu As String
+
+Dim adim1() As String
+adim1() = Split(parcalanacakmetin, "/")
+
+For i = 0 To UBound(adim1)
+    Dim adim2() As String
+    adim2() = Split(adim1(i), "*")
+    Dim adim3() As String
+    adim3() = Split(adim2(1), "-")
+    islemsonucu = islemsonucu & vbCrLf & adim2(0) & "=" & adim3(0) & "/" & adim3(1)
+Next
+
+parcala = islemsonucu
+End Function
+
+
+'Hocanin kodu
+Function doviz(yatirimkodu As Boolean) As String
+Dim veri As String
+If yatirimkodu Then
+veri = "Dolar*5-6/TL*1-2/Euro*6-7"
+Else
+veri = "Gram*80-90/Yarim*500-600/Tam*1000-1200"
+End If
+doviz = veri
+End Function
+
+ 

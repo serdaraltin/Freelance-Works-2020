@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3326BA1E-6A3A-4407-B518-1A82E540451F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Theimam</RootNamespace>
+    <AssemblyName>Theimam</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Npgsql, Version=3.2.7.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Npgsql.3.2.7\lib\net45\Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.3.0\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ayarlar.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Ayarlar.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Class_Islemler.cs" />
+    <Compile Include="Form_Anasayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Anasayfa.designer.cs">
+      <DependentUpon>Form_Anasayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Bolum_.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Bolum_.designer.cs">
+      <DependentUpon>Form_Bolum_.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Aile_Birligi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Aile_Birligi.designer.cs">
+      <DependentUpon>Form_Aile_Birligi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Giris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Giris.Designer.cs">
+      <DependentUpon>Form_Giris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Giris_Kaydi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Giris_Kaydi.designer.cs">
+      <DependentUpon>Form_Giris_Kaydi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Nobet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Nobet.designer.cs">
+      <DependentUpon>Form_Nobet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Ders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Ders.designer.cs">
+      <DependentUpon>Form_Ders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Islem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Islem.designer.cs">
+      <DependentUpon>Form_Islem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Kullanici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Kullanici.designer.cs">
+      <DependentUpon>Form_Kullanici.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Yonetim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Yonetim.designer.cs">
+      <DependentUpon>Form_Yonetim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Personel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Personel.designer.cs">
+      <DependentUpon>Form_Personel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Ogretmen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Ogretmen.designer.cs">
+      <DependentUpon>Form_Ogretmen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Ogrenci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Ogrenci.designer.cs">
+      <DependentUpon>Form_Ogrenci.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Egitmen_Alan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Egitmen_Alan.designer.cs">
+      <DependentUpon>Form_Egitmen_Alan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Personel_Alan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Personel_Alan.designer.cs">
+      <DependentUpon>Form_Personel_Alan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Yonetim_Tur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Yonetim_Tur.designer.cs">
+      <DependentUpon>Form_Yonetim_Tur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Sinif.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Sinif.designer.cs">
+      <DependentUpon>Form_Sinif.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Veli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Veli.designer.cs">
+      <DependentUpon>Form_Veli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_VeritabaniBaglanti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_VeritabaniBaglanti.Designer.cs">
+      <DependentUpon>Form_VeritabaniBaglanti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hakkinda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hakkinda.Designer.cs">
+      <DependentUpon>Hakkinda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form_Anasayfa.resx">
+      <DependentUpon>Form_Anasayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Bolum_.resx">
+      <DependentUpon>Form_Bolum_.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Aile_Birligi.resx">
+      <DependentUpon>Form_Aile_Birligi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Giris.resx">
+      <DependentUpon>Form_Giris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Giris_Kaydi.resx">
+      <DependentUpon>Form_Giris_Kaydi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Nobet.resx">
+      <DependentUpon>Form_Nobet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Ders.resx">
+      <DependentUpon>Form_Ders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Islem.resx">
+      <DependentUpon>Form_Islem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Kullanici.resx">
+      <DependentUpon>Form_Kullanici.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Yonetim.resx">
+      <DependentUpon>Form_Yonetim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Personel.resx">
+      <DependentUpon>Form_Personel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Ogretmen.resx">
+      <DependentUpon>Form_Ogretmen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Ogrenci.resx">
+      <DependentUpon>Form_Ogrenci.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Egitmen_Alan.resx">
+      <DependentUpon>Form_Egitmen_Alan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Personel_Alan.resx">
+      <DependentUpon>Form_Personel_Alan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Yonetim_Tur.resx">
+      <DependentUpon>Form_Yonetim_Tur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Sinif.resx">
+      <DependentUpon>Form_Sinif.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Veli.resx">
+      <DependentUpon>Form_Veli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_VeritabaniBaglanti.resx">
+      <DependentUpon>Form_VeritabaniBaglanti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hakkinda.resx">
+      <DependentUpon>Hakkinda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Ayarlar.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Ayarlar.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
